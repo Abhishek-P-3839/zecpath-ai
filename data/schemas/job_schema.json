@@ -1,0 +1,152 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://zecpath.example/schemas/job.schema.json",
+  "title": "Zecpath Job Profile (Job Description)",
+  "description": "Structured representation of one job posting. Created from the recruiter's job post; used by ats_engine/ for matching and by the eligibility, calling and scoring engines for per-role rules.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "job_id", "company_id", "title", "role_category", "employment_type", "location", "requirements"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "job_id": { "type": "string", "minLength": 1 },
+    "company_id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "normalized_title": { "type": ["string", "null"] },
+    "department": { "type": ["string", "null"] },
+    "role_category": { "type": "string", "enum": ["technical", "non_technical"] },
+    "employment_type": { "type": "string", "enum": ["full_time", "part_time", "internship", "contract", "freelance"] },
+    "work_mode": { "type": ["string", "null"], "enum": ["onsite", "remote", "hybrid", null] },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "city": { "type": ["string", "null"] },
+        "state": { "type": ["string", "null"] },
+        "country": { "type": ["string", "null"] }
+      }
+    },
+    "openings": { "type": "integer", "minimum": 1 },
+    "description": { "type": ["string", "null"] },
+    "responsibilities": { "type": "array", "items": { "type": "string" } },
+    "requirements": { "$ref": "#/definitions/requirements" },
+    "compensation": { "$ref": "#/definitions/compensation" },
+    "scoring_config": { "$ref": "#/definitions/scoring_config" },
+    "interview_rounds": { "type": "array", "items": { "$ref": "#/definitions/interview_round" } },
+    "call_settings": { "$ref": "#/definitions/call_settings" },
+    "status": { "type": "string", "enum": ["draft", "open", "paused", "closed"] },
+    "posted_at": { "type": ["string", "null"], "format": "date-time" },
+    "closing_date": { "type": ["string", "null"], "format": "date" }
+  },
+  "definitions": {
+    "level_enum": {
+      "type": "string",
+      "enum": ["intern", "fresher", "junior", "mid", "senior", "lead", "manager"]
+    },
+    "requirements": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["skills", "experience"],
+      "properties": {
+        "skills": { "type": "array", "items": { "$ref": "#/definitions/job_skill" } },
+        "experience": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["min_years"],
+          "properties": {
+            "min_years": { "type": "number", "minimum": 0 },
+            "max_years": { "type": ["number", "null"], "minimum": 0 },
+            "level": { "$ref": "#/definitions/level_enum" }
+          }
+        },
+        "education": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "min_level": { "type": ["string", "null"], "enum": ["secondary", "higher_secondary", "diploma", "bachelor", "master", "doctorate", null] },
+            "preferred_fields": { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "certifications": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name"],
+            "properties": {
+              "name": { "type": "string" },
+              "required": { "type": "boolean" }
+            }
+          }
+        },
+        "languages": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "job_skill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "importance"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "normalized_name": { "type": ["string", "null"] },
+        "category": {
+          "type": "string",
+          "enum": ["programming_language", "framework", "database", "cloud_devops", "tool", "design", "business_domain", "soft_skill", "other"]
+        },
+        "importance": { "type": "string", "enum": ["must_have", "good_to_have"] },
+        "min_years": { "type": ["number", "null"], "minimum": 0 },
+        "proficiency": { "type": ["string", "null"], "enum": ["beginner", "intermediate", "advanced", "expert", null] }
+      }
+    },
+    "compensation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "min": { "type": ["number", "null"], "minimum": 0 },
+        "max": { "type": ["number", "null"], "minimum": 0 },
+        "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+        "period": { "type": "string", "enum": ["monthly", "yearly"] },
+        "is_disclosed": { "type": "boolean" }
+      }
+    },
+    "scoring_config": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ats_cutoff_score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "weights": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "skills": { "type": "number", "minimum": 0, "maximum": 1 },
+            "experience": { "type": "number", "minimum": 0, "maximum": 1 },
+            "education": { "type": "number", "minimum": 0, "maximum": 1 },
+            "certifications": { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        }
+      }
+    },
+    "interview_round": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["round_number", "round_type"],
+      "properties": {
+        "round_number": { "type": "integer", "minimum": 1 },
+        "round_type": { "type": "string", "enum": ["ats", "ai_screening", "hr", "technical", "machine_test", "final"] },
+        "cutoff_score": { "type": ["number", "null"], "minimum": 0, "maximum": 100 },
+        "weightage": { "type": ["number", "null"], "minimum": 0, "maximum": 1 }
+      }
+    },
+    "call_settings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "voice_gender": { "type": "string", "enum": ["male", "female"] },
+        "language": { "type": "string" },
+        "call_window_start": { "type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+        "call_window_end": { "type": "string", "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$" },
+        "max_retries": { "type": "integer", "minimum": 0 },
+        "retry_after_minutes": { "type": "integer", "minimum": 1 }
+      }
+    }
+  }
+}

@@ -2,3 +2,4 @@
 pytest        # for running tests
 pypdf         # reading PDF resumes
 python-docx   # reading DOCX resumes
+jsonschema>=4.0

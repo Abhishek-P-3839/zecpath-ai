@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "candidate_id": "cand_0001",
+  "personal": {
+    "full_name": "Rahul Kumar",
+    "email": "rahul.kumar@example.com",
+    "phone": "+91-9876543210",
+    "location": { "city": "Kochi", "state": "Kerala", "country": "India" },
+    "links": { "linkedin": "https://linkedin.com/in/rahulkumar", "github": "https://github.com/rahulkumar", "portfolio": null }
+  },
+  "headline": "MERN Stack Developer",
+  "summary": "Full-stack developer with 2 years of experience building web apps.",
+  "total_experience_years": 2,
+  "current_designation": "Software Engineer",
+  "skills": [
+    { "name": "Python", "normalized_name": "python", "category": "programming_language", "proficiency": "intermediate", "years_used": 2, "last_used": "2026-10", "source": "skills_section", "confidence": 0.98 },
+    { "name": "React", "normalized_name": "react", "category": "framework", "proficiency": "advanced", "years_used": 2, "last_used": "2026-10", "source": "experience", "confidence": 0.95 },
+    { "name": "Node.js", "normalized_name": "node.js", "category": "framework", "proficiency": "intermediate", "years_used": 2, "last_used": "2026-10", "source": "experience", "confidence": 0.95 },
+    { "name": "MongoDB", "normalized_name": "mongodb", "category": "database", "proficiency": "intermediate", "years_used": 1.5, "last_used": "2026-10", "source": "project", "confidence": 0.9 },
+    { "name": "Git", "normalized_name": "git", "category": "tool", "proficiency": null, "years_used": null, "last_used": null, "source": "skills_section", "confidence": 0.99 }
+  ],
+  "experience": [
+    {
+      "company": "ABC Technologies",
+      "designation": "Software Engineer",
+      "normalized_designation": "software engineer",
+      "employment_type": "full_time",
+      "industry": "IT Services",
+      "location": "Kochi",
+      "start_date": "2024-10",
+      "end_date": null,
+      "is_current": true,
+      "duration_months": 25,
+      "description": "Built and maintained customer-facing web apps.",
+      "responsibilities": ["Developed REST APIs using Node.js", "Built React dashboards"],
+      "achievements": ["Reduced page load time by 30%"],
+      "skills_used": ["react", "node.js", "mongodb"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech Computer Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Example Engineering College",
+      "start_year": 2020,
+      "end_year": 2024,
+      "grade": { "value": 8.2, "scale": "cgpa_10" }
+    }
+  ],
+  "certifications": [
+    { "name": "Meta Front-End Developer", "issuer": "Coursera", "issue_date": "2024-03", "expiry_date": null, "credential_id": null, "url": null }
+  ],
+  "projects": [
+    { "name": "Job Tracker App", "description": "MERN app to track job applications.", "skills_used": ["react", "node.js", "mongodb"], "url": null }
+  ],
+  "languages": [
+    { "language": "English", "proficiency": "fluent" },
+    { "language": "Malayalam", "proficiency": "native" }
+  ],
+  "preferences": {
+    "notice_period_days": 30,
+    "expected_salary": { "amount": 600000, "currency": "INR", "period": "yearly" },
+    "preferred_locations": ["Kochi", "Bengaluru"],
+    "preferred_call_language": "Malayalam",
+    "preferred_voice_gender": "no_preference"
+  },
+  "consent": { "ai_interview": true, "recording": true, "voice_cloning": false, "consent_given_at": "2026-11-11T10:00:00Z" },
+  "parsing_meta": {
+    "source_file": "rahul_kumar_resume.pdf",
+    "file_type": "pdf",
+    "parsed_at": "2026-11-11T11:00:00Z",
+    "parser_version": "0.1.0",
+    "overall_confidence": 0.93,
+    "warnings": []
+  }
+}

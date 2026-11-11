@@ -1,0 +1,196 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://zecpath.example/schemas/resume.schema.json",
+  "title": "Zecpath Resume / Candidate Profile",
+  "description": "Structured, AI-ready representation of one parsed resume. Produced by parsers/, consumed by ats_engine/, screening_ai/, interview_ai/ and scoring/.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "candidate_id", "personal", "skills", "experience", "education"],
+  "properties": {
+    "schema_version": { "type": "string", "const": "1.0" },
+    "candidate_id": { "type": "string", "minLength": 1 },
+    "personal": { "$ref": "#/definitions/personal" },
+    "headline": { "type": ["string", "null"] },
+    "summary": { "type": ["string", "null"] },
+    "total_experience_years": { "type": ["number", "null"], "minimum": 0, "maximum": 60 },
+    "current_designation": { "type": ["string", "null"] },
+    "skills": { "type": "array", "items": { "$ref": "#/definitions/skill" } },
+    "experience": { "type": "array", "items": { "$ref": "#/definitions/experience" } },
+    "education": { "type": "array", "items": { "$ref": "#/definitions/education" } },
+    "certifications": { "type": "array", "items": { "$ref": "#/definitions/certification" } },
+    "projects": { "type": "array", "items": { "$ref": "#/definitions/project" } },
+    "languages": { "type": "array", "items": { "$ref": "#/definitions/language" } },
+    "preferences": { "$ref": "#/definitions/preferences" },
+    "consent": { "$ref": "#/definitions/consent" },
+    "parsing_meta": { "$ref": "#/definitions/parsing_meta" }
+  },
+  "definitions": {
+    "year_month": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-(0[1-9]|1[0-2])$",
+      "description": "Date as YYYY-MM, or null if unknown / still ongoing."
+    },
+    "personal": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["full_name", "email"],
+      "properties": {
+        "full_name": { "type": "string", "minLength": 1 },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": ["string", "null"] },
+        "location": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "city": { "type": ["string", "null"] },
+            "state": { "type": ["string", "null"] },
+            "country": { "type": ["string", "null"] }
+          }
+        },
+        "links": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "linkedin": { "type": ["string", "null"] },
+            "github": { "type": ["string", "null"] },
+            "portfolio": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+    "skill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1, "description": "Skill exactly as written in the resume." },
+        "normalized_name": { "type": ["string", "null"], "description": "Lower-case canonical form, e.g. 'node.js'." },
+        "category": {
+          "type": "string",
+          "enum": ["programming_language", "framework", "database", "cloud_devops", "tool", "design", "business_domain", "soft_skill", "other"]
+        },
+        "proficiency": { "type": ["string", "null"], "enum": ["beginner", "intermediate", "advanced", "expert", null] },
+        "years_used": { "type": ["number", "null"], "minimum": 0 },
+        "last_used": { "$ref": "#/definitions/year_month" },
+        "source": { "type": "string", "enum": ["skills_section", "experience", "project", "certification", "inferred"] },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "experience": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["company", "designation", "start_date"],
+      "properties": {
+        "company": { "type": "string", "minLength": 1 },
+        "designation": { "type": "string", "minLength": 1, "description": "Job title as written." },
+        "normalized_designation": { "type": ["string", "null"], "description": "Standard title, e.g. 'software engineer'." },
+        "employment_type": { "type": ["string", "null"], "enum": ["full_time", "part_time", "internship", "contract", "freelance", null] },
+        "industry": { "type": ["string", "null"] },
+        "location": { "type": ["string", "null"] },
+        "start_date": { "$ref": "#/definitions/year_month" },
+        "end_date": { "$ref": "#/definitions/year_month" },
+        "is_current": { "type": "boolean" },
+        "duration_months": { "type": ["integer", "null"], "minimum": 0 },
+        "description": { "type": ["string", "null"] },
+        "responsibilities": { "type": "array", "items": { "type": "string" } },
+        "achievements": { "type": "array", "items": { "type": "string" } },
+        "skills_used": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "education": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["degree", "institution"],
+      "properties": {
+        "degree": { "type": "string", "minLength": 1 },
+        "level": { "type": "string", "enum": ["secondary", "higher_secondary", "diploma", "bachelor", "master", "doctorate", "other"] },
+        "field_of_study": { "type": ["string", "null"] },
+        "institution": { "type": "string", "minLength": 1 },
+        "start_year": { "type": ["integer", "null"], "minimum": 1950, "maximum": 2100 },
+        "end_year": { "type": ["integer", "null"], "minimum": 1950, "maximum": 2100 },
+        "grade": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "value": { "type": ["number", "null"] },
+            "scale": { "type": ["string", "null"], "enum": ["cgpa_10", "cgpa_4", "percentage", "other", null] }
+          }
+        }
+      }
+    },
+    "certification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "issuer": { "type": ["string", "null"] },
+        "issue_date": { "$ref": "#/definitions/year_month" },
+        "expiry_date": { "$ref": "#/definitions/year_month" },
+        "credential_id": { "type": ["string", "null"] },
+        "url": { "type": ["string", "null"] }
+      }
+    },
+    "project": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "description": { "type": ["string", "null"] },
+        "skills_used": { "type": "array", "items": { "type": "string" } },
+        "url": { "type": ["string", "null"] }
+      }
+    },
+    "language": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["language"],
+      "properties": {
+        "language": { "type": "string" },
+        "proficiency": { "type": ["string", "null"], "enum": ["basic", "conversational", "fluent", "native", null] }
+      }
+    },
+    "preferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "notice_period_days": { "type": ["integer", "null"], "minimum": 0 },
+        "expected_salary": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "amount": { "type": ["number", "null"], "minimum": 0 },
+            "currency": { "type": "string", "pattern": "^[A-Z]{3}$" },
+            "period": { "type": "string", "enum": ["monthly", "yearly"] }
+          }
+        },
+        "preferred_locations": { "type": "array", "items": { "type": "string" } },
+        "preferred_call_language": { "type": ["string", "null"] },
+        "preferred_voice_gender": { "type": ["string", "null"], "enum": ["male", "female", "no_preference", null] }
+      }
+    },
+    "consent": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "ai_interview": { "type": "boolean" },
+        "recording": { "type": "boolean" },
+        "voice_cloning": { "type": "boolean" },
+        "consent_given_at": { "type": ["string", "null"], "format": "date-time" }
+      }
+    },
+    "parsing_meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_file": { "type": "string" },
+        "file_type": { "type": "string", "enum": ["pdf", "doc", "docx"] },
+        "parsed_at": { "type": "string", "format": "date-time" },
+        "parser_version": { "type": "string" },
+        "overall_confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "warnings": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

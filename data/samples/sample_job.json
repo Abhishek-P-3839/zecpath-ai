@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "job_id": "job_0001",
+  "company_id": "comp_0001",
+  "title": "MERN Stack Developer",
+  "normalized_title": "full stack developer",
+  "department": "Engineering",
+  "role_category": "technical",
+  "employment_type": "full_time",
+  "work_mode": "hybrid",
+  "location": { "city": "Kochi", "state": "Kerala", "country": "India" },
+  "openings": 2,
+  "description": "We are looking for a MERN Stack Developer to build and maintain our web platform.",
+  "responsibilities": ["Build REST APIs with Node.js and Express", "Develop React front-end features", "Write clean, tested code"],
+  "requirements": {
+    "skills": [
+      { "name": "React", "normalized_name": "react", "category": "framework", "importance": "must_have", "min_years": 1, "proficiency": "intermediate" },
+      { "name": "Node.js", "normalized_name": "node.js", "category": "framework", "importance": "must_have", "min_years": 1, "proficiency": "intermediate" },
+      { "name": "MongoDB", "normalized_name": "mongodb", "category": "database", "importance": "must_have", "min_years": 1, "proficiency": null },
+      { "name": "Git", "normalized_name": "git", "category": "tool", "importance": "good_to_have", "min_years": null, "proficiency": null },
+      { "name": "AWS", "normalized_name": "aws", "category": "cloud_devops", "importance": "good_to_have", "min_years": null, "proficiency": null }
+    ],
+    "experience": { "min_years": 1, "max_years": 4, "level": "junior" },
+    "education": { "min_level": "bachelor", "preferred_fields": ["Computer Science", "Information Technology"] },
+    "certifications": [],
+    "languages": ["English"]
+  },
+  "compensation": { "min": 500000, "max": 800000, "currency": "INR", "period": "yearly", "is_disclosed": true },
+  "scoring_config": {
+    "ats_cutoff_score": 60,
+    "weights": { "skills": 0.5, "experience": 0.3, "education": 0.15, "certifications": 0.05 }
+  },
+  "interview_rounds": [
+    { "round_number": 1, "round_type": "ats", "cutoff_score": 60, "weightage": 0.2 },
+    { "round_number": 2, "round_type": "hr", "cutoff_score": 60, "weightage": 0.2 },
+    { "round_number": 3, "round_type": "technical", "cutoff_score": 65, "weightage": 0.3 },
+    { "round_number": 4, "round_type": "machine_test", "cutoff_score": 65, "weightage": 0.3 }
+  ],
+  "call_settings": {
+    "voice_gender": "female",
+    "language": "English",
+    "call_window_start": "10:00",
+    "call_window_end": "18:00",
+    "max_retries": 3,
+    "retry_after_minutes": 60
+  },
+  "status": "open",
+  "posted_at": "2026-11-11T09:00:00Z",
+  "closing_date": "2026-12-11"
+}

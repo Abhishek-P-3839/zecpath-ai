@@ -18,3 +18,5 @@ logs/*.log.*
 data/*
 !data/sample_resume.txt
 !data/README.md
+!data/schemas/
+!data/samples/

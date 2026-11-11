@@ -59,3 +59,12 @@ git branch -M main
 git remote add origin https://github.com/<your-username>/zecpath-ai.git
 git push -u origin main
 ```
+## Day 4 - Data schemas
+- data/schemas/resume_schema.json : JSON Schema for a parsed resume (candidate profile)
+- data/schemas/job_schema.json : JSON Schema for a job description
+- data/samples/ : example resume and job that follow the schemas
+- utils/schema_validator.py : validates a JSON file against a schema
+- tests/test_schemas.py : unit tests for the schemas
+
+Validate a file:
+python -m utils.schema_validator data/samples/sample_resume.json resume
