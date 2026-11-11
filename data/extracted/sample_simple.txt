@@ -1,0 +1,8 @@
+Rahul Kumar
+rahul@example.com | 99999 00000
+Summary
+Fresher Python developer.
+Skills
+Python, SQL, Git
+Experience
+Intern at Demo Corp

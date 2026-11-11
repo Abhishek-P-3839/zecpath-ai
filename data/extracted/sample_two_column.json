@@ -1,0 +1,18 @@
+{
+  "source_file": "sample_two_column.pdf",
+  "file_type": "pdf",
+  "page_count": 1,
+  "char_count": 249,
+  "needs_ocr": false,
+  "warnings": [
+    "Page 1: two-column layout detected, columns read separately"
+  ],
+  "status": "ok",
+  "sections": {
+    "skills": "Python and SQL\nGit and Linux\nReact basics\nDjango REST",
+    "education": "B.Tech Computer Science\nDemo University 2025",
+    "experience": "Intern at Demo Corp\nBuilt small REST APIs\nFixed many bugs",
+    "projects": "Resume parser project\nJob portal clone\nChat application"
+  },
+  "clean_text": "Skills\nPython and SQL\nGit and Linux\nReact basics\nDjango REST\nEducation\nB.Tech Computer Science\nDemo University 2025\nExperience\nIntern at Demo Corp\nBuilt small REST APIs\nFixed many bugs\nProjects\nResume parser project\nJob portal clone\nChat application"
+}

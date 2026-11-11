@@ -1,0 +1,13 @@
+{
+  "source_file": "sample_scanned.pdf",
+  "file_type": "pdf",
+  "page_count": 1,
+  "char_count": 0,
+  "needs_ocr": true,
+  "warnings": [
+    "Very little text found: file may be scanned/image-only. OCR needed."
+  ],
+  "status": "ok",
+  "sections": {},
+  "clean_text": ""
+}

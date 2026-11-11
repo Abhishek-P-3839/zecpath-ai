@@ -1,0 +1,16 @@
+{
+  "source_file": "sample_simple.pdf",
+  "file_type": "pdf",
+  "page_count": 1,
+  "char_count": 132,
+  "needs_ocr": false,
+  "warnings": [],
+  "status": "ok",
+  "sections": {
+    "header": "Rahul Kumar\nrahul@example.com | 99999 00000",
+    "summary": "Fresher Python developer.",
+    "skills": "Python, SQL, Git",
+    "experience": "Intern at Demo Corp"
+  },
+  "clean_text": "Rahul Kumar\nrahul@example.com | 99999 00000\nSummary\nFresher Python developer.\nSkills\nPython, SQL, Git\nExperience\nIntern at Demo Corp"
+}

@@ -1,0 +1,8 @@
+Priya Nair
+Experience
+- Built REST APIs with Flask
+- Wrote unit tests
+- Deployed on AWS
+Education
+Degree | University
+B.Sc Computer Science | Kerala University

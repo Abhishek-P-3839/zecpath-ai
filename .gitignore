@@ -20,3 +20,9 @@ data/*
 !data/README.md
 !data/schemas/
 !data/samples/
+!data/raw_resumes/
+!data/raw_resumes/*
+!data/extracted/
+!data/extracted/*
+
+

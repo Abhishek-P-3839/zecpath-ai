@@ -1,0 +1,16 @@
+Skills
+Python and SQL
+Git and Linux
+React basics
+Django REST
+Education
+B.Tech Computer Science
+Demo University 2025
+Experience
+Intern at Demo Corp
+Built small REST APIs
+Fixed many bugs
+Projects
+Resume parser project
+Job portal clone
+Chat application

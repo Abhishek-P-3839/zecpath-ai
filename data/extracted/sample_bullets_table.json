@@ -1,0 +1,15 @@
+{
+  "source_file": "sample_bullets_table.docx",
+  "file_type": "docx",
+  "page_count": null,
+  "char_count": 159,
+  "needs_ocr": false,
+  "warnings": [],
+  "status": "ok",
+  "sections": {
+    "header": "Priya Nair",
+    "experience": "- Built REST APIs with Flask\n- Wrote unit tests\n- Deployed on AWS",
+    "education": "Degree | University\nB.Sc Computer Science | Kerala University"
+  },
+  "clean_text": "Priya Nair\nExperience\n- Built REST APIs with Flask\n- Wrote unit tests\n- Deployed on AWS\nEducation\nDegree | University\nB.Sc Computer Science | Kerala University"
+}

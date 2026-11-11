@@ -68,3 +68,22 @@ git push -u origin main
 
 Validate a file:
 python -m utils.schema_validator data/samples/sample_resume.json resume
+## Day 5 - Resume text extraction
+
+Reads PDF and DOCX resumes and produces clean, consistent text for the parser (Day 6+).
+
+**Install:** `pip install pdfplumber python-docx`
+
+**Create dummy sample resumes:** `python -m tests.sample_builder`
+
+**Run on one resume:** `python -m extraction.extractor data/raw_resumes/sample_simple.pdf`
+**Run on a folder:** `python -m extraction.extractor data/raw_resumes`
+
+Outputs go to `data/extracted/` as `name.txt` and `name.json`
+(fields: source_file, file_type, page_count, char_count, needs_ocr, warnings, sections, clean_text).
+
+**Run tests:** `python -m unittest discover -s tests -t . -v > logs\test_results.log 2>&1`
+
+Modules: `pdf_reader`, `docx_reader`, `cleaner`, `normalizer`, `extractor` (in `extraction/`).
+Scanned/image-only PDFs are flagged with `needs_ocr: true` (OCR is not implemented yet).
+
