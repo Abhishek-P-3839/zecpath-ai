@@ -1,0 +1,7 @@
+Rahul Kumar
+Email: rahul.kumar@example.com
+Phone: 9876543210
+
+Skills: Python, React, Node.js, MongoDB, Git
+Experience: 2 years as a Full Stack Developer
+Education: B.Tech Computer Science

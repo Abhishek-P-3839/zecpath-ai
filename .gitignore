@@ -1,0 +1,20 @@
+# virtual environment
+venv/
+.venv/
+
+# python files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# logs (keep the folder, not the log files)
+logs/*.log
+logs/*.log.*
+
+# secrets and local settings
+.env
+
+# real candidate data should never be pushed
+data/*
+!data/sample_resume.txt
+!data/README.md
