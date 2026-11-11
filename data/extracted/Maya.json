@@ -1,0 +1,17 @@
+{
+  "source_file": "Maya.pdf",
+  "file_type": "pdf",
+  "page_count": 1,
+  "char_count": 1446,
+  "needs_ocr": false,
+  "warnings": [],
+  "status": "ok",
+  "sections": {
+    "header": "Maya Lin\nAustin, TX | (512) 555-0194 | maya.lin.example@email.com | linkedin.com/in/mayalin-dev",
+    "summary": "Detail-oriented Full-Stack Software Engineer with 5 years of experience building scalable web applications\nand cloud-native APIs. Skilled in Python, React, and AWS infrastructure, with a proven track record of\nreducing system latency and improving user retention.",
+    "experience": "Software Engineer II - Bluebonnet Cloud Systems, Austin, TX March 2023 - Present\n- Architected a microservices billing pipeline using Python and FastAPI, reducing transaction processing\ntime by 35%.\n- Collaborated with product designers to overhaul the customer dashboard in React and TypeScript,\nboosting daily active user engagement by 18%.\n- Mentored three junior developers through weekly code reviews and pair-programming sessions.\nJunior Web Developer - Lone Star Digital Agency, Austin, TX June 2021 - February 2023\n- Built and maintained 15+ responsive client websites using JavaScript, HTML5, CSS3, and Node.js.\n- Integrated third-party payment gateways and CRM tools, streamlining client lead capture workflows.\n- Automated deployment pipelines using GitHub Actions and Docker, cutting release times in half.",
+    "education": "B.S. in Computer Science - University of Texas at Dallas 2021",
+    "skills": "Languages: Python, JavaScript (ES6+), TypeScript, SQL, HTML/CSS\nFrameworks: React, Node.js, FastAPI, Django\nTools & Cloud: AWS (EC2, S3, Lambda), Docker, Git, PostgreSQL"
+  },
+  "clean_text": "Maya Lin\nAustin, TX | (512) 555-0194 | maya.lin.example@email.com | linkedin.com/in/mayalin-dev\nSummary\nDetail-oriented Full-Stack Software Engineer with 5 years of experience building scalable web applications\nand cloud-native APIs. Skilled in Python, React, and AWS infrastructure, with a proven track record of\nreducing system latency and improving user retention.\nExperience\nSoftware Engineer II - Bluebonnet Cloud Systems, Austin, TX March 2023 - Present\n- Architected a microservices billing pipeline using Python and FastAPI, reducing transaction processing\ntime by 35%.\n- Collaborated with product designers to overhaul the customer dashboard in React and TypeScript,\nboosting daily active user engagement by 18%.\n- Mentored three junior developers through weekly code reviews and pair-programming sessions.\nJunior Web Developer - Lone Star Digital Agency, Austin, TX June 2021 - February 2023\n- Built and maintained 15+ responsive client websites using JavaScript, HTML5, CSS3, and Node.js.\n- Integrated third-party payment gateways and CRM tools, streamlining client lead capture workflows.\n- Automated deployment pipelines using GitHub Actions and Docker, cutting release times in half.\nEducation\nB.S. in Computer Science - University of Texas at Dallas 2021\nSkills\nLanguages: Python, JavaScript (ES6+), TypeScript, SQL, HTML/CSS\nFrameworks: React, Node.js, FastAPI, Django\nTools & Cloud: AWS (EC2, S3, Lambda), Docker, Git, PostgreSQL"
+}

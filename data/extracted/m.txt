@@ -1,0 +1,72 @@
+Zecpath AI System Architecture
+Day 2 task | Prepared by Abhishek | Based on the Zecpath PRD (Phases 1 to 100)
+1. AI system architecture
+Users
+Companies / Recruiters Candidates Admin
+Frontend: React / Next.js
+interviews run in the browser, no app needed
+Backend: Node.js / Python
+AI layer: OpenAI / custom ML models
+Interview Behavior Decision &
+ATS AI Screening AI
+Intelligence Analysis Scoring
+Service Service
+Service Service Service
+Calling, scheduling and email engines Voice AI
+eligibility + call trigger, voice calls, interview Twilio / AWS Connect
+scheduling, reminders, selection / offer emails TTS and STT
+Database Encrypted cloud storage
+PostgreSQL / MongoDB recordings, transcripts, notes
+Cloud: AWS (suggested) / Azure / GCP
+The AI is split into 5 services, so each one does one job and can be changed on its own. Users only talk to the
+frontend. The backend sends work to the AI layer and saves the results. Tech names are from the suggested tech
+stack in the PRD.
+Zecpath AI System Architecture - Day 2 | Page 1
+2. Data flow (Backend, AI engines, Storage)
+Recruiter Admin Candidate
+1 6 7 1 4
+2
+5 Database +
+Backend AI engines Encrypted
+cloud storage
+3
+8
+Numbers match the table below
+# Flow What moves
+1 Recruiter / Candidate to Backend Job post and requirements, candidate profile, resume, consent for AI interview and
+recording
+2 Backend to AI engines Resumes, job requirements, shortlisted candidates
+3 AI engines to Backend Scores, call status, decisions, hiring fit %, summary
+4 Candidate and AI engines AI calls, spoken answers, browser video interview, reminder calls
+5 AI engines to Storage Video, audio transcript, notes, screen recording, scores
+6 Backend to Recruiter Dashboard with results (preview first, full details after payment)
+7 Admin and Backend User and company management, call logs, voice and language settings
+8 Backend and Storage Consent records, logs, stored recordings for playback
+Zecpath AI System Architecture - Day 2 | Page 2
+3. Input / output of each AI service
+AI service Receives (input) What it does Returns (output)
+ATS AI Service Resume (PDF, DOC, DOCX) Reads the resume, matches skills ATS score and shortlist for each
+and job requirements and experience with the job, scores job
+and ranks
+Screening AI Candidate's spoken answers Converts speech to text, checks and Screening report
+Service to basic questions scores the answers
+(experience, skills, notice
+period, expected salary)
+Interview Candidate's answers in the Asks HR and technical questions Communication score (0 to
+Intelligence Service video interview, plus job role with follow-ups, checks 100), aptitude score, technical
+and experience communication and aptitude, gives score, machine test result,
+a coding / task test, handles final negotiation outcome
+salary discussion
+Behavior Analysis Camera feed and browser / Checks the face is visible and only Warnings, malpractice flags,
+Service screen activity one person is there, watches eye behavior score
+and head movement, tab switching
+and phone use
+Decision & Scoring ATS, HR, technical, machine Combines the scores (weights can Decision (selected / hold /
+Service test and behavior scores, be set per role) rejected / offer recommended),
+negotiation outcome hiring fit %, AI summary
+Other helper engines
+These do not score candidates, but the system needs them: calling and voice (calls eligible candidates in office
+time, retries after 1 hour), scheduling and reminders (sets the interview time, sends the email and reminder call),
+emails (selection, rejection, offer letter) and recording and storage (keeps interview video and notes in encrypted
+cloud storage).
+Zecpath AI System Architecture - Day 2 | Page 3

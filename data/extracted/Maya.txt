@@ -1,0 +1,23 @@
+Maya Lin
+Austin, TX | (512) 555-0194 | maya.lin.example@email.com | linkedin.com/in/mayalin-dev
+Summary
+Detail-oriented Full-Stack Software Engineer with 5 years of experience building scalable web applications
+and cloud-native APIs. Skilled in Python, React, and AWS infrastructure, with a proven track record of
+reducing system latency and improving user retention.
+Experience
+Software Engineer II - Bluebonnet Cloud Systems, Austin, TX March 2023 - Present
+- Architected a microservices billing pipeline using Python and FastAPI, reducing transaction processing
+time by 35%.
+- Collaborated with product designers to overhaul the customer dashboard in React and TypeScript,
+boosting daily active user engagement by 18%.
+- Mentored three junior developers through weekly code reviews and pair-programming sessions.
+Junior Web Developer - Lone Star Digital Agency, Austin, TX June 2021 - February 2023
+- Built and maintained 15+ responsive client websites using JavaScript, HTML5, CSS3, and Node.js.
+- Integrated third-party payment gateways and CRM tools, streamlining client lead capture workflows.
+- Automated deployment pipelines using GitHub Actions and Docker, cutting release times in half.
+Education
+B.S. in Computer Science - University of Texas at Dallas 2021
+Skills
+Languages: Python, JavaScript (ES6+), TypeScript, SQL, HTML/CSS
+Frameworks: React, Node.js, FastAPI, Django
+Tools & Cloud: AWS (EC2, S3, Lambda), Docker, Git, PostgreSQL
