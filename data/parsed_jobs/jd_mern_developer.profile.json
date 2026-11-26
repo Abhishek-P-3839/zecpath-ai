@@ -1,0 +1,50 @@
+{
+  "job_id": "job_mern_developer",
+  "title": "MERN Stack Developer",
+  "normalized_title": "full stack developer",
+  "role_category": "technical",
+  "level": "mid",
+  "min_years": 3,
+  "max_years": 5,
+  "must_have_skills": [
+    "rest api",
+    "node.js",
+    "express",
+    "react",
+    "redux",
+    "mongodb",
+    "javascript",
+    "git",
+    "communication"
+  ],
+  "good_to_have_skills": [
+    "aws",
+    "docker",
+    "ci/cd",
+    "typescript"
+  ],
+  "education_min_level": "bachelor",
+  "preferred_fields": [
+    "Computer Science",
+    "Information Technology"
+  ],
+  "keywords": [
+    "full stack developer",
+    "rest api",
+    "node.js",
+    "express",
+    "react",
+    "redux",
+    "mongodb",
+    "javascript",
+    "git",
+    "communication",
+    "aws",
+    "docker",
+    "ci/cd",
+    "typescript",
+    "computer science",
+    "information technology"
+  ],
+  "summary": "mid full stack developer (technical); experience: 3-5 years. Must have: rest api, node.js, express, react, redux, mongodb, javascript, git, communication. Good to have: aws, docker, ci/cd, typescript. Education: bachelor in Computer Science / Information Technology."
+}

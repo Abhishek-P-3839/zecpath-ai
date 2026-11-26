@@ -1,0 +1,40 @@
+{
+  "job_id": "job_data_analyst_intern",
+  "title": "Data Analyst Intern",
+  "normalized_title": "data analyst",
+  "role_category": "technical",
+  "level": "intern",
+  "min_years": 0,
+  "max_years": null,
+  "must_have_skills": [
+    "excel",
+    "sql",
+    "power bi",
+    "tableau",
+    "problem solving"
+  ],
+  "good_to_have_skills": [
+    "python",
+    "pandas"
+  ],
+  "education_min_level": "bachelor",
+  "preferred_fields": [
+    "Statistics",
+    "Mathematics",
+    "Computer Science"
+  ],
+  "keywords": [
+    "data analyst",
+    "excel",
+    "sql",
+    "power bi",
+    "tableau",
+    "problem solving",
+    "python",
+    "pandas",
+    "statistics",
+    "mathematics",
+    "computer science"
+  ],
+  "summary": "intern data analyst (technical); experience: no prior experience required. Must have: excel, sql, power bi, tableau, problem solving. Good to have: python, pandas. Education: bachelor in Statistics / Mathematics / Computer Science."
+}

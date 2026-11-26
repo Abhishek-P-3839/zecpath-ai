@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "job_id": "job_mern_developer",
+  "company_id": "comp_0001",
+  "title": "MERN Stack Developer",
+  "normalized_title": "full stack developer",
+  "department": null,
+  "role_category": "technical",
+  "employment_type": "full_time",
+  "work_mode": "hybrid",
+  "location": {
+    "city": "Kochi",
+    "state": "Kerala",
+    "country": "India"
+  },
+  "openings": 2,
+  "description": "We are looking for a MERN Stack Developer to build and maintain our web platform used by thousands of recruiters.",
+  "responsibilities": [
+    "Build REST APIs with NodeJS and Express.js",
+    "Develop responsive front-end features using ReactJS and Redux",
+    "Design MongoDB schemas and write efficient queries",
+    "Write clean, tested code and take part in code reviews"
+  ],
+  "requirements": {
+    "skills": [
+      {
+        "name": "REST APIs",
+        "normalized_name": "rest api",
+        "category": "tool",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "NodeJS",
+        "normalized_name": "node.js",
+        "category": "framework",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": "advanced"
+      },
+      {
+        "name": "Express.js",
+        "normalized_name": "express",
+        "category": "framework",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "ReactJS",
+        "normalized_name": "react",
+        "category": "framework",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": "advanced"
+      },
+      {
+        "name": "Redux",
+        "normalized_name": "redux",
+        "category": "framework",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "MongoDB",
+        "normalized_name": "mongodb",
+        "category": "database",
+        "importance": "must_have",
+        "min_years": 2,
+        "proficiency": "intermediate"
+      },
+      {
+        "name": "JavaScript",
+        "normalized_name": "javascript",
+        "category": "programming_language",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": "advanced"
+      },
+      {
+        "name": "Git",
+        "normalized_name": "git",
+        "category": "tool",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "communication skills",
+        "normalized_name": "communication",
+        "category": "soft_skill",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "AWS",
+        "normalized_name": "aws",
+        "category": "cloud_devops",
+        "importance": "good_to_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "Docker",
+        "normalized_name": "docker",
+        "category": "cloud_devops",
+        "importance": "good_to_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "CI/CD",
+        "normalized_name": "ci/cd",
+        "category": "cloud_devops",
+        "importance": "good_to_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "TypeScript",
+        "normalized_name": "typescript",
+        "category": "programming_language",
+        "importance": "good_to_have",
+        "min_years": null,
+        "proficiency": null
+      }
+    ],
+    "experience": {
+      "min_years": 3,
+      "max_years": 5,
+      "level": "mid"
+    },
+    "education": {
+      "min_level": "bachelor",
+      "preferred_fields": [
+        "Computer Science",
+        "Information Technology"
+      ]
+    },
+    "certifications": [],
+    "languages": [
+      "English"
+    ]
+  },
+  "status": "draft"
+}

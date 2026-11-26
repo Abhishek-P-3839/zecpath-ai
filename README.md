@@ -87,3 +87,19 @@ Outputs go to `data/extracted/` as `name.txt` and `name.json`
 Modules: `pdf_reader`, `docx_reader`, `cleaner`, `normalizer`, `extractor` (in `extraction/`).
 Scanned/image-only PDFs are flagged with `needs_ocr: true` (OCR is not implemented yet).
 
+## Day 6 - Job description parsing
+
+Converts employer job descriptions into structured, AI-readable job objects (same format as `data/schemas/job_schema.json`).
+
+**Run the demo (parses all samples, validates, saves JSON):** `python run_jd_demo.py`
+**Parse one JD:** `python -m parsers.jd_parser data/job_descriptions/jd_mern_developer.txt`
+**Run tests:** `python -m unittest tests.test_jd_parser -v`
+
+Files:
+- `parsers/jd_parser.py` : the parser (normalize, split sections, extract skills / role / experience / education, build AI profile)
+- `parsers/jd_taxonomy.py` : skill synonyms, role variations, education keywords (edit this to teach the parser new terms)
+- `data/job_descriptions/` : sample JD text files
+- `data/parsed_jobs/` : structured output (`<name>.json`) and AI profile (`<name>.profile.json`)
+- `docs/JD_Parsing.md` : full documentation
+- `tests/test_jd_parser.py` : unit tests
+

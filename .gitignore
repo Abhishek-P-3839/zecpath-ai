@@ -24,5 +24,7 @@ data/*
 !data/raw_resumes/*
 !data/extracted/
 !data/extracted/*
-
-
+!data/job_descriptions/
+!data/job_descriptions/*
+!data/parsed_jobs/
+!data/parsed_jobs/*

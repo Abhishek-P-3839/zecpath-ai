@@ -1,0 +1,34 @@
+{
+  "job_id": "job_hr_executive",
+  "title": "HR Executive",
+  "normalized_title": "hr executive",
+  "role_category": "non_technical",
+  "level": "fresher",
+  "min_years": 0,
+  "max_years": 1,
+  "must_have_skills": [
+    "recruitment",
+    "crm",
+    "communication",
+    "teamwork"
+  ],
+  "good_to_have_skills": [
+    "excel"
+  ],
+  "education_min_level": "bachelor",
+  "preferred_fields": [
+    "Business Administration",
+    "Human Resources"
+  ],
+  "keywords": [
+    "hr executive",
+    "recruitment",
+    "crm",
+    "communication",
+    "teamwork",
+    "excel",
+    "business administration",
+    "human resources"
+  ],
+  "summary": "fresher hr executive (non_technical); experience: 0-1 years. Must have: recruitment, crm, communication, teamwork. Good to have: excel. Education: bachelor in Business Administration / Human Resources."
+}

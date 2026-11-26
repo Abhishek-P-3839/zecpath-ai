@@ -1,0 +1,31 @@
+MERN Stack Developer
+
+Company: TechNova Solutions
+Location: Kochi, Kerala, India (Hybrid)
+Employment Type: Full-time
+Openings: 2
+
+About the Role
+We are looking for a MERN Stack Developer to build and maintain our web platform used by thousands of recruiters.
+
+Key Responsibilities:
+• Build REST APIs with NodeJS and Express.js
+• Develop responsive front-end features using ReactJS and Redux
+• Design MongoDB schemas and write efficient queries
+• Write clean, tested code and take part in code reviews
+
+Requirements:
+• 3-5 years of experience in full stack web development
+• Strong knowledge of JavaScript (ES6+), React and Node.js
+• 2+ years of hands-on experience with MongoDB
+• Experience with Git and GitHub
+• Bachelor's degree in Computer Science, Information Technology or a related field
+• Good communication skills and the ability to work in a team. Fluent English.
+
+Nice to Have:
+• Experience with AWS or Docker
+• Knowledge of CI/CD pipelines
+• TypeScript
+
+Benefits:
+• Health insurance, flexible hours, learning budget
