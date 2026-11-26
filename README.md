@@ -148,3 +148,30 @@ Files:
 - `docs/Day8_Resume_Section_Segmentation.md` : how it works (beginner guide)
 - `docs/Day8_Section_Detection_Accuracy_Report.md` : accuracy report
 
+## Day 9 - Skill extraction engine
+
+Finds every skill in a resume (technical, business, creative, soft) and returns a clean, de-duplicated list
+with a **confidence score** per skill. Handles synonyms (`ReactJS` -> `react`), spelling variations
+(`Pyhton`, `Postgresq1`), skill stacks (`MERN`, `MEAN`) and risky words (`Go`, `R`, `Excel`).
+Rules + dictionary + context (NLP-style). No new libraries needed.
+
+Extract from one resume: `python -m parsers.skill_extractor data/raw_resumes/Maya.pdf` (add `--json` for everything)
+Extract from all resumes: `python run_skill_demo.py` (saves to `data/skills/`, not pushed to GitHub)
+Run tests: `python -m unittest tests.test_skill_extractor -v`
+
+```python
+from parsers.skill_extractor import extract_skills_from_file, to_schema_skills
+result = extract_skills_from_file("data/raw_resumes/Maya.pdf")
+result["skills"]                  # one record per skill: normalized_name, category, confidence, reasons ...
+result["stacks"]                  # e.g. MERN and its component skills
+to_schema_skills(result)          # the `skills` list for data/schemas/resume_schema.json
+```
+
+Files:
+- `parsers/skill_taxonomy.py` : master skill dictionary, synonyms, misspellings, risky words, stacks (edit this to teach it new skills)
+- `parsers/skill_extractor.py` : the engine (find, normalize, deduplicate, output)
+- `parsers/skill_confidence.py` : confidence scoring logic (all the numbers in one place)
+- `data/samples/sample_skills_output.json` : example of the structured output
+- `tests/test_skill_extractor.py` : unit tests
+- `docs/Day9_Skill_Extraction_Engine.md` : beginner guide (how it works, worked example, exercises)
+

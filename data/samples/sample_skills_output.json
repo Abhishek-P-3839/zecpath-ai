@@ -1,0 +1,574 @@
+{
+  "schema_version": "1.0",
+  "skills": [
+    {
+      "name": "Python",
+      "normalized_name": "python",
+      "category": "programming_language",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.99,
+      "confidence_label": "high",
+      "match_type": "exact",
+      "mentions": 3,
+      "sections": [
+        "summary",
+        "experience",
+        "skills"
+      ],
+      "aliases_found": [
+        "Python"
+      ],
+      "evidence": [
+        "Skilled in Python, React, and AWS infrastructure, with a proven track record of reducin...",
+        "Architected a microservices billing pipeline using Python and FastAPI, reducing transac..."
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)",
+        "also in 2 other section(s) (+0.15)",
+        "mentioned 3 times (+0.06)",
+        "used in a work sentence (+0.10)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "CSS3",
+      "normalized_name": "css",
+      "category": "programming_language",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.98,
+      "confidence_label": "high",
+      "match_type": "exact",
+      "mentions": 2,
+      "sections": [
+        "experience",
+        "skills"
+      ],
+      "aliases_found": [
+        "CSS",
+        "CSS3"
+      ],
+      "evidence": [
+        "Built and maintained 15+ responsive client websites using JavaScript, HTML5, CSS3, and...",
+        "Languages: Python, JavaScript (ES6+), TypeScript, SQL, HTML/CSS"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)",
+        "also in 1 other section(s) (+0.10)",
+        "mentioned 2 times (+0.03)",
+        "used in a work sentence (+0.10)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "Docker",
+      "normalized_name": "docker",
+      "category": "cloud_devops",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.98,
+      "confidence_label": "high",
+      "match_type": "exact",
+      "mentions": 2,
+      "sections": [
+        "experience",
+        "skills"
+      ],
+      "aliases_found": [
+        "Docker"
+      ],
+      "evidence": [
+        "Automated deployment pipelines using GitHub Actions and Docker, cutting release times i...",
+        "Tools & Cloud: AWS (EC2, S3, Lambda), Docker, Git, PostgreSQL"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)",
+        "also in 1 other section(s) (+0.10)",
+        "mentioned 2 times (+0.03)",
+        "used in a work sentence (+0.10)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "FastAPI",
+      "normalized_name": "fastapi",
+      "category": "framework",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.98,
+      "confidence_label": "high",
+      "match_type": "exact",
+      "mentions": 2,
+      "sections": [
+        "experience",
+        "skills"
+      ],
+      "aliases_found": [
+        "FastAPI"
+      ],
+      "evidence": [
+        "Architected a microservices billing pipeline using Python and FastAPI, reducing transac...",
+        "Frameworks: React, Node.js, FastAPI, Django"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)",
+        "also in 1 other section(s) (+0.10)",
+        "mentioned 2 times (+0.03)",
+        "used in a work sentence (+0.10)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "HTML5",
+      "normalized_name": "html",
+      "category": "programming_language",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.98,
+      "confidence_label": "high",
+      "match_type": "exact",
+      "mentions": 2,
+      "sections": [
+        "experience",
+        "skills"
+      ],
+      "aliases_found": [
+        "HTML",
+        "HTML5"
+      ],
+      "evidence": [
+        "Built and maintained 15+ responsive client websites using JavaScript, HTML5, CSS3, and...",
+        "Languages: Python, JavaScript (ES6+), TypeScript, SQL, HTML/CSS"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)",
+        "also in 1 other section(s) (+0.10)",
+        "mentioned 2 times (+0.03)",
+        "used in a work sentence (+0.10)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "JavaScript",
+      "normalized_name": "javascript",
+      "category": "programming_language",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.98,
+      "confidence_label": "high",
+      "match_type": "exact",
+      "mentions": 2,
+      "sections": [
+        "experience",
+        "skills"
+      ],
+      "aliases_found": [
+        "JavaScript"
+      ],
+      "evidence": [
+        "Built and maintained 15+ responsive client websites using JavaScript, HTML5, CSS3, and...",
+        "Languages: Python, JavaScript (ES6+), TypeScript, SQL, HTML/CSS"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)",
+        "also in 1 other section(s) (+0.10)",
+        "mentioned 2 times (+0.03)",
+        "used in a work sentence (+0.10)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "Node.js",
+      "normalized_name": "node.js",
+      "category": "framework",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.98,
+      "confidence_label": "high",
+      "match_type": "exact",
+      "mentions": 2,
+      "sections": [
+        "experience",
+        "skills"
+      ],
+      "aliases_found": [
+        "Node.js"
+      ],
+      "evidence": [
+        "Built and maintained 15+ responsive client websites using JavaScript, HTML5, CSS3, and...",
+        "Frameworks: React, Node.js, FastAPI, Django"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)",
+        "also in 1 other section(s) (+0.10)",
+        "mentioned 2 times (+0.03)",
+        "used in a work sentence (+0.10)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "React",
+      "normalized_name": "react",
+      "category": "framework",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.96,
+      "confidence_label": "high",
+      "match_type": "exact",
+      "mentions": 3,
+      "sections": [
+        "summary",
+        "experience",
+        "skills"
+      ],
+      "aliases_found": [
+        "React"
+      ],
+      "evidence": [
+        "Skilled in Python, React, and AWS infrastructure, with a proven track record of reducin...",
+        "Collaborated with product designers to overhaul the customer dashboard in React and Typ..."
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)",
+        "also in 2 other section(s) (+0.15)",
+        "mentioned 3 times (+0.06)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "AWS",
+      "normalized_name": "aws",
+      "category": "cloud_devops",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.88,
+      "confidence_label": "high",
+      "match_type": "exact",
+      "mentions": 2,
+      "sections": [
+        "summary",
+        "skills"
+      ],
+      "aliases_found": [
+        "AWS",
+        "EC2"
+      ],
+      "evidence": [
+        "Skilled in Python, React, and AWS infrastructure, with a proven track record of reducin...",
+        "Tools & Cloud: AWS (EC2, S3, Lambda), Docker, Git, PostgreSQL"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)",
+        "also in 1 other section(s) (+0.10)",
+        "mentioned 2 times (+0.03)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "TypeScript",
+      "normalized_name": "typescript",
+      "category": "programming_language",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.88,
+      "confidence_label": "high",
+      "match_type": "exact",
+      "mentions": 2,
+      "sections": [
+        "experience",
+        "skills"
+      ],
+      "aliases_found": [
+        "TypeScript"
+      ],
+      "evidence": [
+        "Collaborated with product designers to overhaul the customer dashboard in React and Typ...",
+        "Languages: Python, JavaScript (ES6+), TypeScript, SQL, HTML/CSS"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)",
+        "also in 1 other section(s) (+0.10)",
+        "mentioned 2 times (+0.03)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "CRM",
+      "normalized_name": "crm",
+      "category": "business_domain",
+      "domain": "business",
+      "proficiency": null,
+      "years_used": null,
+      "source": "experience",
+      "confidence": 0.8,
+      "confidence_label": "medium",
+      "match_type": "exact",
+      "mentions": 1,
+      "sections": [
+        "experience"
+      ],
+      "aliases_found": [
+        "CRM"
+      ],
+      "evidence": [
+        "Integrated third-party payment gateways and CRM tools, streamlining client lead capture..."
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in experience section (+0.20)",
+        "used in a work sentence (+0.10)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "microservices",
+      "normalized_name": "microservices",
+      "category": "tool",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "experience",
+      "confidence": 0.8,
+      "confidence_label": "medium",
+      "match_type": "exact",
+      "mentions": 1,
+      "sections": [
+        "experience"
+      ],
+      "aliases_found": [
+        "microservices"
+      ],
+      "evidence": [
+        "Architected a microservices billing pipeline using Python and FastAPI, reducing transac..."
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in experience section (+0.20)",
+        "used in a work sentence (+0.10)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "GitHub Actions",
+      "normalized_name": "ci/cd",
+      "category": "cloud_devops",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "experience",
+      "confidence": 0.75,
+      "confidence_label": "medium",
+      "match_type": "synonym",
+      "mentions": 1,
+      "sections": [
+        "experience"
+      ],
+      "aliases_found": [
+        "GitHub Actions"
+      ],
+      "evidence": [
+        "Automated deployment pipelines using GitHub Actions and Docker, cutting release times i..."
+      ],
+      "reasons": [
+        "synonym match (+0.45)",
+        "found in experience section (+0.20)",
+        "used in a work sentence (+0.10)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "Django",
+      "normalized_name": "django",
+      "category": "framework",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.75,
+      "confidence_label": "medium",
+      "match_type": "exact",
+      "mentions": 1,
+      "sections": [
+        "skills"
+      ],
+      "aliases_found": [
+        "Django"
+      ],
+      "evidence": [
+        "Frameworks: React, Node.js, FastAPI, Django"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "Git",
+      "normalized_name": "git",
+      "category": "tool",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.75,
+      "confidence_label": "medium",
+      "match_type": "exact",
+      "mentions": 1,
+      "sections": [
+        "skills"
+      ],
+      "aliases_found": [
+        "Git"
+      ],
+      "evidence": [
+        "Tools & Cloud: AWS (EC2, S3, Lambda), Docker, Git, PostgreSQL"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "PostgreSQL",
+      "normalized_name": "postgresql",
+      "category": "database",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.75,
+      "confidence_label": "medium",
+      "match_type": "exact",
+      "mentions": 1,
+      "sections": [
+        "skills"
+      ],
+      "aliases_found": [
+        "PostgreSQL"
+      ],
+      "evidence": [
+        "Tools & Cloud: AWS (EC2, S3, Lambda), Docker, Git, PostgreSQL"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "SQL",
+      "normalized_name": "sql",
+      "category": "programming_language",
+      "domain": "technical",
+      "proficiency": null,
+      "years_used": null,
+      "source": "skills_section",
+      "confidence": 0.75,
+      "confidence_label": "medium",
+      "match_type": "exact",
+      "mentions": 1,
+      "sections": [
+        "skills"
+      ],
+      "aliases_found": [
+        "SQL"
+      ],
+      "evidence": [
+        "Languages: Python, JavaScript (ES6+), TypeScript, SQL, HTML/CSS"
+      ],
+      "reasons": [
+        "exact match (+0.50)",
+        "found in skills section (+0.25)"
+      ],
+      "needs_review": false
+    },
+    {
+      "name": "Detail-oriented",
+      "normalized_name": "attention to detail",
+      "category": "soft_skill",
+      "domain": "soft",
+      "proficiency": null,
+      "years_used": null,
+      "source": "inferred",
+      "confidence": 0.55,
+      "confidence_label": "low",
+      "match_type": "synonym",
+      "mentions": 1,
+      "sections": [
+        "summary"
+      ],
+      "aliases_found": [
+        "Detail-oriented"
+      ],
+      "evidence": [
+        "Detail-oriented Full-Stack Software Engineer with 5 years of experience building scalab..."
+      ],
+      "reasons": [
+        "synonym match (+0.45)",
+        "found in summary section (+0.10)"
+      ],
+      "needs_review": true
+    }
+  ],
+  "stacks": [],
+  "summary": {
+    "total": 18,
+    "by_domain": {
+      "business": 1,
+      "soft": 1,
+      "technical": 16
+    },
+    "by_category": {
+      "business_domain": 1,
+      "cloud_devops": 3,
+      "database": 1,
+      "framework": 4,
+      "programming_language": 6,
+      "soft_skill": 1,
+      "tool": 2
+    },
+    "by_confidence": {
+      "high": 10,
+      "low": 1,
+      "medium": 7
+    },
+    "needs_review": 1
+  },
+  "warnings": [
+    "1 skill(s) need review (low confidence or spelling guessed)."
+  ],
+  "source_file": "Maya.pdf"
+}
