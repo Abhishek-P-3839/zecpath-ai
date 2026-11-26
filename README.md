@@ -107,7 +107,14 @@ Files:
 - `tests/test_jd_parser.py` : unit tests
 
 
-## Day 7 docs
+## Day 7 - AI data pipeline & storage design
+
+Designs how AI data is stored, labelled with metadata, versioned and moved from resume upload to hiring decision.
+
+Run the pipeline demo: `python run_pipeline_demo.py`
+Run tests: `python -m unittest tests.test_pipeline -v`
+
+Docs:
 
 - [Pipeline diagram](docs/pipeline_diagram.png)
 - [Storage structure](docs/Day7_Storage_Structure.md)
