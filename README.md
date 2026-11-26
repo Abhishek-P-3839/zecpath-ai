@@ -175,3 +175,13 @@ Files:
 - `tests/test_skill_extractor.py` : unit tests
 - `docs/Day9_Skill_Extraction_Engine.md` : beginner guide (how it works, worked example, exercises)
 
+
+## Day 10 - Experience parsing and relevance engine
+
+- parsers/experience_parser.py : jobs (company, title, dates), total experience, gaps, overlaps
+- parsers/experience_relevance.py : role-to-role similarity and experience relevance score (0-100) for a job
+- run_experience_demo.py : parse every resume and score it against every parsed job (saves to data/experience/)
+- tests/test_experience.py : unit tests
+- docs/DAY10_STUDY_GUIDE.md : step-by-step explanation
+
+Run: `python run_experience_demo.py`   Test: `python -m unittest tests.test_experience -v`
