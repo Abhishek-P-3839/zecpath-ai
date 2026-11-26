@@ -1,0 +1,17 @@
+Data Analyst Intern
+
+Employment Type: Internship (3 months, Remote)
+Location: Remote
+
+We are looking for a curious Data Analyst Intern. No prior experience required - final year students and freshers welcome.
+
+What you will do:
+- Clean and analyse datasets using Excel and SQL
+- Build simple dashboards in Power BI or Tableau
+- Present findings to the team
+
+What we are looking for:
+- Pursuing or completed a Bachelor's degree in Statistics, Mathematics or Computer Science
+- Basic knowledge of SQL and Excel
+- Strong problem-solving mindset
+- Python and Pandas are good to have

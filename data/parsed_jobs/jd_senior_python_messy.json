@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "job_id": "job_senior_python_messy",
+  "company_id": "comp_0001",
+  "title": "Sr. Python Developer",
+  "normalized_title": "python developer",
+  "department": null,
+  "role_category": "technical",
+  "employment_type": "contract",
+  "work_mode": "onsite",
+  "location": {
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "country": "India"
+  },
+  "openings": 1,
+  "description": null,
+  "responsibilities": [
+    "Design and build scalable backend services & microservices",
+    "Own CI/CD pipelines using Jenkins & Docker on k8s",
+    "Mentor junior engineers"
+  ],
+  "requirements": {
+    "skills": [
+      {
+        "name": "Python",
+        "normalized_name": "python",
+        "category": "programming_language",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": "expert"
+      },
+      {
+        "name": "microservices",
+        "normalized_name": "microservices",
+        "category": "tool",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "CI/CD",
+        "normalized_name": "ci/cd",
+        "category": "cloud_devops",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "Jenkins",
+        "normalized_name": "jenkins",
+        "category": "cloud_devops",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "Docker",
+        "normalized_name": "docker",
+        "category": "cloud_devops",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "k8s",
+        "normalized_name": "kubernetes",
+        "category": "cloud_devops",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "Django",
+        "normalized_name": "django",
+        "category": "framework",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": "expert"
+      },
+      {
+        "name": "Flask",
+        "normalized_name": "flask",
+        "category": "framework",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": "expert"
+      },
+      {
+        "name": "PostgreSQL",
+        "normalized_name": "postgresql",
+        "category": "database",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": "advanced"
+      },
+      {
+        "name": "Redis",
+        "normalized_name": "redis",
+        "category": "database",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": "advanced"
+      },
+      {
+        "name": "RESTful APIs",
+        "normalized_name": "rest api",
+        "category": "tool",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "Amazon Web Services",
+        "normalized_name": "aws",
+        "category": "cloud_devops",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "Terraform",
+        "normalized_name": "terraform",
+        "category": "cloud_devops",
+        "importance": "good_to_have",
+        "min_years": null,
+        "proficiency": "beginner"
+      },
+      {
+        "name": "GraphQL",
+        "normalized_name": "graphql",
+        "category": "tool",
+        "importance": "good_to_have",
+        "min_years": null,
+        "proficiency": "beginner"
+      }
+    ],
+    "experience": {
+      "min_years": 5,
+      "max_years": null,
+      "level": "senior"
+    },
+    "education": {
+      "min_level": "master",
+      "preferred_fields": [
+        "Computer Science",
+        "Software Engineering"
+      ]
+    },
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect",
+        "required": false
+      }
+    ],
+    "languages": []
+  },
+  "status": "draft"
+}

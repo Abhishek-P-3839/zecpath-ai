@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "job_id": "job_data_analyst_intern",
+  "company_id": "comp_0001",
+  "title": "Data Analyst Intern",
+  "normalized_title": "data analyst",
+  "department": null,
+  "role_category": "technical",
+  "employment_type": "internship",
+  "work_mode": "remote",
+  "location": {
+    "city": null,
+    "state": null,
+    "country": null
+  },
+  "openings": 1,
+  "description": null,
+  "responsibilities": [
+    "Clean and analyse datasets using Excel and SQL",
+    "Build simple dashboards in Power BI or Tableau",
+    "Present findings to the team"
+  ],
+  "requirements": {
+    "skills": [
+      {
+        "name": "Excel",
+        "normalized_name": "excel",
+        "category": "tool",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": "beginner"
+      },
+      {
+        "name": "SQL",
+        "normalized_name": "sql",
+        "category": "programming_language",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": "beginner"
+      },
+      {
+        "name": "Power BI",
+        "normalized_name": "power bi",
+        "category": "tool",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "Tableau",
+        "normalized_name": "tableau",
+        "category": "tool",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "problem-solving",
+        "normalized_name": "problem solving",
+        "category": "soft_skill",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "Python",
+        "normalized_name": "python",
+        "category": "programming_language",
+        "importance": "good_to_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "Pandas",
+        "normalized_name": "pandas",
+        "category": "framework",
+        "importance": "good_to_have",
+        "min_years": null,
+        "proficiency": null
+      }
+    ],
+    "experience": {
+      "min_years": 0,
+      "max_years": null,
+      "level": "intern"
+    },
+    "education": {
+      "min_level": "bachelor",
+      "preferred_fields": [
+        "Statistics",
+        "Mathematics",
+        "Computer Science"
+      ]
+    },
+    "certifications": [],
+    "languages": []
+  },
+  "status": "draft"
+}

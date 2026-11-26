@@ -1,0 +1,52 @@
+{
+  "job_id": "job_senior_python_messy",
+  "title": "Sr. Python Developer",
+  "normalized_title": "python developer",
+  "role_category": "technical",
+  "level": "senior",
+  "min_years": 5,
+  "max_years": null,
+  "must_have_skills": [
+    "python",
+    "microservices",
+    "ci/cd",
+    "jenkins",
+    "docker",
+    "kubernetes",
+    "django",
+    "flask",
+    "postgresql",
+    "redis",
+    "rest api",
+    "aws"
+  ],
+  "good_to_have_skills": [
+    "terraform",
+    "graphql"
+  ],
+  "education_min_level": "master",
+  "preferred_fields": [
+    "Computer Science",
+    "Software Engineering"
+  ],
+  "keywords": [
+    "python developer",
+    "python",
+    "microservices",
+    "ci/cd",
+    "jenkins",
+    "docker",
+    "kubernetes",
+    "django",
+    "flask",
+    "postgresql",
+    "redis",
+    "rest api",
+    "aws",
+    "terraform",
+    "graphql",
+    "computer science",
+    "software engineering"
+  ],
+  "summary": "senior python developer (technical); experience: 5+ years. Must have: python, microservices, ci/cd, jenkins, docker, kubernetes, django, flask, postgresql, redis, rest api, aws. Good to have: terraform, graphql. Education: master in Computer Science / Software Engineering."
+}

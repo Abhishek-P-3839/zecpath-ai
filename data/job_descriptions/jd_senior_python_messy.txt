@@ -1,0 +1,12 @@
+<h2>Hiring: Sr. Python Developer - Bangalore</h2>
+<p>Job Type: Contract (6 months)</p>
+<p>Work Mode: On-site</p>
+<p>Location: Bangalore, Karnataka, India</p>
+<ul>
+<li>Design and build scalable backend services &amp; microservices</li>
+<li>Own CI/CD pipelines using Jenkins &amp; Docker on k8s</li>
+<li>Mentor junior engineers</li>
+</ul>
+Required Skills: 5+ years of experience in backend development; expert in Python3, Django or Flask; solid PostgreSQL and Redis; RESTful APIs; Amazon Web Services.
+Qualifications: Master's degree in Computer Science or Software Engineering.
+AWS Certified Solutions Architect is preferred. Familiarity with Terraform and GraphQL is a plus.

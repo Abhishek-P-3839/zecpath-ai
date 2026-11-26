@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "job_id": "job_hr_executive",
+  "company_id": "comp_0001",
+  "title": "HR Executive",
+  "normalized_title": "hr executive",
+  "department": null,
+  "role_category": "non_technical",
+  "employment_type": "full_time",
+  "work_mode": "onsite",
+  "location": {
+    "city": "Pathanamthitta",
+    "state": "Kerala",
+    "country": "India"
+  },
+  "openings": 1,
+  "description": "We are hiring a fresher or an HR recruiter with up to 1 year of experience to join our HR team.",
+  "responsibilities": [
+    "Source candidates through job portals and social media",
+    "Schedule and coordinate interviews",
+    "Maintain candidate records in the CRM"
+  ],
+  "requirements": {
+    "skills": [
+      {
+        "name": "Talent Acquisition",
+        "normalized_name": "recruitment",
+        "category": "business_domain",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "CRM",
+        "normalized_name": "crm",
+        "category": "business_domain",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "verbal communication",
+        "normalized_name": "communication",
+        "category": "soft_skill",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "teamwork",
+        "normalized_name": "teamwork",
+        "category": "soft_skill",
+        "importance": "must_have",
+        "min_years": null,
+        "proficiency": null
+      },
+      {
+        "name": "MS Excel",
+        "normalized_name": "excel",
+        "category": "tool",
+        "importance": "good_to_have",
+        "min_years": null,
+        "proficiency": null
+      }
+    ],
+    "experience": {
+      "min_years": 0,
+      "max_years": 1,
+      "level": "fresher"
+    },
+    "education": {
+      "min_level": "bachelor",
+      "preferred_fields": [
+        "Business Administration",
+        "Human Resources"
+      ]
+    },
+    "certifications": [],
+    "languages": [
+      "English",
+      "Malayalam"
+    ]
+  },
+  "status": "draft"
+}
