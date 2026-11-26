@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "record_id": "rec_4c4c70140126",
+    "record_type": "hiring_decision",
+    "candidate_id": "cand_0001",
+    "job_id": "job_python_developer",
+    "model_version": "scoring-1.0.0",
+    "timestamp": "2026-11-26T07:22:30Z",
+    "schema_version": "1.0",
+    "data_version": 1,
+    "checksum_sha256": "402cd20fa71e17c0290e3641291f0423947b94a8a87e9937d374d684d244ff73"
+  },
+  "data": {
+    "final_score": 75.0,
+    "decision": "selected"
+  }
+}

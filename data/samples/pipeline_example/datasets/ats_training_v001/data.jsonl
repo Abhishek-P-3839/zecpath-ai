@@ -1,0 +1,1 @@
+{"candidate_id": "cand_0001", "job_id": "job_python_developer", "profile": {"skills": ["python", "sql", "git"], "experience_years": 0, "extraction": {"status": "ok", "page_count": 1, "char_count": 132}}, "ats": {"score": 100.0, "required_skills": ["Python", "SQL", "Git"], "matched_skills": ["Python", "SQL", "Git"]}, "label": {"final_score": 75.0, "decision": "selected"}}

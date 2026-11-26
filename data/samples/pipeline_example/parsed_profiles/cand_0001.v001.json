@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "record_id": "rec_60ffce434ed8",
+    "record_type": "parsed_profile",
+    "candidate_id": "cand_0001",
+    "job_id": null,
+    "model_version": "resume-parser-1.0.0",
+    "timestamp": "2026-11-26T07:22:30Z",
+    "schema_version": "1.0",
+    "source_file": "sample_simple.pdf",
+    "data_version": 1,
+    "checksum_sha256": "a5af7e09e2a37cc32caf6780eb07e5bf1716788908be41419b923bf3a1b1ca04"
+  },
+  "data": {
+    "email": "rahul@example.com",
+    "skills": [
+      "python",
+      "sql",
+      "git"
+    ],
+    "experience_years": 0,
+    "extraction": {
+      "status": "ok",
+      "page_count": 1,
+      "char_count": 132
+    }
+  }
+}

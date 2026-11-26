@@ -1,0 +1,46 @@
+digraph zecpath_pipeline {
+  rankdir=TB; fontname="Helvetica"; nodesep=0.3; ranksep=0.7; splines=true; newrank=true;
+  labelloc=t; label="Zecpath AI Data Pipeline - from upload to hiring decision"; fontsize=16;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11, color="#4a5568", margin="0.15,0.1"];
+  edge [fontname="Helvetica", fontsize=9, color="#4a5568"];
+
+  // Row 0: job side
+  jd  [label="Recruiter posts\njob description", fillcolor="#fefcbf"];
+  jdp [label="JD parser\nparsers/jd_parser", fillcolor="#bee3f8"];
+
+  // Row 1: the AI steps (left to right)
+  { rank=same;
+    up   [label="1. Upload\nresume PDF/DOCX", fillcolor="#fefcbf"];
+    parse[label="2. Extract + Parse\nextraction/ + parsers/", fillcolor="#bee3f8"];
+    ats  [label="3. ATS score\nats_engine/", fillcolor="#bee3f8"];
+    scr  [label="4. Screening\nscreening_ai/", fillcolor="#bee3f8"];
+    intv [label="5. Interview\ninterview_ai/", fillcolor="#bee3f8"];
+    dec  [label="6. Final decision\nscoring/", fillcolor="#fed7d7"];
+  }
+  up -> parse -> ats -> scr -> intv -> dec [penwidth=2];
+  jd -> jdp; jdp -> ats [label="job profile"];
+
+  // Row 2: where each step saves its result
+  { rank=same; node [fillcolor="#c6f6d5"];
+    s_res [label="resumes/\n(original file)"];
+    s_prof[label="parsed_profiles/"];
+    s_ats [label="ats_scores/"];
+    s_scr [label="screening_reports/"];
+    s_int [label="interview_results/"];
+    s_dec [label="decisions/"];
+  }
+  up -> s_res [style=dashed]; parse -> s_prof [style=dashed]; ats -> s_ats [style=dashed];
+  scr -> s_scr [style=dashed]; intv -> s_int [style=dashed]; dec -> s_dec [style=dashed];
+  s_res -> s_prof -> s_ats -> s_scr -> s_int -> s_dec [style=invis];
+
+  // Row 3: bookkeeping + retraining loop
+  events  [label="lifecycle/events.jsonl\nevery stage change is logged", shape=note, fillcolor="#e9d8fd"];
+  dataset [label="datasets/ats_training_vNNN\nfrozen snapshot, personal data removed", shape=cylinder, fillcolor="#fbd38d"];
+  retrain [label="Retrain / improve models\n(new model_version)", fillcolor="#fbd38d"];
+
+  s_prof -> dataset [style=dotted]; s_ats -> dataset [style=dotted]; s_dec -> dataset [style=dotted, label="label"];
+  dataset -> retrain;
+  retrain -> parse [style=dashed, color="#c05621", label="improved models go back in", constraint=false];
+  s_scr -> events [style=invis];
+  { rank=same; events; dataset; }
+}

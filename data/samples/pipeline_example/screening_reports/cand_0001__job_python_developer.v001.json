@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "record_id": "rec_3a9562726eb1",
+    "record_type": "screening_report",
+    "candidate_id": "cand_0001",
+    "job_id": "job_python_developer",
+    "model_version": "screening-1.0.0",
+    "timestamp": "2026-11-26T07:22:30Z",
+    "schema_version": "1.0",
+    "data_version": 1,
+    "checksum_sha256": "747855a3b9327ccaec2a71ee2bca454829815101489f014a0b0863db373cbbb3"
+  },
+  "data": {
+    "answered": 6,
+    "total": 7,
+    "missing": [
+      "expected_salary"
+    ]
+  }
+}

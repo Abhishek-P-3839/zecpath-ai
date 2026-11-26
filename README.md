@@ -13,11 +13,13 @@ zecpath-ai/
 ├── screening_ai/    screening questions and report
 ├── interview_ai/    HR and technical interview questions
 ├── scoring/         combine all scores and give a decision
+├── pipeline/        Day 7: metadata, versioned storage, lifecycle, training snapshots
 ├── utils/           shared helpers (logger)
 ├── tests/           test files
 ├── logs/            log files are saved here (not pushed to GitHub)
 ├── docs/            CODE_STANDARDS.md
 ├── run_demo.py      small demo of the full flow
+├── run_pipeline_demo.py  Day 7 demo: one candidate through the whole data pipeline
 ├── requirements.txt
 └── .gitignore
 ```
@@ -33,6 +35,7 @@ zecpath-ai/
 ## Run
 
 - Demo: `python run_demo.py`
+- Day 7 pipeline demo: `python run_pipeline_demo.py` (saves to `data/store/`)
 - Tests: `python -m unittest discover -s tests -t .` (or `pytest`)
 
 ## Logging
@@ -103,3 +106,10 @@ Files:
 - `docs/JD_Parsing.md` : full documentation
 - `tests/test_jd_parser.py` : unit tests
 
+
+## Day 7 docs
+
+- [Pipeline diagram](docs/pipeline_diagram.png)
+- [Storage structure](docs/Day7_Storage_Structure.md)
+- [Metadata standards](docs/Day7_Metadata_Standards.md)
+- [Lifecycle, versioning and retraining](docs/Day7_Pipeline_Lifecycle_Versioning.md)

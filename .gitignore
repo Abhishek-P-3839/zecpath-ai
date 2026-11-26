@@ -28,3 +28,8 @@ data/*
 !data/job_descriptions/*
 !data/parsed_jobs/
 !data/parsed_jobs/*
+
+# Day 7: pipeline storage holds real candidate data -> never push (data/* already ignores it)
+data/store/
+!data/samples/pipeline_example/
+!data/samples/pipeline_example/**

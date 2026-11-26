@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "record_id": "rec_f326441914b4",
+    "record_type": "interview_result",
+    "candidate_id": "cand_0001",
+    "job_id": "job_python_developer",
+    "model_version": "interview-1.0.0",
+    "timestamp": "2026-11-26T07:22:30Z",
+    "schema_version": "1.0",
+    "data_version": 1,
+    "checksum_sha256": "02f194882f9688a41d89cfaf51a531a01fa6016771c4a1bda497ae0d1af8bf16"
+  },
+  "data": {
+    "hr_questions": [
+      "Please introduce yourself.",
+      "What are your strengths and weaknesses?",
+      "Why do you want this job?"
+    ],
+    "technical_level": "basic",
+    "scores": {
+      "hr": 70,
+      "technical": 65,
+      "machine_test": 75
+    }
+  }
+}
