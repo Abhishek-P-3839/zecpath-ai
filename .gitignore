@@ -38,3 +38,6 @@ data/store/
 # data/segmented/ (output of run_section_demo.py) can hold real candidate data -> stays ignored.
 !data/labeled_resumes/
 !data/labeled_resumes/*
+
+# Day 9: data/skills/ (output of run_skill_demo.py) can hold real candidate data -> stays ignored.
+# data/samples/sample_skills_output.json is dummy data and is pushed.
