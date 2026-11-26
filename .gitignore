@@ -33,3 +33,8 @@ data/*
 data/store/
 !data/samples/pipeline_example/
 !data/samples/pipeline_example/**
+
+# Day 8: labeled resume samples (dummy data) are a deliverable -> push them.
+# data/segmented/ (output of run_section_demo.py) can hold real candidate data -> stays ignored.
+!data/labeled_resumes/
+!data/labeled_resumes/*

@@ -120,3 +120,31 @@ Docs:
 - [Storage structure](docs/Day7_Storage_Structure.md)
 - [Metadata standards](docs/Day7_Metadata_Standards.md)
 - [Lifecycle, versioning and retraining](docs/Day7_Pipeline_Lifecycle_Versioning.md)
+
+## Day 8 - Resume section segmentation
+
+Finds the sections of a resume (header, summary, skills, experience, education, certifications, projects, other)
+and tags every line with its section, so later AI steps work on structured text.
+Uses **rules** (headings) + **NLP-style content scoring** (for missing or combined headings). No new libraries needed.
+
+Segment one resume: `python -m parsers.section_classifier data/raw_resumes/Maya.pdf`
+Segment all resumes: `python run_section_demo.py` (saves to `data/segmented/`, not pushed to GitHub)
+Measure accuracy + rewrite the report: `python run_section_eval.py`
+Run tests: `python -m unittest tests.test_section_classifier -v`
+
+```python
+from parsers.section_classifier import segment_file
+result = segment_file("data/raw_resumes/Maya.pdf")
+result["sections"]["skills"]      # text of the skills section
+result["line_tags"]               # every line + its section + how it was decided + confidence
+```
+
+Files:
+- `parsers/section_classifier.py` : the classifier module
+- `parsers/section_taxonomy.py` : headings and keyword lists (edit this to teach it new words)
+- `parsers/section_eval.py` : accuracy measurement
+- `data/labeled_resumes/` : 20 hand-labeled resumes (`*.labeled.txt` = answer keys) + `manifest.json`
+- `tests/labeled_sample_builder.py` : builds the labeled samples
+- `docs/Day8_Resume_Section_Segmentation.md` : how it works (beginner guide)
+- `docs/Day8_Section_Detection_Accuracy_Report.md` : accuracy report
+

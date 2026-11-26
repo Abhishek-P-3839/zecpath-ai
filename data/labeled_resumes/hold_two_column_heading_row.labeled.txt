@@ -1,0 +1,9 @@
+header	Arjun Nair
+skills	Skills Education
+skills	Python, SQL, Excel, Power BI, Tableau
+education	MBA Finance, Symbiosis Institute of Business Management, 2022
+education	B.Com, Christ University, 2020
+experience	Experience
+experience	Financial Analyst | Capital Edge Consulting | Aug 2022 - Present
+experience	- Built variance analysis models used in monthly board reviews
+experience	- Automated reconciliation in Excel and SQL, saving 8 hours a week

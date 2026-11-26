@@ -1,0 +1,8 @@
+header	Rahul Kumar
+header	rahul@example.com | 99999 00000
+summary	Summary
+summary	Fresher Python developer.
+skills	Skills
+skills	Python, SQL, Git
+experience	Experience
+experience	Intern at Demo Corp

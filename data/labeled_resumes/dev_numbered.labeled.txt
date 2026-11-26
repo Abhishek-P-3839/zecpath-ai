@@ -1,0 +1,15 @@
+header	Neha Kapoor
+header	Delhi | neha.kapoor@example.com | 98100 12345
+summary	1. Professional Summary
+summary	Data analyst with 4 years of experience turning messy datasets into dashboards that leaders use.
+experience	2. Work History
+experience	Data Analyst | Orbit Analytics Pvt Ltd | Mar 2021 - Present
+experience	- Built Power BI dashboards that cut weekly reporting time by 40%
+experience	- Cleaned and modelled sales data in SQL and Python for 6 regional teams
+experience	Junior Analyst | Bright Retail Ltd | Jul 2019 - Feb 2021
+experience	- Prepared monthly MIS reports for senior management
+skills	3. Core Competencies
+skills	SQL, Python, Power BI, Tableau, Excel, Statistics, A/B Testing
+education	4. Academic Background
+education	M.Sc Statistics, University of Delhi, 2019
+education	B.Sc Mathematics, Hansraj College, 2017

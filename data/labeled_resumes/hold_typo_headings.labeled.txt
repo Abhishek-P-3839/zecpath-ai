@@ -1,0 +1,14 @@
+header	Sofia Marino
+header	sofia.marino@example.com | +1 415 555 0166 | San Francisco, CA
+summary	Summary
+summary	Product designer with 6 years of experience in consumer mobile apps.
+experience	Experiance
+experience	Senior Product Designer - Lumen Apps, San Francisco  Jan 2020 - Present
+experience	- Redesigned onboarding flow, lifting activation by 18%
+experience	- Led design system adoption across 4 squads
+experience	Product Designer - Pixel Forge Studio, Oakland  2017 - 2019
+experience	- Designed 12 client mobile apps from research to launch
+education	Educaton
+education	B.F.A. Graphic Design, California College of the Arts, 2017
+skills	Skils
+skills	Figma, Sketch, Prototyping, User Research, Design Systems, HTML, CSS

@@ -1,0 +1,11 @@
+header	Lakshmi Pillai
+header	lakshmi.pillai@example.com | +91 94470 55667
+skills	Skills | Python, SQL, Pandas, Matplotlib, Excel
+education	Education
+education	Degree | University
+education	M.Sc Data Science | Kerala University
+education	B.Sc Statistics | Mahatma Gandhi University
+experience	Experience
+experience	Role | Company | Duration
+experience	Data Analyst Trainee | Techno Park Analytics | Jan 2024 - Dec 2024
+certifications	Certifications | Google Data Analytics Professional Certificate, Coursera

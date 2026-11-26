@@ -1,0 +1,11 @@
+header	Karan Mehta
+header	karan.mehta@example.com | +91 99887 76655 | Bengaluru
+skills	Skills: Java, Spring Boot, MySQL, Docker, AWS, Kafka
+education	Education: B.E. Information Technology, VIT Vellore, 2020
+certifications	Certifications: Oracle Certified Associate Java SE 8, AWS Solutions Architect Associate (SAA-C03)
+experience	Work Experience
+experience	Software Engineer - Finserve Technologies, Chennai  Aug 2020 - Present
+experience	- Designed Spring Boot microservices handling 2M requests per day
+experience	- Migrated a monolith to AWS ECS, reducing infrastructure cost by 25%
+projects	Projects
+projects	Expense tracker app - Spring Boot, React, MySQL

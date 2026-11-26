@@ -1,0 +1,20 @@
+header	Daniel Okafor
+header	Toronto, ON | (416) 555-0123 | daniel.okafor@example.com | linkedin.com/in/danielokafor
+summary	Professional Profile
+summary	Cloud engineer who enjoys automating infrastructure and helping teams ship safely.
+experience	Professional Experience
+experience	Cloud Engineer - Maple Cloud Services, Toronto  June 2021 - Present
+experience	- Automated environment provisioning with Terraform, saving 10 hours per release
+experience	- Implemented monitoring dashboards used by 8 product teams
+experience	Systems Administrator - Lakeshore Networks Inc., Mississauga  May 2018 - May 2021
+experience	- Maintained 120 Linux servers with 99.9% uptime
+skills	Technical Skills
+skills	Terraform, Ansible, AWS, Azure, Linux, Python, Bash, Docker, Kubernetes
+projects	Selected Projects
+projects	Homelab GitOps - Kubernetes cluster managed with ArgoCD
+projects	Open source contributor to a Terraform provider (github.com/danielokafor)
+certifications	Licenses & Certifications
+certifications	AWS Certified Solutions Architect - Associate
+certifications	HashiCorp Certified: Terraform Associate
+education	Education
+education	B.Eng. Computer Engineering, University of Waterloo, 2018

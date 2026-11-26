@@ -1,0 +1,142 @@
+[
+  {
+    "name": "alex",
+    "category": "standard",
+    "split": "real",
+    "source": "real resume (Day 5 extraction)",
+    "lines": 37
+  },
+  {
+    "name": "marcus",
+    "category": "combined_heading",
+    "split": "real",
+    "source": "real resume (Day 5 extraction)",
+    "lines": 22
+  },
+  {
+    "name": "Maya",
+    "category": "standard",
+    "split": "real",
+    "source": "real resume (Day 5 extraction)",
+    "lines": 23
+  },
+  {
+    "name": "sample_simple",
+    "category": "standard",
+    "split": "real",
+    "source": "real resume (Day 5 extraction)",
+    "lines": 8
+  },
+  {
+    "name": "sample_two_column",
+    "category": "two_column",
+    "split": "real",
+    "source": "real resume (Day 5 extraction)",
+    "lines": 16
+  },
+  {
+    "name": "sample_bullets_table",
+    "category": "table",
+    "split": "real",
+    "source": "real resume (Day 5 extraction)",
+    "lines": 8
+  },
+  {
+    "name": "dev_caps_headings",
+    "category": "caps_headings",
+    "split": "dev",
+    "source": "hand-written",
+    "lines": 19
+  },
+  {
+    "name": "dev_numbered",
+    "category": "numbered_headings",
+    "split": "dev",
+    "source": "hand-written",
+    "lines": 15
+  },
+  {
+    "name": "dev_inline_headings",
+    "category": "inline_headings",
+    "split": "dev",
+    "source": "hand-written",
+    "lines": 11
+  },
+  {
+    "name": "dev_no_headings_fresher",
+    "category": "no_headings",
+    "split": "dev",
+    "source": "hand-written",
+    "lines": 11
+  },
+  {
+    "name": "dev_no_headings_experienced",
+    "category": "no_headings",
+    "split": "dev",
+    "source": "hand-written",
+    "lines": 11
+  },
+  {
+    "name": "dev_partial_headings",
+    "category": "partial_headings",
+    "split": "dev",
+    "source": "hand-written",
+    "lines": 11
+  },
+  {
+    "name": "hold_alt_headings",
+    "category": "alt_headings",
+    "split": "holdout",
+    "source": "hand-written",
+    "lines": 20
+  },
+  {
+    "name": "hold_typo_headings",
+    "category": "typo_headings",
+    "split": "holdout",
+    "source": "hand-written",
+    "lines": 14
+  },
+  {
+    "name": "hold_combined_heading",
+    "category": "combined_heading",
+    "split": "holdout",
+    "source": "hand-written",
+    "lines": 15
+  },
+  {
+    "name": "hold_no_headings_wrapped",
+    "category": "no_headings",
+    "split": "holdout",
+    "source": "hand-written",
+    "lines": 13
+  },
+  {
+    "name": "hold_two_column_heading_row",
+    "category": "two_column",
+    "split": "holdout",
+    "source": "hand-written",
+    "lines": 9
+  },
+  {
+    "name": "hold_table_rows",
+    "category": "table",
+    "split": "holdout",
+    "source": "hand-written",
+    "lines": 11
+  },
+  {
+    "name": "hold_no_headings_extras",
+    "category": "no_headings",
+    "split": "holdout",
+    "source": "hand-written",
+    "lines": 14
+  },
+  {
+    "name": "hold_other_sections",
+    "category": "other_sections",
+    "split": "holdout",
+    "source": "hand-written",
+    "lines": 18
+  }
+]

@@ -1,0 +1,8 @@
+header	Priya Nair
+experience	Experience
+experience	- Built REST APIs with Flask
+experience	- Wrote unit tests
+experience	- Deployed on AWS
+education	Education
+education	Degree | University
+education	B.Sc Computer Science | Kerala University

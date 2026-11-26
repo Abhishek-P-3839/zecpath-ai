@@ -1,0 +1,19 @@
+header	RAHUL VERMA
+header	Pune, Maharashtra | +91 91234 56780 | rahul.verma@example.com | github.com/rahulverma
+summary	OBJECTIVE:
+summary	Motivated fresher seeking an entry-level software developer role to apply Python and web skills.
+education	EDUCATION:
+education	B.Tech in Computer Science, Savitribai Phule Pune University
+education	CGPA: 8.4/10 | 2021 - 2025
+education	Higher Secondary (HSC), Fergusson College, 2021, 88%
+skills	TECHNICAL SKILLS:
+skills	Languages: Python, Java, JavaScript, SQL
+skills	Web: HTML, CSS, React, Node.js
+skills	Tools: Git, Docker, VS Code
+projects	PROJECTS:
+projects	Library Management System - web app built with Flask and MySQL
+projects	Hospital Appointment Portal - React frontend with a REST API backend
+projects	Tech stack: React, Node.js, MongoDB
+certifications	CERTIFICATIONS:
+certifications	Python for Everybody - Coursera
+certifications	AWS Cloud Practitioner (Certified), 2024
