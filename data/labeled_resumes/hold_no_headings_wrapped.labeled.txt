@@ -1,0 +1,13 @@
+header	Meera Iyer
+header	Chennai, Tamil Nadu | meera.iyer@example.com | +91 98400 22334
+summary	Recent graduate passionate about full stack development and eager to learn in a
+summary	fast moving product team.
+experience	Web Development Intern at Marina Softech Pvt Ltd  Jan 2025 - Jun 2025
+experience	- Built reusable React components for an internal admin dashboard that
+experience	reduced page load time by 30%
+experience	- Fixed 40+ bugs reported by the QA team and wrote unit tests
+projects	Online Quiz Portal - developed with React, Express and MongoDB
+projects	Weather Dashboard app using public APIs, deployed on Netlify
+skills	React, JavaScript, HTML, CSS, Node.js, Express, MongoDB, Git
+education	B.E. Computer Science, Anna University, 2021 - 2025
+education	CGPA 8.2

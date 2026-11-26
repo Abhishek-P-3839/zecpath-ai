@@ -1,0 +1,11 @@
+header	Priyanka Das
+header	Kolkata, West Bengal | priyanka.das@example.com | +91 98300 45678
+skills	Digital Marketing: SEO, SEM, Google Ads, Google Analytics, Mailchimp
+skills	Content: Copywriting, Canva, WordPress, Email Marketing
+experience	Experience
+experience	Digital Marketing Executive | BlueWave Media Pvt Ltd | Feb 2022 - Present
+experience	- Managed Google Ads campaigns with a monthly budget of INR 3 Lakhs
+experience	- Grew organic traffic by 55% through an SEO content calendar
+education	Education
+education	MBA Marketing, Calcutta University, 2021
+education	B.Com, St. Xavier's College, 2019

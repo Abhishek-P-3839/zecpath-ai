@@ -1,0 +1,15 @@
+header	Vikram Singh
+header	Jaipur, Rajasthan | vikram.singh@example.com | +91 98290 11223
+summary	Summary
+summary	Backend developer with 3 years of experience in Python and cloud deployments.
+experience	Experience
+experience	Backend Developer at Pink City Technologies Pvt Ltd  July 2022 - Present
+experience	- Built Django REST services used by 50k monthly users
+experience	- Wrote integration tests that raised coverage from 40% to 85%
+skills	Skills & Certifications
+skills	Python, Django, REST APIs, PostgreSQL, Docker
+certifications	AWS Certified Developer - Associate
+skills	Git, Linux, CI/CD, Redis
+certifications	Certified Kubernetes Application Developer (CKAD)
+education	Education
+education	B.Tech Computer Science, Malaviya National Institute of Technology, 2022

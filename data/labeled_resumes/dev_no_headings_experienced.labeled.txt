@@ -1,0 +1,11 @@
+header	James Carter
+header	Seattle, WA | (206) 555-0172 | james.carter@example.com
+summary	Backend engineer with 9 years of experience building payment systems. Passionate about reliability and clean APIs.
+experience	Senior Backend Engineer, Northwind Payments Inc., Seattle, WA  2019 - Present
+experience	- Led a team of 5 engineers to rebuild the payouts service in Go
+experience	- Reduced p99 latency from 900ms to 120ms by redesigning the cache layer
+experience	Software Engineer, Contoso Systems, Portland, OR  2015 - 2019
+experience	- Developed REST APIs in Java for an order management platform
+experience	- Mentored 3 interns and ran weekly code reviews
+education	B.S. Computer Science, Oregon State University, 2015
+skills	Go, Java, PostgreSQL, Redis, Kafka, Docker, Kubernetes, AWS

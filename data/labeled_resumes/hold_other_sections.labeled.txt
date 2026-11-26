@@ -1,0 +1,18 @@
+header	Rohan Gupta
+header	Noida, Uttar Pradesh | rohan.gupta@example.com | +91 98110 77889
+summary	Career Objective
+summary	Seeking a QA engineer role where I can use my testing and automation skills.
+skills	Key Skills
+skills	Selenium, Java, TestNG, Postman, JIRA, SQL, Manual Testing
+experience	Employment History
+experience	QA Engineer, Delta Soft Solutions Pvt Ltd  Sep 2022 - Present
+experience	- Automated 150 regression test cases using Selenium and TestNG
+experience	- Raised and tracked 300+ defects in JIRA
+education	Academic Qualifications
+education	B.Tech Electronics, Amity University, 2022
+other	Languages
+other	English, Hindi
+other	Interests
+other	Cricket, photography
+other	Declaration
+other	I hereby declare that the information above is true to the best of my knowledge.

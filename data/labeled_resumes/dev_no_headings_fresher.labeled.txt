@@ -1,0 +1,11 @@
+header	Ananya Rao
+header	Hyderabad | ananya.rao@example.com | 90000 11122 | linkedin.com/in/ananyarao
+summary	Final year computer science student looking for an internship in machine learning.
+skills	Python, NumPy, Pandas, scikit-learn, TensorFlow, SQL, Git
+education	B.Tech Computer Science and Engineering
+education	JNTU Hyderabad, 2021 - 2025, CGPA 8.9
+projects	Movie recommendation system using collaborative filtering
+projects	Handwritten digit classifier built with TensorFlow
+projects	Tech stack: Python, TensorFlow, Flask
+certifications	Machine Learning Specialization - Coursera
+certifications	Deep Learning with PyTorch - Udemy certificate

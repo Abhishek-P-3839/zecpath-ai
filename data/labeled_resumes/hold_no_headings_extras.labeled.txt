@@ -1,0 +1,14 @@
+header	Omar Haddad
+header	Dubai, UAE | omar.haddad@example.com | +971 50 123 4567
+summary	Accountant with 7 years of experience in audit and financial reporting.
+experience	Senior Accountant, Desert Rose Trading LLC, Dubai  Mar 2019 - Present
+experience	- Prepared consolidated financial statements for 5 subsidiaries
+experience	- Reduced month-end close from 10 days to 6 days
+experience	Audit Associate, Gulf Assurance Group, Abu Dhabi  2016 - 2019
+experience	- Conducted audits for 20+ mid-sized clients
+education	B.Com Accounting, University of Sharjah, 2016
+certifications	Certified Public Accountant (CPA), 2018
+certifications	ACCA Qualification, 2017
+skills	SAP, QuickBooks, Excel, IFRS, Budgeting, Forecasting
+other	Languages: Arabic, English, French
+other	Hobbies: chess, hiking
