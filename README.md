@@ -14,6 +14,7 @@ zecpath-ai/
 ├── interview_ai/    HR and technical interview questions
 ├── scoring/         combine all scores and give a decision
 ├── pipeline/        Day 7: metadata, versioned storage, lifecycle, training snapshots
+├── matching/        Day 12: embeddings, semantic matching, similarity scorer, accuracy metrics
 ├── utils/           shared helpers (logger)
 ├── tests/           test files
 ├── logs/            log files are saved here (not pushed to GitHub)
@@ -212,9 +213,19 @@ Run: `python run_education_demo.py`   Test: `python -m unittest tests.test_educa
 Single resume: `python -m parsers.academic_profile data/raw_resumes/Maya.pdf`
 
 
-## Day 12 - Semantic matching engine
+## Day 12 - Semantic matching engine, similarity scorer and accuracy report
 
 Moves beyond keyword matching: resumes and job descriptions are turned into embeddings (vectors) and compared by meaning.
+A resume and a job get one 0-100 similarity score, a label (strong / good / partial / weak), the part scores, the skills that
+matched or are missing, and plain-English reasons. A report measures how accurate this is.
+
+**Deliverables**
+
+1. Semantic matching engine: `matching/embedders.py` + `matching/semantic_engine.py`
+2. Resume-to-job similarity scorer: `matching/similarity_scorer.py` + `matching/similarity_thresholds.json`
+3. Matching accuracy report: `docs/Day12_Matching_Accuracy_Report.md` (written by `run_matching_eval.py`)
+
+**How it works**
 
 - `matching/embedders.py`: two interchangeable backends.
   - `SentenceTransformerEmbedder`: neural embeddings (`pip install sentence-transformers`, model downloads on first use)
@@ -224,10 +235,44 @@ Moves beyond keyword matching: resumes and job descriptions are turned into embe
   - skills (exact matches plus related skills, missing skills listed)
   - experience summaries (job history vs job responsibilities)
   - project descriptions (parts with no data are skipped and weights re-scaled)
-  - and returns an overall score (0-100), a label and the score of each part
-- Default weights: skills 45%, experience 35%, projects 20% (constants at the top of the file, tuned later)
-- Run: `python run_matching_demo.py` (prints the embedding backend used, then every resume vs every job)
-- Not built yet: threshold tuning, multi-job validation, matching accuracy report
+  - default weights: skills 45%, experience 35%, projects 20% (constants at the top of the file)
+- `matching/similarity_scorer.py`: one entry point on top of the matcher.
+  - `score_resume_to_job(resume, job_profile, job_doc)`: score, label, part scores, matched / missing skills, reasons
+  - `score_many(resumes, job_profile, job_doc)`: ranks a list of resumes for one job (best first, unscorable last)
+  - accepts a file path, resume text or ready-made views; scanned or empty resumes return status `unscorable`, never a fake 0
+- `matching/similarity_thresholds.json`: the label cut-offs (strong 75, good 42, partial 16). They are data, not code,
+  and are checked when loaded (all numbers 0-100 and strong > good > partial). Edit the file to change them.
+- `matching/evaluation.py`: metric functions (precision, recall, F1, accuracy, threshold sweep, AUC, ranking quality,
+  leave-one-job-out). Pure functions, easy to check by hand.
+- `run_matching_eval.py`: scores every labeled pair, tunes the cut-offs, runs the validation and writes the report.
+- `data/samples/matching_ground_truth.json`: 24 labeled pairs (6 resumes x 4 jobs). The labels are judgments by Claude,
+  not by a recruiter, so a person should review them (the close calls are marked doubtful).
+
+**Run**
+
+- Demo: `python run_matching_demo.py` (prints the embedding backend used, then every resume vs every job)
+- One pair: `python -m matching.similarity_scorer data/raw_resumes/Maya.pdf data/parsed_jobs/jd_mern_developer.profile.json` (add `--json` for raw output)
+- Accuracy report: `python run_matching_eval.py` (writes `data/matching/matching_eval.json` and the report)
+- Also save the tuned cut-offs: `python run_matching_eval.py --write-thresholds`
+- Tests: `python -m unittest tests.test_similarity_scorer tests.test_matching_eval tests.test_ranking -v`
+
+```python
+from matching.similarity_scorer import score_resume_to_job, score_many
+result = score_resume_to_job("data/raw_resumes/Maya.pdf", job_profile, job_doc)
+result["score"], result["label"], result["reasons"]
+ranked = score_many(["a.pdf", "b.pdf"], job_profile, job_doc)
+```
+
+**Needs `numpy`** (the offline embedder uses it): `pip install numpy`. It is not in `requirements.txt` yet, so add it there.
+
+**Results and limits (read the report before trusting the numbers)**
+
+- Only 24 labeled pairs (3 relevant, 10 partly relevant, 11 not relevant), so the numbers are indicative, not statistically strong.
+- The cut-offs were tuned on the same 24 pairs, so they will move when more labeled data is added.
+- `strong` (75) is not tuned: no sample pair scores above 55, so no pair is labeled `strong` with the offline embedder.
+- Scanned resumes (`img.pdf`, `sample_scanned.pdf`) cannot be scored until OCR is added; `m.pdf` is not a resume.
+
+Study guide: `docs/DAY12_STUDY_GUIDE.md`
 
 ## Day 13 - ATS scoring formula (explainable candidate score)
 
