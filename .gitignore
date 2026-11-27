@@ -51,3 +51,8 @@ data/store/
 # never be placed in data/raw_resumes.
 !data/education/
 !data/education/*
+
+# Day 12: matching accuracy outputs come from the DUMMY sample resumes and are a deliverable -> push them.
+# data/samples/matching_ground_truth.json is already covered by !data/samples/ above.
+!data/matching/
+!data/matching/*

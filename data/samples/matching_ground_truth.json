@@ -1,0 +1,204 @@
+{
+  "_about": "Ground truth for Day 12 matching accuracy. THESE LABELS ARE JUDGMENTS MADE BY CLAUDE (an AI), NOT BY A HUMAN RECRUITER. They were written after reading each resume's extracted text and each job's profile, and BEFORE running the matcher on them. Please review them; every row with doubtful=true is a close call.",
+  "label_scale": {
+    "relevant": "A recruiter would shortlist this person: most must-have skills and the right kind of work.",
+    "partly relevant": "Worth a look but with clear gaps: some must-have skills or a nearby role, or a seniority mismatch.",
+    "not relevant": "Wrong field or almost no overlap with the must-have skills."
+  },
+  "jobs": {
+    "jd_mern_developer": "mern",
+    "jd_senior_python_messy": "py",
+    "jd_hr_executive": "hr",
+    "jd_data_analyst_intern": "da"
+  },
+  "labels": [
+    {
+      "resume": "Maya.pdf",
+      "job": "jd_mern_developer",
+      "label": "relevant",
+      "doubtful": false,
+      "reason": "5 years full-stack; React, Node.js, JavaScript, TypeScript, AWS, Docker, Git. No MongoDB/Redux/Express named, still a clear fit."
+    },
+    {
+      "resume": "Maya.pdf",
+      "job": "jd_senior_python_messy",
+      "label": "relevant",
+      "doubtful": true,
+      "reason": "Python/FastAPI/Django microservices, Docker, AWS, PostgreSQL, GitHub Actions, 5 years. Lacks Kubernetes, Jenkins, Redis. DOUBTFUL: could be 'partly' (senior role)."
+    },
+    {
+      "resume": "Maya.pdf",
+      "job": "jd_hr_executive",
+      "label": "not relevant",
+      "doubtful": false,
+      "reason": "Software engineer; no recruitment or HR work at all."
+    },
+    {
+      "resume": "Maya.pdf",
+      "job": "jd_data_analyst_intern",
+      "label": "partly relevant",
+      "doubtful": false,
+      "reason": "Python, SQL and PostgreSQL overlap, but no Excel, Tableau or Power BI and she is an engineer, not an analyst."
+    },
+    {
+      "resume": "alex.pdf",
+      "job": "jd_mern_developer",
+      "label": "not relevant",
+      "doubtful": false,
+      "reason": "Project/operations analyst; leads developers but writes no code and lists no MERN skills."
+    },
+    {
+      "resume": "alex.pdf",
+      "job": "jd_senior_python_messy",
+      "label": "not relevant",
+      "doubtful": false,
+      "reason": "No Python or backend engineering; SQL and Power BI only."
+    },
+    {
+      "resume": "alex.pdf",
+      "job": "jd_hr_executive",
+      "label": "partly relevant",
+      "doubtful": true,
+      "reason": "Onboarded 20+ hires, trained staff, uses CRM software, strong communication, but no recruitment work. DOUBTFUL."
+    },
+    {
+      "resume": "alex.pdf",
+      "job": "jd_data_analyst_intern",
+      "label": "relevant",
+      "doubtful": false,
+      "reason": "Excel, SQL, Tableau, Power BI, KPI reporting, Google Data Analytics certificate: matches nearly every must-have."
+    },
+    {
+      "resume": "marcus.pdf",
+      "job": "jd_mern_developer",
+      "label": "not relevant",
+      "doubtful": false,
+      "reason": "Marketing operations manager; no software development."
+    },
+    {
+      "resume": "marcus.pdf",
+      "job": "jd_senior_python_messy",
+      "label": "not relevant",
+      "doubtful": false,
+      "reason": "Marketing operations manager; no Python or backend work."
+    },
+    {
+      "resume": "marcus.pdf",
+      "job": "jd_hr_executive",
+      "label": "not relevant",
+      "doubtful": true,
+      "reason": "Marketing, not recruitment. Shares the CRM must-have (Salesforce, HubSpot) only. DOUBTFUL: could be 'partly'."
+    },
+    {
+      "resume": "marcus.pdf",
+      "job": "jd_data_analyst_intern",
+      "label": "partly relevant",
+      "doubtful": true,
+      "reason": "Tableau dashboards, campaign analytics, A/B testing; no SQL or Excel named. DOUBTFUL."
+    },
+    {
+      "resume": "sample_bullets_table.docx",
+      "job": "jd_mern_developer",
+      "label": "partly relevant",
+      "doubtful": false,
+      "reason": "Builds REST APIs, deploys on AWS, B.Sc CS; but Flask/Python, not React/Node/MongoDB, and very little detail."
+    },
+    {
+      "resume": "sample_bullets_table.docx",
+      "job": "jd_senior_python_messy",
+      "label": "partly relevant",
+      "doubtful": false,
+      "reason": "Flask, REST APIs, AWS match, but only three short bullets and no sign of seniority."
+    },
+    {
+      "resume": "sample_bullets_table.docx",
+      "job": "jd_hr_executive",
+      "label": "not relevant",
+      "doubtful": false,
+      "reason": "Backend developer; nothing about HR."
+    },
+    {
+      "resume": "sample_bullets_table.docx",
+      "job": "jd_data_analyst_intern",
+      "label": "not relevant",
+      "doubtful": false,
+      "reason": "No data, SQL, Excel or BI work mentioned."
+    },
+    {
+      "resume": "sample_simple.pdf",
+      "job": "jd_mern_developer",
+      "label": "not relevant",
+      "doubtful": true,
+      "reason": "Fresher Python developer: only Git/SQL overlap, no React/Node/MongoDB, far below 3-5 years. DOUBTFUL: could be 'partly'."
+    },
+    {
+      "resume": "sample_simple.pdf",
+      "job": "jd_senior_python_messy",
+      "label": "partly relevant",
+      "doubtful": false,
+      "reason": "Python, SQL, Git match, but fresher against a senior (5+ years) role."
+    },
+    {
+      "resume": "sample_simple.pdf",
+      "job": "jd_hr_executive",
+      "label": "not relevant",
+      "doubtful": false,
+      "reason": "Developer; nothing about HR."
+    },
+    {
+      "resume": "sample_simple.pdf",
+      "job": "jd_data_analyst_intern",
+      "label": "partly relevant",
+      "doubtful": true,
+      "reason": "Python and SQL (a must-have and a good-to-have), fresher/intern level, but no Excel or BI tools. DOUBTFUL."
+    },
+    {
+      "resume": "sample_two_column.pdf",
+      "job": "jd_mern_developer",
+      "label": "partly relevant",
+      "doubtful": false,
+      "reason": "React basics, Django REST, Git, built REST APIs as an intern; no Node/MongoDB and junior."
+    },
+    {
+      "resume": "sample_two_column.pdf",
+      "job": "jd_senior_python_messy",
+      "label": "partly relevant",
+      "doubtful": false,
+      "reason": "Python, Django REST, SQL, Git, Linux; intern-level against a senior role."
+    },
+    {
+      "resume": "sample_two_column.pdf",
+      "job": "jd_hr_executive",
+      "label": "not relevant",
+      "doubtful": false,
+      "reason": "Developer; nothing about HR."
+    },
+    {
+      "resume": "sample_two_column.pdf",
+      "job": "jd_data_analyst_intern",
+      "label": "partly relevant",
+      "doubtful": true,
+      "reason": "Python and SQL, CS fresher with intern experience, but no Excel or BI tools. DOUBTFUL."
+    }
+  ],
+  "not_a_resume": [
+    {
+      "resume": "m.pdf",
+      "reason": "This is the 'Zecpath AI System Architecture' project document (Day 2), not a candidate resume. It is not labeled and not counted in the accuracy numbers; it is only reported separately."
+    }
+  ],
+  "unscorable_resumes": [
+    {
+      "resume": "img.pdf",
+      "reason": "Scanned image: the extractor finds no text. Not counted as an error."
+    },
+    {
+      "resume": "sample_scanned.pdf",
+      "reason": "Scanned image: the extractor finds no text. Not counted as an error."
+    }
+  ],
+  "error_notes": {
+    "sample_simple.pdf|jd_senior_python_messy": "The resume is 132 characters: only Python of the 12 must-have skills is present and the experience line ('Intern at Demo Corp') shares no words with the job, so experience scores 0. The matcher sees too little text. It is a thin resume, and my 'partly relevant' label is a judgment about the skills, not about the text.",
+    "Maya.pdf|jd_hr_executive": "Only one skill is shared: 'crm' (she integrated CRM tools as an engineer). One of the four must-have skills gives a skills score of 15, which is just enough to reach the fold cut-off of 13. The skill overlap is real but the role overlap is not."
+  }
+}
