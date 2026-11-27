@@ -336,3 +336,15 @@ Study guide: `docs/DAY14_STUDY_GUIDE.md`
 - Scanned resumes score 0 but go to REVIEW, not REJECTED, because their confidence is low.
 - The thresholds and the missing-skill limit (3) are defaults, not business rules: change them in `shortlist_config.json`.
 
+
+## Day 15 - Fairness, normalization and bias reduction
+
+Deliverable 1 of 3 (fair scoring improvements) is done; normalization logic and the bias-reduction documentation follow.
+
+- `ats_engine/fair_scoring.py`
+  - `FairATSScoringEngine` (extends the Day 13 engine): **less dependence on keywords**. A matched skill that is only listed earns 70% of the credit of a skill that is also used in a job or project. Not penalised: soft skills, skills whose name is an ordinary word (express, go, r...), and resumes with no experience/project text (nothing to check against). Keyword stuffing (20+ listed skills, under 35% used) is flagged and an automatic "shortlist" becomes "review".
+  - `normalize_reports()` and `fair_score_resumes()`: **scoring normalization** per job pool (percentile, T-score or min-max). Pools under 5 candidates are not normalized; resumes where nothing could be scored are left out of the pool. The raw `overall_score` is never changed; reports gain `fairness` and `normalized` blocks.
+- Run: `python run_fair_scoring_demo.py` (optional arguments: job profile path, minimum pool size)
+- Test: `python -m unittest tests.test_fair_scoring -v`
+- No new ML model is used.
+- Still to do: resume normalization and masking of personal attributes, bias-indicator evaluation, bias-reduction documentation.
