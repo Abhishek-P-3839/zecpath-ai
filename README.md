@@ -293,3 +293,46 @@ Test: `python -m unittest tests.test_ats_engine -v`
 
 Change how much each part counts by editing `ats_engine/ats_weights.json` (no Python needed).
 A single job can override the weights with an `"ats_weights"` object in its profile.
+
+
+## Day 14 - Candidate ranking and shortlisting
+
+Sorts candidates by ATS score, puts them into three zones (shortlisted / review / rejected), builds top candidate lists
+and writes recruiter-friendly files.
+
+**Deliverables**
+
+1. Auto-ranking engine: `ats_engine/ranking_engine.py`
+2. Shortlisting automation module: `ats_engine/shortlisting.py` + `ats_engine/shortlist_config.json`
+3. Ranked candidate output: `data/rankings/` and `data/shortlists/` (`.json`, `.csv`, `.txt` for every job)
+
+**How it works**
+
+- `ranking_engine.py`: orders candidates of ONE job by overall score, then skill score, then experience score, then data
+  completeness, then candidate id. `position` is always unique; `rank` is shared by equal scores (shown as `T-2`).
+  Builds the score summary (highest, lowest, average, median), the top-N list and warnings.
+- `shortlisting.py`: zones from the score, then safety rules.
+  - score >= 60: SHORTLISTED (invite to the next round); 50 up to 60: REVIEW (recruiter checks the resume);
+    below 50: REJECTED (send rejection)
+  - low confidence: always REVIEW; more than 3 missing must-have skills: REVIEW; auto-reject off: reject zone becomes
+    REVIEW; `max_shortlist`: extra qualified candidates become WAITLIST (ties with the last place stay together)
+  - warnings tell the truth (nobody reached the cutoff vs a safety rule held people back, duplicate ids, low confidence)
+- `shortlist_config.json`: all numbers. Order (later wins): default, role override, the job's `ats_cutoff_score`, command line.
+  The defaults agree with the Day 13 thresholds in `ats_weights.json` (shortlist 60, review margin 10).
+
+**Run**
+
+- All four jobs in one command: `python run_ranking_demo.py` (writes `data/rankings/` and `data/shortlists/`)
+- One job: `python -m ats_engine.shortlisting data/parsed_jobs/jd_mern_developer.profile.json data/raw_resumes`
+- Without scoring again: `python -m ats_engine.shortlisting data/parsed_jobs/jd_mern_developer.profile.json --ranking data/rankings/job_mern_developer.ranking.json`
+- Options: `--cutoff 65`, `--reject-below 45`, `--max-shortlist 3`, `--top 3`, `--no-auto-reject`
+- Tests: `python -m unittest tests.test_ranking tests.test_shortlisting -v`
+
+Study guide: `docs/DAY14_STUDY_GUIDE.md`
+
+**Limits**
+
+- The sample resumes are tiny dummy files, so nobody reaches the shortlist score of 60 for any job. The module says so in a warning.
+- Scanned resumes score 0 but go to REVIEW, not REJECTED, because their confidence is low.
+- The thresholds and the missing-skill limit (3) are defaults, not business rules: change them in `shortlist_config.json`.
+
