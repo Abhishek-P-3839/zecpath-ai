@@ -1,0 +1,38 @@
+Shortlist for: Sr. Python Developer (job_senior_python_messy)
+Shortlist at 60+, review 50 to 60, reject below 50
+Candidates: 9   Shortlisted: 0   Waitlist: 0   Review: 2   Rejected: 7
+
+REVIEW (2) - Recruiter checks the resume
+------------------------------------------------------------
+  T-8. img  score 0
+       - Score 0 is below the reject line of 50.
+       - Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score.
+  T-8. sample_scanned  score 0
+       - Score 0 is below the reject line of 50.
+       - Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score.
+
+REJECTED (7) - Send rejection
+------------------------------------------------------------
+  1. Maya  score 47.2
+       - Score 47.2 is below the reject line of 50.
+       - Missing must-have skills: jenkins, kubernetes, flask, redis, rest api.
+  2. sample_bullets_table  score 15.9
+       - Score 15.9 is below the reject line of 50.
+       - Missing must-have skills: python, microservices, ci/cd, jenkins, docker, kubernetes, django, postgresql, redis.
+  3. sample_two_column  score 13.8
+       - Score 13.8 is below the reject line of 50.
+       - Missing must-have skills: microservices, ci/cd, jenkins, docker, kubernetes, flask, postgresql, redis, aws.
+  4. alex  score 10.6
+       - Score 10.6 is below the reject line of 50.
+       - Missing must-have skills: python, microservices, ci/cd, jenkins, docker, kubernetes, django, flask, postgresql, redis, rest api, aws.
+  5. m  score 9.7
+       - Score 9.7 is below the reject line of 50.
+       - Missing must-have skills: microservices, ci/cd, jenkins, docker, kubernetes, django, flask, redis, rest api.
+  6. sample_simple  score 8.1
+       - Score 8.1 is below the reject line of 50.
+       - Missing must-have skills: microservices, ci/cd, jenkins, docker, kubernetes, django, flask, postgresql, redis, rest api, aws.
+  7. marcus  score 4.9
+       - Score 4.9 is below the reject line of 50.
+       - Missing must-have skills: python, microservices, ci/cd, jenkins, docker, kubernetes, django, flask, postgresql, redis, rest api, aws.
+Warning: Nobody reached the shortlist score of 60 (best score 47.2). Check the cutoff or the job requirements.
+Warning: 2 candidate(s) have low confidence (too little data); a person must check: img, sample_scanned.

@@ -1,0 +1,389 @@
+{
+  "job_id": "job_senior_python_messy",
+  "job_title": "Sr. Python Developer",
+  "total_candidates": 9,
+  "score_summary": {
+    "highest": 47.2,
+    "lowest": 0.0,
+    "average": 12.24,
+    "median": 9.7
+  },
+  "ranking": [
+    {
+      "position": 1,
+      "rank": 1,
+      "tied": false,
+      "candidate_id": "Maya",
+      "overall_score": 47.2,
+      "label": "partial",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 100,
+      "scores": {
+        "skill_match": 43.8,
+        "experience_relevance": 32.0,
+        "education_alignment": 70.0,
+        "semantic_similarity": 68.5
+      },
+      "strengths": [
+        "Education alignment is strong (70/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (44/100).",
+        "Experience relevance is weak (32/100)."
+      ],
+      "missing_must_have": [
+        "jenkins",
+        "kubernetes",
+        "flask",
+        "redis",
+        "rest api"
+      ],
+      "flags": [
+        "Missing must-have skills: jenkins, kubernetes, flask, redis, rest api."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "tied": false,
+      "candidate_id": "sample_bullets_table",
+      "overall_score": 15.9,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.65,
+      "percentile": 88,
+      "scores": {
+        "skill_match": 18.8,
+        "experience_relevance": 0.0,
+        "education_alignment": 70.0,
+        "semantic_similarity": 23.4
+      },
+      "strengths": [
+        "Education alignment is strong (70/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (19/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (23/100)."
+      ],
+      "missing_must_have": [
+        "python",
+        "microservices",
+        "ci/cd",
+        "jenkins",
+        "docker",
+        "kubernetes",
+        "django",
+        "postgresql",
+        "redis"
+      ],
+      "flags": [
+        "Missing must-have skills: python, microservices, ci/cd, jenkins, docker, kubernetes, django, postgresql, redis."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "tied": false,
+      "candidate_id": "sample_two_column",
+      "overall_score": 13.8,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.65,
+      "percentile": 75,
+      "scores": {
+        "skill_match": 18.8,
+        "experience_relevance": 0.0,
+        "education_alignment": 70.0,
+        "semantic_similarity": 14.7
+      },
+      "strengths": [
+        "Education alignment is strong (70/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (19/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (15/100)."
+      ],
+      "missing_must_have": [
+        "microservices",
+        "ci/cd",
+        "jenkins",
+        "docker",
+        "kubernetes",
+        "flask",
+        "postgresql",
+        "redis",
+        "aws"
+      ],
+      "flags": [
+        "Missing must-have skills: microservices, ci/cd, jenkins, docker, kubernetes, flask, postgresql, redis, aws."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "tied": false,
+      "candidate_id": "alex",
+      "overall_score": 10.6,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 62,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": 0.0,
+        "education_alignment": 42.0,
+        "semantic_similarity": 34.0
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Experience relevance is weak (0/100).",
+        "Education alignment is weak (42/100)."
+      ],
+      "missing_must_have": [
+        "python",
+        "microservices",
+        "ci/cd",
+        "jenkins",
+        "docker",
+        "kubernetes",
+        "django",
+        "flask",
+        "postgresql",
+        "redis",
+        "rest api",
+        "aws"
+      ],
+      "flags": [
+        "Missing must-have skills: python, microservices, ci/cd, jenkins, docker, kubernetes, django, flask, postgresql, redis, rest api, aws."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "tied": false,
+      "candidate_id": "m",
+      "overall_score": 9.7,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.6,
+      "percentile": 50,
+      "scores": {
+        "skill_match": 18.8,
+        "experience_relevance": 0.0,
+        "education_alignment": null,
+        "semantic_similarity": 10.5
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (19/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (10/100)."
+      ],
+      "missing_must_have": [
+        "microservices",
+        "ci/cd",
+        "jenkins",
+        "docker",
+        "kubernetes",
+        "django",
+        "flask",
+        "redis",
+        "rest api"
+      ],
+      "flags": [
+        "Missing must-have skills: microservices, ci/cd, jenkins, docker, kubernetes, django, flask, redis, rest api."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 6,
+      "rank": 6,
+      "tied": false,
+      "candidate_id": "sample_simple",
+      "overall_score": 8.1,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.6,
+      "percentile": 38,
+      "scores": {
+        "skill_match": 6.2,
+        "experience_relevance": 0.0,
+        "education_alignment": null,
+        "semantic_similarity": 22.0
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (6/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (22/100)."
+      ],
+      "missing_must_have": [
+        "microservices",
+        "ci/cd",
+        "jenkins",
+        "docker",
+        "kubernetes",
+        "django",
+        "flask",
+        "postgresql",
+        "redis",
+        "rest api",
+        "aws"
+      ],
+      "flags": [
+        "Missing must-have skills: microservices, ci/cd, jenkins, docker, kubernetes, django, flask, postgresql, redis, rest api, aws."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 7,
+      "rank": 7,
+      "tied": false,
+      "candidate_id": "marcus",
+      "overall_score": 4.9,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 25,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": 0.0,
+        "education_alignment": 42.0,
+        "semantic_similarity": 11.1
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Experience relevance is weak (0/100).",
+        "Education alignment is weak (42/100)."
+      ],
+      "missing_must_have": [
+        "python",
+        "microservices",
+        "ci/cd",
+        "jenkins",
+        "docker",
+        "kubernetes",
+        "django",
+        "flask",
+        "postgresql",
+        "redis",
+        "rest api",
+        "aws"
+      ],
+      "flags": [
+        "Missing must-have skills: python, microservices, ci/cd, jenkins, docker, kubernetes, django, flask, postgresql, redis, rest api, aws."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 8,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "img",
+      "overall_score": 0.0,
+      "label": "weak",
+      "recommendation": "review",
+      "confidence": "low",
+      "data_completeness": 0,
+      "percentile": 12,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": 0.0,
+        "education_alignment": null,
+        "semantic_similarity": null
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Experience relevance is weak (0/100)."
+      ],
+      "missing_must_have": [],
+      "flags": [],
+      "needs_manual_check": true
+    },
+    {
+      "position": 9,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "sample_scanned",
+      "overall_score": 0.0,
+      "label": "weak",
+      "recommendation": "review",
+      "confidence": "low",
+      "data_completeness": 0,
+      "percentile": 12,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": 0.0,
+        "education_alignment": null,
+        "semantic_similarity": null
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Experience relevance is weak (0/100)."
+      ],
+      "missing_must_have": [],
+      "flags": [],
+      "needs_manual_check": true
+    }
+  ],
+  "top_n": 5,
+  "min_score": null,
+  "top_candidates": [
+    {
+      "position": 1,
+      "rank": 1,
+      "candidate_id": "Maya",
+      "overall_score": 47.2,
+      "label": "partial"
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "candidate_id": "sample_bullets_table",
+      "overall_score": 15.9,
+      "label": "weak"
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "candidate_id": "sample_two_column",
+      "overall_score": 13.8,
+      "label": "weak"
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "candidate_id": "alex",
+      "overall_score": 10.6,
+      "label": "weak"
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "candidate_id": "m",
+      "overall_score": 9.7,
+      "label": "weak"
+    }
+  ],
+  "warnings": [
+    "2 candidate(s) have low confidence (too little data): img, sample_scanned. Check their resumes by hand."
+  ]
+}

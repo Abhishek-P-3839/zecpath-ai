@@ -1,0 +1,38 @@
+Shortlist for: MERN Stack Developer (job_mern_developer)
+Shortlist at 50+, review 40 to 50, reject below 40
+Candidates: 9   Shortlisted: 0   Waitlist: 0   Review: 3   Rejected: 6
+
+REVIEW (3) - Recruiter checks the resume
+------------------------------------------------------------
+  1. Maya  score 65
+       - Score 65 reaches the shortlist score of 50.
+       - 5 must-have skills are missing (limit 3): rest api, express, redux, mongodb, communication. A high score is not enough.
+  T-8. img  score 0
+       - Score 0 is below the reject line of 40.
+       - Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score.
+  T-8. sample_scanned  score 0
+       - Score 0 is below the reject line of 40.
+       - Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score.
+
+REJECTED (6) - Send rejection
+------------------------------------------------------------
+  2. sample_two_column  score 29.6
+       - Score 29.6 is below the reject line of 40.
+       - Missing must-have skills: node.js, express, redux, mongodb, javascript, communication.
+  3. sample_bullets_table  score 22.5
+       - Score 22.5 is below the reject line of 40.
+       - Missing must-have skills: node.js, express, react, redux, mongodb, javascript, git, communication.
+  4. m  score 19.7
+       - Score 19.7 is below the reject line of 40.
+       - Missing must-have skills: rest api, express, redux, javascript, git.
+  5. alex  score 15.2
+       - Score 15.2 is below the reject line of 40.
+       - Missing must-have skills: rest api, node.js, express, react, redux, mongodb, javascript, git, communication.
+  6. marcus  score 12.6
+       - Score 12.6 is below the reject line of 40.
+       - Missing must-have skills: rest api, node.js, express, react, redux, mongodb, javascript, git, communication.
+  7. sample_simple  score 6.7
+       - Score 6.7 is below the reject line of 40.
+       - Missing must-have skills: rest api, node.js, express, react, redux, mongodb, javascript, communication.
+Warning: 1 candidate(s) reached the shortlist score but a safety rule sent them to review: Maya.
+Warning: 2 candidate(s) have low confidence (too little data); a person must check: img, sample_scanned.

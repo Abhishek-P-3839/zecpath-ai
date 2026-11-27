@@ -1,0 +1,38 @@
+Shortlist for: Data Analyst Intern (job_data_analyst_intern)
+Shortlist at 60+, review 50 to 60, reject below 50
+Candidates: 9   Shortlisted: 0   Waitlist: 0   Review: 3   Rejected: 6
+
+REVIEW (3) - Recruiter checks the resume
+------------------------------------------------------------
+  1. alex  score 58.4
+       - Score 58.4 is in the review zone (50 up to 60).
+       - Missing must-have skills: problem solving.
+  T-8. img  score 0
+       - Score 0 is below the reject line of 50.
+       - Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score.
+  T-8. sample_scanned  score 0
+       - Score 0 is below the reject line of 50.
+       - Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score.
+
+REJECTED (6) - Send rejection
+------------------------------------------------------------
+  2. Maya  score 45.2
+       - Score 45.2 is below the reject line of 50.
+       - Missing must-have skills: excel, power bi, tableau, problem solving.
+  3. marcus  score 39.4
+       - Score 39.4 is below the reject line of 50.
+       - Missing must-have skills: excel, sql, power bi, problem solving.
+  4. sample_two_column  score 38.5
+       - Score 38.5 is below the reject line of 50.
+       - Missing must-have skills: excel, power bi, tableau, problem solving.
+  5. sample_bullets_table  score 27.8
+       - Score 27.8 is below the reject line of 50.
+       - Missing must-have skills: excel, sql, power bi, tableau, problem solving.
+  6. sample_simple  score 21.6
+       - Score 21.6 is below the reject line of 50.
+       - Missing must-have skills: excel, power bi, tableau, problem solving.
+  7. m  score 17.5
+       - Score 17.5 is below the reject line of 50.
+       - Missing must-have skills: excel, sql, power bi, tableau, problem solving.
+Warning: Nobody reached the shortlist score of 60 (best score 58.4). Check the cutoff or the job requirements.
+Warning: 2 candidate(s) have low confidence (too little data); a person must check: img, sample_scanned.

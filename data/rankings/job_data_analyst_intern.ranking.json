@@ -1,0 +1,345 @@
+{
+  "job_id": "job_data_analyst_intern",
+  "job_title": "Data Analyst Intern",
+  "total_candidates": 9,
+  "score_summary": {
+    "highest": 58.4,
+    "lowest": 0.0,
+    "average": 27.6,
+    "median": 27.8
+  },
+  "ranking": [
+    {
+      "position": 1,
+      "rank": 1,
+      "tied": false,
+      "candidate_id": "alex",
+      "overall_score": 58.4,
+      "label": "good",
+      "recommendation": "review",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 100,
+      "scores": {
+        "skill_match": 60.0,
+        "experience_relevance": 64.0,
+        "education_alignment": 72.0,
+        "semantic_similarity": 43.2
+      },
+      "strengths": [
+        "Education alignment is strong (72/100)."
+      ],
+      "gaps": [
+        "Semantic similarity is weak (43/100)."
+      ],
+      "missing_must_have": [
+        "problem solving"
+      ],
+      "flags": [
+        "Missing must-have skills: problem solving."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "tied": false,
+      "candidate_id": "Maya",
+      "overall_score": 45.2,
+      "label": "partial",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 88,
+      "scores": {
+        "skill_match": 27.5,
+        "experience_relevance": 23.0,
+        "education_alignment": 100.0,
+        "semantic_similarity": 27.7
+      },
+      "strengths": [
+        "Education alignment is strong (100/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (28/100).",
+        "Experience relevance is weak (23/100).",
+        "Semantic similarity is weak (28/100)."
+      ],
+      "missing_must_have": [
+        "excel",
+        "power bi",
+        "tableau",
+        "problem solving"
+      ],
+      "flags": [
+        "Missing must-have skills: excel, power bi, tableau, problem solving."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "tied": false,
+      "candidate_id": "marcus",
+      "overall_score": 39.4,
+      "label": "partial",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 75,
+      "scores": {
+        "skill_match": 15.0,
+        "experience_relevance": 60.0,
+        "education_alignment": 72.0,
+        "semantic_similarity": 33.7
+      },
+      "strengths": [
+        "Education alignment is strong (72/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (15/100).",
+        "Semantic similarity is weak (34/100)."
+      ],
+      "missing_must_have": [
+        "excel",
+        "sql",
+        "power bi",
+        "problem solving"
+      ],
+      "flags": [
+        "Missing must-have skills: excel, sql, power bi, problem solving."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "tied": false,
+      "candidate_id": "sample_two_column",
+      "overall_score": 38.5,
+      "label": "partial",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 0.9,
+      "percentile": 62,
+      "scores": {
+        "skill_match": 27.5,
+        "experience_relevance": null,
+        "education_alignment": 100.0,
+        "semantic_similarity": 0.0
+      },
+      "strengths": [
+        "Education alignment is strong (100/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (28/100).",
+        "Semantic similarity is weak (0/100)."
+      ],
+      "missing_must_have": [
+        "excel",
+        "power bi",
+        "tableau",
+        "problem solving"
+      ],
+      "flags": [
+        "Missing must-have skills: excel, power bi, tableau, problem solving."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "tied": false,
+      "candidate_id": "sample_bullets_table",
+      "overall_score": 27.8,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 0.9,
+      "percentile": 50,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": null,
+        "education_alignment": 100.0,
+        "semantic_similarity": 0.0
+      },
+      "strengths": [
+        "Education alignment is strong (100/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Semantic similarity is weak (0/100)."
+      ],
+      "missing_must_have": [
+        "excel",
+        "sql",
+        "power bi",
+        "tableau",
+        "problem solving"
+      ],
+      "flags": [
+        "Missing must-have skills: excel, sql, power bi, tableau, problem solving."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 6,
+      "rank": 6,
+      "tied": false,
+      "candidate_id": "sample_simple",
+      "overall_score": 21.6,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.65,
+      "percentile": 38,
+      "scores": {
+        "skill_match": 27.5,
+        "experience_relevance": null,
+        "education_alignment": null,
+        "semantic_similarity": 14.7
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (28/100).",
+        "Semantic similarity is weak (15/100)."
+      ],
+      "missing_must_have": [
+        "excel",
+        "power bi",
+        "tableau",
+        "problem solving"
+      ],
+      "flags": [
+        "Missing must-have skills: excel, power bi, tableau, problem solving."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 7,
+      "rank": 7,
+      "tied": false,
+      "candidate_id": "m",
+      "overall_score": 17.5,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.65,
+      "percentile": 25,
+      "scores": {
+        "skill_match": 12.5,
+        "experience_relevance": null,
+        "education_alignment": null,
+        "semantic_similarity": 23.3
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (12/100).",
+        "Semantic similarity is weak (23/100)."
+      ],
+      "missing_must_have": [
+        "excel",
+        "sql",
+        "power bi",
+        "tableau",
+        "problem solving"
+      ],
+      "flags": [
+        "Missing must-have skills: excel, sql, power bi, tableau, problem solving."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 8,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "img",
+      "overall_score": 0.0,
+      "label": "weak",
+      "recommendation": "review",
+      "confidence": "low",
+      "data_completeness": 0,
+      "percentile": 12,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": null,
+        "education_alignment": null,
+        "semantic_similarity": null
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100)."
+      ],
+      "missing_must_have": [],
+      "flags": [],
+      "needs_manual_check": true
+    },
+    {
+      "position": 9,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "sample_scanned",
+      "overall_score": 0.0,
+      "label": "weak",
+      "recommendation": "review",
+      "confidence": "low",
+      "data_completeness": 0,
+      "percentile": 12,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": null,
+        "education_alignment": null,
+        "semantic_similarity": null
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100)."
+      ],
+      "missing_must_have": [],
+      "flags": [],
+      "needs_manual_check": true
+    }
+  ],
+  "top_n": 5,
+  "min_score": null,
+  "top_candidates": [
+    {
+      "position": 1,
+      "rank": 1,
+      "candidate_id": "alex",
+      "overall_score": 58.4,
+      "label": "good"
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "candidate_id": "Maya",
+      "overall_score": 45.2,
+      "label": "partial"
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "candidate_id": "marcus",
+      "overall_score": 39.4,
+      "label": "partial"
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "candidate_id": "sample_two_column",
+      "overall_score": 38.5,
+      "label": "partial"
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "candidate_id": "sample_bullets_table",
+      "overall_score": 27.8,
+      "label": "weak"
+    }
+  ],
+  "warnings": [
+    "2 candidate(s) have low confidence (too little data): img, sample_scanned. Check their resumes by hand."
+  ]
+}

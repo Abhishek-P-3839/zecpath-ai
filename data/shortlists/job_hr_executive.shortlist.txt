@@ -1,0 +1,38 @@
+Shortlist for: HR Executive (job_hr_executive)
+Shortlist at 60+, review 50 to 60, reject below 50
+Candidates: 9   Shortlisted: 0   Waitlist: 0   Review: 2   Rejected: 7
+
+REVIEW (2) - Recruiter checks the resume
+------------------------------------------------------------
+  T-8. img  score 0
+       - Score 0 is below the reject line of 50.
+       - Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score.
+  T-8. sample_scanned  score 0
+       - Score 0 is below the reject line of 50.
+       - Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score.
+
+REJECTED (7) - Send rejection
+------------------------------------------------------------
+  1. alex  score 46.5
+       - Score 46.5 is below the reject line of 50.
+       - Missing must-have skills: recruitment, communication, teamwork.
+  2. marcus  score 39.7
+       - Score 39.7 is below the reject line of 50.
+       - Missing must-have skills: recruitment, communication, teamwork.
+  3. Maya  score 30.9
+       - Score 30.9 is below the reject line of 50.
+       - Missing must-have skills: recruitment, communication, teamwork.
+  4. sample_two_column  score 24.7
+       - Score 24.7 is below the reject line of 50.
+       - Missing must-have skills: recruitment, crm, communication, teamwork.
+  5. m  score 22.4
+       - Score 22.4 is below the reject line of 50.
+       - Missing must-have skills: recruitment, crm, teamwork.
+  6. sample_bullets_table  score 20
+       - Score 20 is below the reject line of 50.
+       - Missing must-have skills: recruitment, crm, communication, teamwork.
+  7. sample_simple  score 9.8
+       - Score 9.8 is below the reject line of 50.
+       - Missing must-have skills: recruitment, crm, communication, teamwork.
+Warning: Nobody reached the shortlist score of 60 (best score 46.5). Check the cutoff or the job requirements.
+Warning: 2 candidate(s) have low confidence (too little data); a person must check: img, sample_scanned.

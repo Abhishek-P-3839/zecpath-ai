@@ -1,0 +1,28 @@
+Ranking for: MERN Stack Developer (job_mern_developer)   candidates: 9
+Scores: highest 65.0, lowest 0.0, average 19.03, median 15.2
+
+Rank  Candidate               Score  Fit      Skill  Exp  Edu Text  Conf   Advice
+--------------------------------------------------------------------------------------------
+1     Maya                     65.0  good        58   57  100   70  high   shortlist
+2     sample_two_column        29.6  weak        25    0  100   38  medium reject
+3     sample_bullets_table     22.5  weak        15    0  100   27  medium reject
+4     m                        19.7  weak        40    0    -    8  medium reject
+5     alex                     15.2  weak         0    0   72   32  high   reject
+6     marcus                   12.6  weak         0    0   72   22  high   reject
+7     sample_simple             6.7  weak         8    0    -   11  medium reject
+T-8   img                       0.0  weak         0    0    -    -  low    review
+T-8   sample_scanned            0.0  weak         0    0    -    -  low    review
+
+Top 5: 1. Maya, 2. sample_two_column, 3. sample_bullets_table, 4. m, 5. alex
+
+Notes:
+  #1 Maya: missing must-have: rest api, express, redux, mongodb, communication
+  #2 sample_two_column: missing must-have: node.js, express, redux, mongodb, javascript, communication
+  #3 sample_bullets_table: missing must-have: node.js, express, react, redux, mongodb, javascript, git, communication
+  #4 m: missing must-have: rest api, express, redux, javascript, git
+  #5 alex: missing must-have: rest api, node.js, express, react, redux, mongodb, javascript, git, communication
+  #6 marcus: missing must-have: rest api, node.js, express, react, redux, mongodb, javascript, git, communication
+  #7 sample_simple: missing must-have: rest api, node.js, express, react, redux, mongodb, javascript, communication
+  #8 img: low confidence, check manually
+  #9 sample_scanned: low confidence, check manually
+Warning: 2 candidate(s) have low confidence (too little data): img, sample_scanned. Check their resumes by hand.

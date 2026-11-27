@@ -1,0 +1,226 @@
+{
+  "job_id": "job_hr_executive",
+  "job_title": "HR Executive",
+  "thresholds": {
+    "shortlist_score": 60,
+    "reject_score": 50,
+    "max_missing_must_have": 3,
+    "auto_reject": true,
+    "max_shortlist": null,
+    "sources": [
+      "default config"
+    ]
+  },
+  "counts": {
+    "SHORTLISTED": 0,
+    "WAITLIST": 0,
+    "REVIEW": 2,
+    "REJECTED": 7,
+    "total": 9
+  },
+  "candidates": [
+    {
+      "position": 1,
+      "rank": 1,
+      "tied": false,
+      "candidate_id": "alex",
+      "overall_score": 46.5,
+      "label": "partial",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 46.5 is below the reject line of 50.",
+        "Missing must-have skills: recruitment, communication, teamwork."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "recruitment",
+        "communication",
+        "teamwork"
+      ]
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "tied": false,
+      "candidate_id": "marcus",
+      "overall_score": 39.7,
+      "label": "partial",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 39.7 is below the reject line of 50.",
+        "Missing must-have skills: recruitment, communication, teamwork."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "recruitment",
+        "communication",
+        "teamwork"
+      ]
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "tied": false,
+      "candidate_id": "Maya",
+      "overall_score": 30.9,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 30.9 is below the reject line of 50.",
+        "Missing must-have skills: recruitment, communication, teamwork."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "recruitment",
+        "communication",
+        "teamwork"
+      ]
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "tied": false,
+      "candidate_id": "sample_two_column",
+      "overall_score": 24.7,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 24.7 is below the reject line of 50.",
+        "Missing must-have skills: recruitment, crm, communication, teamwork."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "recruitment",
+        "crm",
+        "communication",
+        "teamwork"
+      ]
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "tied": false,
+      "candidate_id": "m",
+      "overall_score": 22.4,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 22.4 is below the reject line of 50.",
+        "Missing must-have skills: recruitment, crm, teamwork."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "medium",
+      "missing_must_have": [
+        "recruitment",
+        "crm",
+        "teamwork"
+      ]
+    },
+    {
+      "position": 6,
+      "rank": 6,
+      "tied": false,
+      "candidate_id": "sample_bullets_table",
+      "overall_score": 20.0,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 20 is below the reject line of 50.",
+        "Missing must-have skills: recruitment, crm, communication, teamwork."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "recruitment",
+        "crm",
+        "communication",
+        "teamwork"
+      ]
+    },
+    {
+      "position": 7,
+      "rank": 7,
+      "tied": false,
+      "candidate_id": "sample_simple",
+      "overall_score": 9.8,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 9.8 is below the reject line of 50.",
+        "Missing must-have skills: recruitment, crm, communication, teamwork."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "medium",
+      "missing_must_have": [
+        "recruitment",
+        "crm",
+        "communication",
+        "teamwork"
+      ]
+    },
+    {
+      "position": 8,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "img",
+      "overall_score": 0.0,
+      "label": "weak",
+      "decision": "REVIEW",
+      "action": "Recruiter checks the resume",
+      "reasons": [
+        "Score 0 is below the reject line of 50.",
+        "Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score."
+      ],
+      "safety_rules": [
+        "low_confidence"
+      ],
+      "day13_recommendation": "review",
+      "confidence": "low",
+      "missing_must_have": []
+    },
+    {
+      "position": 9,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "sample_scanned",
+      "overall_score": 0.0,
+      "label": "weak",
+      "decision": "REVIEW",
+      "action": "Recruiter checks the resume",
+      "reasons": [
+        "Score 0 is below the reject line of 50.",
+        "Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score."
+      ],
+      "safety_rules": [
+        "low_confidence"
+      ],
+      "day13_recommendation": "review",
+      "confidence": "low",
+      "missing_must_have": []
+    }
+  ],
+  "top_n": 5,
+  "top_candidates": [],
+  "warnings": [
+    "Nobody reached the shortlist score of 60 (best score 46.5). Check the cutoff or the job requirements.",
+    "2 candidate(s) have low confidence (too little data); a person must check: img, sample_scanned."
+  ]
+}

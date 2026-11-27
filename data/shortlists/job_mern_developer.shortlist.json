@@ -1,0 +1,256 @@
+{
+  "job_id": "job_mern_developer",
+  "job_title": "MERN Stack Developer",
+  "thresholds": {
+    "shortlist_score": 50.0,
+    "reject_score": 40.0,
+    "max_missing_must_have": 3,
+    "auto_reject": true,
+    "max_shortlist": 3,
+    "sources": [
+      "default config",
+      "command line cutoff",
+      "command line: max_shortlist"
+    ]
+  },
+  "counts": {
+    "SHORTLISTED": 0,
+    "WAITLIST": 0,
+    "REVIEW": 3,
+    "REJECTED": 6,
+    "total": 9
+  },
+  "candidates": [
+    {
+      "position": 1,
+      "rank": 1,
+      "tied": false,
+      "candidate_id": "Maya",
+      "overall_score": 65.0,
+      "label": "good",
+      "decision": "REVIEW",
+      "action": "Recruiter checks the resume",
+      "reasons": [
+        "Score 65 reaches the shortlist score of 50.",
+        "5 must-have skills are missing (limit 3): rest api, express, redux, mongodb, communication. A high score is not enough."
+      ],
+      "safety_rules": [
+        "missing_must_have"
+      ],
+      "day13_recommendation": "shortlist",
+      "confidence": "high",
+      "missing_must_have": [
+        "rest api",
+        "express",
+        "redux",
+        "mongodb",
+        "communication"
+      ]
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "tied": false,
+      "candidate_id": "sample_two_column",
+      "overall_score": 29.6,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 29.6 is below the reject line of 40.",
+        "Missing must-have skills: node.js, express, redux, mongodb, javascript, communication."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "medium",
+      "missing_must_have": [
+        "node.js",
+        "express",
+        "redux",
+        "mongodb",
+        "javascript",
+        "communication"
+      ]
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "tied": false,
+      "candidate_id": "sample_bullets_table",
+      "overall_score": 22.5,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 22.5 is below the reject line of 40.",
+        "Missing must-have skills: node.js, express, react, redux, mongodb, javascript, git, communication."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "medium",
+      "missing_must_have": [
+        "node.js",
+        "express",
+        "react",
+        "redux",
+        "mongodb",
+        "javascript",
+        "git",
+        "communication"
+      ]
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "tied": false,
+      "candidate_id": "m",
+      "overall_score": 19.7,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 19.7 is below the reject line of 40.",
+        "Missing must-have skills: rest api, express, redux, javascript, git."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "medium",
+      "missing_must_have": [
+        "rest api",
+        "express",
+        "redux",
+        "javascript",
+        "git"
+      ]
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "tied": false,
+      "candidate_id": "alex",
+      "overall_score": 15.2,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 15.2 is below the reject line of 40.",
+        "Missing must-have skills: rest api, node.js, express, react, redux, mongodb, javascript, git, communication."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "rest api",
+        "node.js",
+        "express",
+        "react",
+        "redux",
+        "mongodb",
+        "javascript",
+        "git",
+        "communication"
+      ]
+    },
+    {
+      "position": 6,
+      "rank": 6,
+      "tied": false,
+      "candidate_id": "marcus",
+      "overall_score": 12.6,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 12.6 is below the reject line of 40.",
+        "Missing must-have skills: rest api, node.js, express, react, redux, mongodb, javascript, git, communication."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "rest api",
+        "node.js",
+        "express",
+        "react",
+        "redux",
+        "mongodb",
+        "javascript",
+        "git",
+        "communication"
+      ]
+    },
+    {
+      "position": 7,
+      "rank": 7,
+      "tied": false,
+      "candidate_id": "sample_simple",
+      "overall_score": 6.7,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 6.7 is below the reject line of 40.",
+        "Missing must-have skills: rest api, node.js, express, react, redux, mongodb, javascript, communication."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "medium",
+      "missing_must_have": [
+        "rest api",
+        "node.js",
+        "express",
+        "react",
+        "redux",
+        "mongodb",
+        "javascript",
+        "communication"
+      ]
+    },
+    {
+      "position": 8,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "img",
+      "overall_score": 0.0,
+      "label": "weak",
+      "decision": "REVIEW",
+      "action": "Recruiter checks the resume",
+      "reasons": [
+        "Score 0 is below the reject line of 40.",
+        "Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score."
+      ],
+      "safety_rules": [
+        "low_confidence"
+      ],
+      "day13_recommendation": "review",
+      "confidence": "low",
+      "missing_must_have": []
+    },
+    {
+      "position": 9,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "sample_scanned",
+      "overall_score": 0.0,
+      "label": "weak",
+      "decision": "REVIEW",
+      "action": "Recruiter checks the resume",
+      "reasons": [
+        "Score 0 is below the reject line of 40.",
+        "Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score."
+      ],
+      "safety_rules": [
+        "low_confidence"
+      ],
+      "day13_recommendation": "review",
+      "confidence": "low",
+      "missing_must_have": []
+    }
+  ],
+  "top_n": 5,
+  "top_candidates": [],
+  "warnings": [
+    "1 candidate(s) reached the shortlist score but a safety rule sent them to review: Maya.",
+    "2 candidate(s) have low confidence (too little data); a person must check: img, sample_scanned."
+  ]
+}

@@ -56,3 +56,10 @@ data/store/
 # data/samples/matching_ground_truth.json is already covered by !data/samples/ above.
 !data/matching/
 !data/matching/*
+
+# Day 14: ranking and shortlist outputs come from the DUMMY sample resumes in data/raw_resumes and are a
+# deliverable -> push them. Real candidate resumes must never be placed in data/raw_resumes.
+!data/rankings/
+!data/rankings/*
+!data/shortlists/
+!data/shortlists/*

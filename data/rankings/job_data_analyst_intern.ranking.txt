@@ -1,0 +1,28 @@
+Ranking for: Data Analyst Intern (job_data_analyst_intern)   candidates: 9
+Scores: highest 58.4, lowest 0.0, average 27.6, median 27.8
+
+Rank  Candidate               Score  Fit      Skill  Exp  Edu Text  Conf   Advice
+--------------------------------------------------------------------------------------------
+1     alex                     58.4  good        60   64   72   43  high   review
+2     Maya                     45.2  partial     28   23  100   28  high   reject
+3     marcus                   39.4  partial     15   60   72   34  high   reject
+4     sample_two_column        38.5  partial     28    -  100    0  high   reject
+5     sample_bullets_table     27.8  weak         0    -  100    0  high   reject
+6     sample_simple            21.6  weak        28    -    -   15  medium reject
+7     m                        17.5  weak        12    -    -   23  medium reject
+T-8   img                       0.0  weak         0    -    -    -  low    review
+T-8   sample_scanned            0.0  weak         0    -    -    -  low    review
+
+Top 5: 1. alex, 2. Maya, 3. marcus, 4. sample_two_column, 5. sample_bullets_table
+
+Notes:
+  #1 alex: missing must-have: problem solving
+  #2 Maya: missing must-have: excel, power bi, tableau, problem solving
+  #3 marcus: missing must-have: excel, sql, power bi, problem solving
+  #4 sample_two_column: missing must-have: excel, power bi, tableau, problem solving
+  #5 sample_bullets_table: missing must-have: excel, sql, power bi, tableau, problem solving
+  #6 sample_simple: missing must-have: excel, power bi, tableau, problem solving
+  #7 m: missing must-have: excel, sql, power bi, tableau, problem solving
+  #8 img: low confidence, check manually
+  #9 sample_scanned: low confidence, check manually
+Warning: 2 candidate(s) have low confidence (too little data): img, sample_scanned. Check their resumes by hand.

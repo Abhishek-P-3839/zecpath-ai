@@ -1,0 +1,10 @@
+position,rank,candidate_id,overall_score,label,recommendation,confidence,data_completeness,skill_match,experience_relevance,education_alignment,semantic_similarity,missing_must_have,top_strength,top_gap,needs_manual_check
+1,1,alex,46.5,partial,reject,high,1.0,43.8,49.0,88.0,14.3,recruitment; communication; teamwork,Education alignment is strong (88/100).,Skill match is weak (44/100).,False
+2,2,marcus,39.7,partial,reject,high,1.0,18.8,0.0,88.0,37.0,recruitment; communication; teamwork,Education alignment is strong (88/100).,Skill match is weak (19/100).,False
+3,3,Maya,30.9,weak,reject,high,1.0,18.8,26.0,72.0,12.5,recruitment; communication; teamwork,Education alignment is strong (72/100).,Skill match is weak (19/100).,False
+4,4,sample_two_column,24.7,weak,reject,high,0.9,0.0,,72.0,14.0,recruitment; crm; communication; teamwork,Education alignment is strong (72/100).,Skill match is weak (0/100).,False
+5,5,m,22.4,weak,reject,medium,0.65,18.8,,,26.7,recruitment; crm; teamwork,,Skill match is weak (19/100).,False
+6,6,sample_bullets_table,20.0,weak,reject,high,0.9,0.0,,72.0,0.0,recruitment; crm; communication; teamwork,Education alignment is strong (72/100).,Skill match is weak (0/100).,False
+7,7,sample_simple,9.8,weak,reject,medium,0.65,0.0,,,21.2,recruitment; crm; communication; teamwork,,Skill match is weak (0/100).,False
+8,8,img,0.0,weak,review,low,0,0.0,,,,,,Skill match is weak (0/100).,True
+9,8,sample_scanned,0.0,weak,review,low,0,0.0,,,,,,Skill match is weak (0/100).,True
