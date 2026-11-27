@@ -41,3 +41,7 @@ data/store/
 
 # Day 9: data/skills/ (output of run_skill_demo.py) can hold real candidate data -> stays ignored.
 # data/samples/sample_skills_output.json is dummy data and is pushed.
+
+# private project notes (for me and Claude only, never pushed)
+*.private.md
+

@@ -197,3 +197,21 @@ Extracts academic qualifications and professional certifications from resumes.
 - Names are normalized (B.S. / BSc -> B.Sc, CSE -> Computer Science)
 - Run: `python -m parsers.education_parser data/raw_resumes/Maya.pdf`
 
+
+## Day 12 - Semantic matching engine
+
+Moves beyond keyword matching: resumes and job descriptions are turned into embeddings (vectors) and compared by meaning.
+
+- `matching/embedders.py`: two interchangeable backends.
+  - `SentenceTransformerEmbedder`: neural embeddings (`pip install sentence-transformers`, model downloads on first use)
+  - `HashingEmbedder`: offline numpy fallback (knows Day 9 skill synonyms/categories and related words)
+  - `get_embedder()` uses the neural model when available, otherwise the offline one
+- `matching/semantic_engine.py`: `SemanticMatcher.match(resume, job)` compares
+  - skills (exact matches plus related skills, missing skills listed)
+  - experience summaries (job history vs job responsibilities)
+  - project descriptions (parts with no data are skipped and weights re-scaled)
+  - and returns an overall score (0-100), a label and the score of each part
+- Default weights: skills 45%, experience 35%, projects 20% (constants at the top of the file, tuned later)
+- Run: `python run_matching_demo.py` (prints the embedding backend used, then every resume vs every job)
+- Not built yet: threshold tuning, multi-job validation, matching accuracy report
+
