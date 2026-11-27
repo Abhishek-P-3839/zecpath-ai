@@ -187,15 +187,29 @@ Files:
 Run: `python run_experience_demo.py`   Test: `python -m unittest tests.test_experience -v`
 
 
-## Day 11 – Education & Certification Parsing
+## Day 11 - Education & certification parsing, academic profile, education relevance
 
-Extracts academic qualifications and professional certifications from resumes.
+Extracts academic qualifications and certifications from resumes, builds one structured academic profile,
+and scores how well it fits a job.
 
-- Module: `parsers/education_parser.py`
-- Education: degree type, field of study, institution, start/end year, grade
-- Certifications: name, issuer, dates, credential ID, level, relevance category
-- Names are normalized (B.S. / BSc -> B.Sc, CSE -> Computer Science)
-- Run: `python -m parsers.education_parser data/raw_resumes/Maya.pdf`
+- parsers/education_parser.py : degree, field of study, institution, start/end year, grade; certifications
+  (name, issuer, dates, credential ID, level, relevance category); names are normalized
+  (B.S. / BSc -> B.Sc, CSE -> Computer Science, Amazon Web Services -> AWS)
+- parsers/academic_profile.py : `build_academic_profile()` gives one object: highest degree, primary field,
+  latest graduation year, in-progress degrees, certifications, counts, warnings and schema-ready lists
+- parsers/education_relevance.py : `score_education()`, `score_certifications()` and
+  `score_education_with_certifications()`; every score comes with reasons
+- ats_engine/scoring_engine.py : the Day 13 education part now calls `score_education()` (one source of truth)
+- run_education_demo.py : parse every resume and score it against every parsed job (saves to data/education/)
+- tests/test_education.py : unit tests
+- docs/DAY11_STUDY_GUIDE.md : step-by-step explanation with a worked example
+
+How the score is built: education = 100 x (0.6 x level fit + 0.4 x field fit), weights from
+ats_engine/ats_weights.json. Certifications add at most 10 points (half if the required degree level is not
+met) and never replace a missing degree.
+
+Run: `python run_education_demo.py`   Test: `python -m unittest tests.test_education -v`
+Single resume: `python -m parsers.academic_profile data/raw_resumes/Maya.pdf`
 
 
 ## Day 12 - Semantic matching engine
