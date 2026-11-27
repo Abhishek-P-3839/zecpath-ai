@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "default_weights": {
+    "skill_match": 0.40,
+    "experience_relevance": 0.25,
+    "education_alignment": 0.10,
+    "semantic_similarity": 0.25
+  },
+  "profiles": {
+    "non_technical": {"skill_match": 0.30, "experience_relevance": 0.35, "education_alignment": 0.10, "semantic_similarity": 0.25},
+    "entry_level":   {"skill_match": 0.35, "experience_relevance": 0.10, "education_alignment": 0.25, "semantic_similarity": 0.30},
+    "senior":        {"skill_match": 0.35, "experience_relevance": 0.35, "education_alignment": 0.05, "semantic_similarity": 0.25}
+  },
+  "roles": {
+    "data scientist": {"skill_match": 0.35, "experience_relevance": 0.20, "education_alignment": 0.20, "semantic_similarity": 0.25},
+    "sales executive": {"skill_match": 0.20, "experience_relevance": 0.45, "education_alignment": 0.05, "semantic_similarity": 0.30}
+  },
+  "missing_data": {
+    "skill_match": "zero",
+    "experience_relevance": "zero",
+    "education_alignment": "skip",
+    "semantic_similarity": "skip",
+    "neutral_score": 50,
+    "entry_level_max_years": 1
+  },
+  "thresholds": {
+    "labels": [[75, "strong"], [55, "good"], [35, "partial"], [0, "weak"]],
+    "shortlist_score": 60,
+    "review_margin": 10
+  },
+  "education": {
+    "level_weight": 0.6,
+    "field_weight": 0.4,
+    "level_credit": {"met": 1.0, "in_progress_met": 0.8, "one_below": 0.5, "two_or_more_below": 0.2},
+    "field_credit": {"exact": 1.0, "same_category": 0.7, "different": 0.3}
+  },
+  "semantic": {"experience_weight": 0.6, "projects_weight": 0.4}
+}
