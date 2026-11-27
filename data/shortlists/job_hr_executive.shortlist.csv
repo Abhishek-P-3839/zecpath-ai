@@ -1,0 +1,10 @@
+position,rank,candidate_id,overall_score,decision,action,confidence,missing_must_have,reasons
+1,1,alex,46.5,REJECTED,Send rejection,high,recruitment; communication; teamwork,"Score 46.5 is below the reject line of 50. Missing must-have skills: recruitment, communication, teamwork."
+2,2,marcus,39.7,REJECTED,Send rejection,high,recruitment; communication; teamwork,"Score 39.7 is below the reject line of 50. Missing must-have skills: recruitment, communication, teamwork."
+3,3,Maya,30.9,REJECTED,Send rejection,high,recruitment; communication; teamwork,"Score 30.9 is below the reject line of 50. Missing must-have skills: recruitment, communication, teamwork."
+4,4,sample_two_column,24.7,REJECTED,Send rejection,high,recruitment; crm; communication; teamwork,"Score 24.7 is below the reject line of 50. Missing must-have skills: recruitment, crm, communication, teamwork."
+5,5,m,22.4,REJECTED,Send rejection,medium,recruitment; crm; teamwork,"Score 22.4 is below the reject line of 50. Missing must-have skills: recruitment, crm, teamwork."
+6,6,sample_bullets_table,20.0,REJECTED,Send rejection,high,recruitment; crm; communication; teamwork,"Score 20 is below the reject line of 50. Missing must-have skills: recruitment, crm, communication, teamwork."
+7,7,sample_simple,9.8,REJECTED,Send rejection,medium,recruitment; crm; communication; teamwork,"Score 9.8 is below the reject line of 50. Missing must-have skills: recruitment, crm, communication, teamwork."
+8,8,img,0.0,REVIEW,Recruiter checks the resume,low,,"Score 0 is below the reject line of 50. Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score."
+9,8,sample_scanned,0.0,REVIEW,Recruiter checks the resume,low,,"Score 0 is below the reject line of 50. Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score."

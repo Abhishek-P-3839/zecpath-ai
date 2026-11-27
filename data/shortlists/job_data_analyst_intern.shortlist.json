@@ -1,0 +1,229 @@
+{
+  "job_id": "job_data_analyst_intern",
+  "job_title": "Data Analyst Intern",
+  "thresholds": {
+    "shortlist_score": 60,
+    "reject_score": 50,
+    "max_missing_must_have": 3,
+    "auto_reject": true,
+    "max_shortlist": null,
+    "sources": [
+      "default config"
+    ]
+  },
+  "counts": {
+    "SHORTLISTED": 0,
+    "WAITLIST": 0,
+    "REVIEW": 3,
+    "REJECTED": 6,
+    "total": 9
+  },
+  "candidates": [
+    {
+      "position": 1,
+      "rank": 1,
+      "tied": false,
+      "candidate_id": "alex",
+      "overall_score": 58.4,
+      "label": "good",
+      "decision": "REVIEW",
+      "action": "Recruiter checks the resume",
+      "reasons": [
+        "Score 58.4 is in the review zone (50 up to 60).",
+        "Missing must-have skills: problem solving."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "review",
+      "confidence": "high",
+      "missing_must_have": [
+        "problem solving"
+      ]
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "tied": false,
+      "candidate_id": "Maya",
+      "overall_score": 45.2,
+      "label": "partial",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 45.2 is below the reject line of 50.",
+        "Missing must-have skills: excel, power bi, tableau, problem solving."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "excel",
+        "power bi",
+        "tableau",
+        "problem solving"
+      ]
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "tied": false,
+      "candidate_id": "marcus",
+      "overall_score": 39.4,
+      "label": "partial",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 39.4 is below the reject line of 50.",
+        "Missing must-have skills: excel, sql, power bi, problem solving."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "excel",
+        "sql",
+        "power bi",
+        "problem solving"
+      ]
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "tied": false,
+      "candidate_id": "sample_two_column",
+      "overall_score": 38.5,
+      "label": "partial",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 38.5 is below the reject line of 50.",
+        "Missing must-have skills: excel, power bi, tableau, problem solving."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "excel",
+        "power bi",
+        "tableau",
+        "problem solving"
+      ]
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "tied": false,
+      "candidate_id": "sample_bullets_table",
+      "overall_score": 27.8,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 27.8 is below the reject line of 50.",
+        "Missing must-have skills: excel, sql, power bi, tableau, problem solving."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "high",
+      "missing_must_have": [
+        "excel",
+        "sql",
+        "power bi",
+        "tableau",
+        "problem solving"
+      ]
+    },
+    {
+      "position": 6,
+      "rank": 6,
+      "tied": false,
+      "candidate_id": "sample_simple",
+      "overall_score": 21.6,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 21.6 is below the reject line of 50.",
+        "Missing must-have skills: excel, power bi, tableau, problem solving."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "medium",
+      "missing_must_have": [
+        "excel",
+        "power bi",
+        "tableau",
+        "problem solving"
+      ]
+    },
+    {
+      "position": 7,
+      "rank": 7,
+      "tied": false,
+      "candidate_id": "m",
+      "overall_score": 17.5,
+      "label": "weak",
+      "decision": "REJECTED",
+      "action": "Send rejection",
+      "reasons": [
+        "Score 17.5 is below the reject line of 50.",
+        "Missing must-have skills: excel, sql, power bi, tableau, problem solving."
+      ],
+      "safety_rules": [],
+      "day13_recommendation": "reject",
+      "confidence": "medium",
+      "missing_must_have": [
+        "excel",
+        "sql",
+        "power bi",
+        "tableau",
+        "problem solving"
+      ]
+    },
+    {
+      "position": 8,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "img",
+      "overall_score": 0.0,
+      "label": "weak",
+      "decision": "REVIEW",
+      "action": "Recruiter checks the resume",
+      "reasons": [
+        "Score 0 is below the reject line of 50.",
+        "Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score."
+      ],
+      "safety_rules": [
+        "low_confidence"
+      ],
+      "day13_recommendation": "review",
+      "confidence": "low",
+      "missing_must_have": []
+    },
+    {
+      "position": 9,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "sample_scanned",
+      "overall_score": 0.0,
+      "label": "weak",
+      "decision": "REVIEW",
+      "action": "Recruiter checks the resume",
+      "reasons": [
+        "Score 0 is below the reject line of 50.",
+        "Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score."
+      ],
+      "safety_rules": [
+        "low_confidence"
+      ],
+      "day13_recommendation": "review",
+      "confidence": "low",
+      "missing_must_have": []
+    }
+  ],
+  "top_n": 5,
+  "top_candidates": [],
+  "warnings": [
+    "Nobody reached the shortlist score of 60 (best score 58.4). Check the cutoff or the job requirements.",
+    "2 candidate(s) have low confidence (too little data); a person must check: img, sample_scanned."
+  ]
+}

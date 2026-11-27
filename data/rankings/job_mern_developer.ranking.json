@@ -1,0 +1,373 @@
+{
+  "job_id": "job_mern_developer",
+  "job_title": "MERN Stack Developer",
+  "total_candidates": 9,
+  "score_summary": {
+    "highest": 65.0,
+    "lowest": 0.0,
+    "average": 19.03,
+    "median": 15.2
+  },
+  "ranking": [
+    {
+      "position": 1,
+      "rank": 1,
+      "tied": false,
+      "candidate_id": "Maya",
+      "overall_score": 65.0,
+      "label": "good",
+      "recommendation": "shortlist",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 100,
+      "scores": {
+        "skill_match": 58.3,
+        "experience_relevance": 57.0,
+        "education_alignment": 100.0,
+        "semantic_similarity": 69.9
+      },
+      "strengths": [
+        "Education alignment is strong (100/100)."
+      ],
+      "gaps": [],
+      "missing_must_have": [
+        "rest api",
+        "express",
+        "redux",
+        "mongodb",
+        "communication"
+      ],
+      "flags": [
+        "Missing must-have skills: rest api, express, redux, mongodb, communication."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "tied": false,
+      "candidate_id": "sample_two_column",
+      "overall_score": 29.6,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.75,
+      "percentile": 88,
+      "scores": {
+        "skill_match": 25.0,
+        "experience_relevance": 0.0,
+        "education_alignment": 100.0,
+        "semantic_similarity": 38.4
+      },
+      "strengths": [
+        "Education alignment is strong (100/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (25/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (38/100)."
+      ],
+      "missing_must_have": [
+        "node.js",
+        "express",
+        "redux",
+        "mongodb",
+        "javascript",
+        "communication"
+      ],
+      "flags": [
+        "Missing must-have skills: node.js, express, redux, mongodb, javascript, communication."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "tied": false,
+      "candidate_id": "sample_bullets_table",
+      "overall_score": 22.5,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.75,
+      "percentile": 75,
+      "scores": {
+        "skill_match": 14.6,
+        "experience_relevance": 0.0,
+        "education_alignment": 100.0,
+        "semantic_similarity": 26.7
+      },
+      "strengths": [
+        "Education alignment is strong (100/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (15/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (27/100)."
+      ],
+      "missing_must_have": [
+        "node.js",
+        "express",
+        "react",
+        "redux",
+        "mongodb",
+        "javascript",
+        "git",
+        "communication"
+      ],
+      "flags": [
+        "Missing must-have skills: node.js, express, react, redux, mongodb, javascript, git, communication."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "tied": false,
+      "candidate_id": "m",
+      "overall_score": 19.7,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.65,
+      "percentile": 62,
+      "scores": {
+        "skill_match": 39.6,
+        "experience_relevance": 0.0,
+        "education_alignment": null,
+        "semantic_similarity": 7.5
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (40/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (8/100)."
+      ],
+      "missing_must_have": [
+        "rest api",
+        "express",
+        "redux",
+        "javascript",
+        "git"
+      ],
+      "flags": [
+        "Missing must-have skills: rest api, express, redux, javascript, git."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "tied": false,
+      "candidate_id": "alex",
+      "overall_score": 15.2,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 50,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": 0.0,
+        "education_alignment": 72.0,
+        "semantic_similarity": 31.9
+      },
+      "strengths": [
+        "Education alignment is strong (72/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (32/100)."
+      ],
+      "missing_must_have": [
+        "rest api",
+        "node.js",
+        "express",
+        "react",
+        "redux",
+        "mongodb",
+        "javascript",
+        "git",
+        "communication"
+      ],
+      "flags": [
+        "Missing must-have skills: rest api, node.js, express, react, redux, mongodb, javascript, git, communication."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 6,
+      "rank": 6,
+      "tied": false,
+      "candidate_id": "marcus",
+      "overall_score": 12.6,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 38,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": 0.0,
+        "education_alignment": 72.0,
+        "semantic_similarity": 21.6
+      },
+      "strengths": [
+        "Education alignment is strong (72/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (22/100)."
+      ],
+      "missing_must_have": [
+        "rest api",
+        "node.js",
+        "express",
+        "react",
+        "redux",
+        "mongodb",
+        "javascript",
+        "git",
+        "communication"
+      ],
+      "flags": [
+        "Missing must-have skills: rest api, node.js, express, react, redux, mongodb, javascript, git, communication."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 7,
+      "rank": 7,
+      "tied": false,
+      "candidate_id": "sample_simple",
+      "overall_score": 6.7,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.65,
+      "percentile": 25,
+      "scores": {
+        "skill_match": 8.3,
+        "experience_relevance": 0.0,
+        "education_alignment": null,
+        "semantic_similarity": 11.0
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (8/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (11/100)."
+      ],
+      "missing_must_have": [
+        "rest api",
+        "node.js",
+        "express",
+        "react",
+        "redux",
+        "mongodb",
+        "javascript",
+        "communication"
+      ],
+      "flags": [
+        "Missing must-have skills: rest api, node.js, express, react, redux, mongodb, javascript, communication."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 8,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "img",
+      "overall_score": 0.0,
+      "label": "weak",
+      "recommendation": "review",
+      "confidence": "low",
+      "data_completeness": 0,
+      "percentile": 12,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": 0.0,
+        "education_alignment": null,
+        "semantic_similarity": null
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Experience relevance is weak (0/100)."
+      ],
+      "missing_must_have": [],
+      "flags": [],
+      "needs_manual_check": true
+    },
+    {
+      "position": 9,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "sample_scanned",
+      "overall_score": 0.0,
+      "label": "weak",
+      "recommendation": "review",
+      "confidence": "low",
+      "data_completeness": 0,
+      "percentile": 12,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": 0.0,
+        "education_alignment": null,
+        "semantic_similarity": null
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Experience relevance is weak (0/100)."
+      ],
+      "missing_must_have": [],
+      "flags": [],
+      "needs_manual_check": true
+    }
+  ],
+  "top_n": 5,
+  "min_score": null,
+  "top_candidates": [
+    {
+      "position": 1,
+      "rank": 1,
+      "candidate_id": "Maya",
+      "overall_score": 65.0,
+      "label": "good"
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "candidate_id": "sample_two_column",
+      "overall_score": 29.6,
+      "label": "weak"
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "candidate_id": "sample_bullets_table",
+      "overall_score": 22.5,
+      "label": "weak"
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "candidate_id": "m",
+      "overall_score": 19.7,
+      "label": "weak"
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "candidate_id": "alex",
+      "overall_score": 15.2,
+      "label": "weak"
+    }
+  ],
+  "warnings": [
+    "2 candidate(s) have low confidence (too little data): img, sample_scanned. Check their resumes by hand."
+  ]
+}

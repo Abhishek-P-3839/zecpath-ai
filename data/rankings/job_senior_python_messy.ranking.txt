@@ -1,0 +1,28 @@
+Ranking for: Sr. Python Developer (job_senior_python_messy)   candidates: 9
+Scores: highest 47.2, lowest 0.0, average 12.24, median 9.7
+
+Rank  Candidate               Score  Fit      Skill  Exp  Edu Text  Conf   Advice
+--------------------------------------------------------------------------------------------
+1     Maya                     47.2  partial     44   32   70   68  high   reject
+2     sample_bullets_table     15.9  weak        19    0   70   23  medium reject
+3     sample_two_column        13.8  weak        19    0   70   15  medium reject
+4     alex                     10.6  weak         0    0   42   34  high   reject
+5     m                         9.7  weak        19    0    -   10  medium reject
+6     sample_simple             8.1  weak         6    0    -   22  medium reject
+7     marcus                    4.9  weak         0    0   42   11  high   reject
+T-8   img                       0.0  weak         0    0    -    -  low    review
+T-8   sample_scanned            0.0  weak         0    0    -    -  low    review
+
+Top 5: 1. Maya, 2. sample_bullets_table, 3. sample_two_column, 4. alex, 5. m
+
+Notes:
+  #1 Maya: missing must-have: jenkins, kubernetes, flask, redis, rest api
+  #2 sample_bullets_table: missing must-have: python, microservices, ci/cd, jenkins, docker, kubernetes, django, postgresql, redis
+  #3 sample_two_column: missing must-have: microservices, ci/cd, jenkins, docker, kubernetes, flask, postgresql, redis, aws
+  #4 alex: missing must-have: python, microservices, ci/cd, jenkins, docker, kubernetes, django, flask, postgresql, redis, rest api, aws
+  #5 m: missing must-have: microservices, ci/cd, jenkins, docker, kubernetes, django, flask, redis, rest api
+  #6 sample_simple: missing must-have: microservices, ci/cd, jenkins, docker, kubernetes, django, flask, postgresql, redis, rest api, aws
+  #7 marcus: missing must-have: python, microservices, ci/cd, jenkins, docker, kubernetes, django, flask, postgresql, redis, rest api, aws
+  #8 img: low confidence, check manually
+  #9 sample_scanned: low confidence, check manually
+Warning: 2 candidate(s) have low confidence (too little data): img, sample_scanned. Check their resumes by hand.

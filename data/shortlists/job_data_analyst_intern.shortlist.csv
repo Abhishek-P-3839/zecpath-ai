@@ -1,0 +1,10 @@
+position,rank,candidate_id,overall_score,decision,action,confidence,missing_must_have,reasons
+1,1,alex,58.4,REVIEW,Recruiter checks the resume,high,problem solving,Score 58.4 is in the review zone (50 up to 60). Missing must-have skills: problem solving.
+2,2,Maya,45.2,REJECTED,Send rejection,high,excel; power bi; tableau; problem solving,"Score 45.2 is below the reject line of 50. Missing must-have skills: excel, power bi, tableau, problem solving."
+3,3,marcus,39.4,REJECTED,Send rejection,high,excel; sql; power bi; problem solving,"Score 39.4 is below the reject line of 50. Missing must-have skills: excel, sql, power bi, problem solving."
+4,4,sample_two_column,38.5,REJECTED,Send rejection,high,excel; power bi; tableau; problem solving,"Score 38.5 is below the reject line of 50. Missing must-have skills: excel, power bi, tableau, problem solving."
+5,5,sample_bullets_table,27.8,REJECTED,Send rejection,high,excel; sql; power bi; tableau; problem solving,"Score 27.8 is below the reject line of 50. Missing must-have skills: excel, sql, power bi, tableau, problem solving."
+6,6,sample_simple,21.6,REJECTED,Send rejection,medium,excel; power bi; tableau; problem solving,"Score 21.6 is below the reject line of 50. Missing must-have skills: excel, power bi, tableau, problem solving."
+7,7,m,17.5,REJECTED,Send rejection,medium,excel; sql; power bi; tableau; problem solving,"Score 17.5 is below the reject line of 50. Missing must-have skills: excel, sql, power bi, tableau, problem solving."
+8,8,img,0.0,REVIEW,Recruiter checks the resume,low,,"Score 0 is below the reject line of 50. Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score."
+9,8,sample_scanned,0.0,REVIEW,Recruiter checks the resume,low,,"Score 0 is below the reject line of 50. Confidence is low (too little data, for example a scanned file), so a person must decide instead of the score."

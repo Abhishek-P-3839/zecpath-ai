@@ -1,0 +1,28 @@
+Ranking for: HR Executive (job_hr_executive)   candidates: 9
+Scores: highest 46.5, lowest 0.0, average 21.56, median 22.4
+
+Rank  Candidate               Score  Fit      Skill  Exp  Edu Text  Conf   Advice
+--------------------------------------------------------------------------------------------
+1     alex                     46.5  partial     44   49   88   14  high   reject
+2     marcus                   39.7  partial     19    0   88   37  high   reject
+3     Maya                     30.9  weak        19   26   72   12  high   reject
+4     sample_two_column        24.7  weak         0    -   72   14  high   reject
+5     m                        22.4  weak        19    -    -   27  medium reject
+6     sample_bullets_table     20.0  weak         0    -   72    0  high   reject
+7     sample_simple             9.8  weak         0    -    -   21  medium reject
+T-8   img                       0.0  weak         0    -    -    -  low    review
+T-8   sample_scanned            0.0  weak         0    -    -    -  low    review
+
+Top 5: 1. alex, 2. marcus, 3. Maya, 4. sample_two_column, 5. m
+
+Notes:
+  #1 alex: missing must-have: recruitment, communication, teamwork
+  #2 marcus: missing must-have: recruitment, communication, teamwork
+  #3 Maya: missing must-have: recruitment, communication, teamwork
+  #4 sample_two_column: missing must-have: recruitment, crm, communication, teamwork
+  #5 m: missing must-have: recruitment, crm, teamwork
+  #6 sample_bullets_table: missing must-have: recruitment, crm, communication, teamwork
+  #7 sample_simple: missing must-have: recruitment, crm, communication, teamwork
+  #8 img: low confidence, check manually
+  #9 sample_scanned: low confidence, check manually
+Warning: 2 candidate(s) have low confidence (too little data): img, sample_scanned. Check their resumes by hand.

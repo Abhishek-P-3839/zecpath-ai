@@ -1,0 +1,345 @@
+{
+  "job_id": "job_hr_executive",
+  "job_title": "HR Executive",
+  "total_candidates": 9,
+  "score_summary": {
+    "highest": 46.5,
+    "lowest": 0.0,
+    "average": 21.56,
+    "median": 22.4
+  },
+  "ranking": [
+    {
+      "position": 1,
+      "rank": 1,
+      "tied": false,
+      "candidate_id": "alex",
+      "overall_score": 46.5,
+      "label": "partial",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 100,
+      "scores": {
+        "skill_match": 43.8,
+        "experience_relevance": 49.0,
+        "education_alignment": 88.0,
+        "semantic_similarity": 14.3
+      },
+      "strengths": [
+        "Education alignment is strong (88/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (44/100).",
+        "Experience relevance is weak (49/100).",
+        "Semantic similarity is weak (14/100)."
+      ],
+      "missing_must_have": [
+        "recruitment",
+        "communication",
+        "teamwork"
+      ],
+      "flags": [
+        "Missing must-have skills: recruitment, communication, teamwork."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "tied": false,
+      "candidate_id": "marcus",
+      "overall_score": 39.7,
+      "label": "partial",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 88,
+      "scores": {
+        "skill_match": 18.8,
+        "experience_relevance": 0.0,
+        "education_alignment": 88.0,
+        "semantic_similarity": 37.0
+      },
+      "strengths": [
+        "Education alignment is strong (88/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (19/100).",
+        "Experience relevance is weak (0/100).",
+        "Semantic similarity is weak (37/100)."
+      ],
+      "missing_must_have": [
+        "recruitment",
+        "communication",
+        "teamwork"
+      ],
+      "flags": [
+        "Missing must-have skills: recruitment, communication, teamwork."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "tied": false,
+      "candidate_id": "Maya",
+      "overall_score": 30.9,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 1.0,
+      "percentile": 75,
+      "scores": {
+        "skill_match": 18.8,
+        "experience_relevance": 26.0,
+        "education_alignment": 72.0,
+        "semantic_similarity": 12.5
+      },
+      "strengths": [
+        "Education alignment is strong (72/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (19/100).",
+        "Experience relevance is weak (26/100).",
+        "Semantic similarity is weak (12/100)."
+      ],
+      "missing_must_have": [
+        "recruitment",
+        "communication",
+        "teamwork"
+      ],
+      "flags": [
+        "Missing must-have skills: recruitment, communication, teamwork."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "tied": false,
+      "candidate_id": "sample_two_column",
+      "overall_score": 24.7,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 0.9,
+      "percentile": 62,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": null,
+        "education_alignment": 72.0,
+        "semantic_similarity": 14.0
+      },
+      "strengths": [
+        "Education alignment is strong (72/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Semantic similarity is weak (14/100)."
+      ],
+      "missing_must_have": [
+        "recruitment",
+        "crm",
+        "communication",
+        "teamwork"
+      ],
+      "flags": [
+        "Missing must-have skills: recruitment, crm, communication, teamwork."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "tied": false,
+      "candidate_id": "m",
+      "overall_score": 22.4,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.65,
+      "percentile": 50,
+      "scores": {
+        "skill_match": 18.8,
+        "experience_relevance": null,
+        "education_alignment": null,
+        "semantic_similarity": 26.7
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (19/100).",
+        "Semantic similarity is weak (27/100)."
+      ],
+      "missing_must_have": [
+        "recruitment",
+        "crm",
+        "teamwork"
+      ],
+      "flags": [
+        "Missing must-have skills: recruitment, crm, teamwork."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 6,
+      "rank": 6,
+      "tied": false,
+      "candidate_id": "sample_bullets_table",
+      "overall_score": 20.0,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "high",
+      "data_completeness": 0.9,
+      "percentile": 38,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": null,
+        "education_alignment": 72.0,
+        "semantic_similarity": 0.0
+      },
+      "strengths": [
+        "Education alignment is strong (72/100)."
+      ],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Semantic similarity is weak (0/100)."
+      ],
+      "missing_must_have": [
+        "recruitment",
+        "crm",
+        "communication",
+        "teamwork"
+      ],
+      "flags": [
+        "Missing must-have skills: recruitment, crm, communication, teamwork."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 7,
+      "rank": 7,
+      "tied": false,
+      "candidate_id": "sample_simple",
+      "overall_score": 9.8,
+      "label": "weak",
+      "recommendation": "reject",
+      "confidence": "medium",
+      "data_completeness": 0.65,
+      "percentile": 25,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": null,
+        "education_alignment": null,
+        "semantic_similarity": 21.2
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100).",
+        "Semantic similarity is weak (21/100)."
+      ],
+      "missing_must_have": [
+        "recruitment",
+        "crm",
+        "communication",
+        "teamwork"
+      ],
+      "flags": [
+        "Missing must-have skills: recruitment, crm, communication, teamwork."
+      ],
+      "needs_manual_check": false
+    },
+    {
+      "position": 8,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "img",
+      "overall_score": 0.0,
+      "label": "weak",
+      "recommendation": "review",
+      "confidence": "low",
+      "data_completeness": 0,
+      "percentile": 12,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": null,
+        "education_alignment": null,
+        "semantic_similarity": null
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100)."
+      ],
+      "missing_must_have": [],
+      "flags": [],
+      "needs_manual_check": true
+    },
+    {
+      "position": 9,
+      "rank": 8,
+      "tied": true,
+      "candidate_id": "sample_scanned",
+      "overall_score": 0.0,
+      "label": "weak",
+      "recommendation": "review",
+      "confidence": "low",
+      "data_completeness": 0,
+      "percentile": 12,
+      "scores": {
+        "skill_match": 0.0,
+        "experience_relevance": null,
+        "education_alignment": null,
+        "semantic_similarity": null
+      },
+      "strengths": [],
+      "gaps": [
+        "Skill match is weak (0/100)."
+      ],
+      "missing_must_have": [],
+      "flags": [],
+      "needs_manual_check": true
+    }
+  ],
+  "top_n": 5,
+  "min_score": null,
+  "top_candidates": [
+    {
+      "position": 1,
+      "rank": 1,
+      "candidate_id": "alex",
+      "overall_score": 46.5,
+      "label": "partial"
+    },
+    {
+      "position": 2,
+      "rank": 2,
+      "candidate_id": "marcus",
+      "overall_score": 39.7,
+      "label": "partial"
+    },
+    {
+      "position": 3,
+      "rank": 3,
+      "candidate_id": "Maya",
+      "overall_score": 30.9,
+      "label": "weak"
+    },
+    {
+      "position": 4,
+      "rank": 4,
+      "candidate_id": "sample_two_column",
+      "overall_score": 24.7,
+      "label": "weak"
+    },
+    {
+      "position": 5,
+      "rank": 5,
+      "candidate_id": "m",
+      "overall_score": 22.4,
+      "label": "weak"
+    }
+  ],
+  "warnings": [
+    "2 candidate(s) have low confidence (too little data): img, sample_scanned. Check their resumes by hand."
+  ]
+}

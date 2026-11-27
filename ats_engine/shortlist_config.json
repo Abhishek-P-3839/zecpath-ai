@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "default": {
+    "shortlist_score": 60,
+    "reject_score": 50,
+    "max_missing_must_have": 3,
+    "auto_reject": true,
+    "max_shortlist": null
+  },
+  "roles": {}
+}
