@@ -196,3 +196,4 @@ Extracts academic qualifications and professional certifications from resumes.
 - Certifications: name, issuer, dates, credential ID, level, relevance category
 - Names are normalized (B.S. / BSc -> B.Sc, CSE -> Computer Science)
 - Run: `python -m parsers.education_parser data/raw_resumes/Maya.pdf`
+
