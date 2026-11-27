@@ -185,3 +185,15 @@ Files:
 - docs/DAY10_STUDY_GUIDE.md : step-by-step explanation
 
 Run: `python run_experience_demo.py`   Test: `python -m unittest tests.test_experience -v`
+
+
+## Day 11 – Education & Certification Parsing
+
+Extracts academic qualifications and professional certifications from resumes.
+
+- Module: `parsers/education_parser.py`
+- Education: degree type, field of study, institution, start/end year, grade
+- Certifications: name, issuer, dates, credential ID, level, relevance category
+- Names are normalized (B.S. / BSc -> B.Sc, CSE -> Computer Science)
+- Run: `python -m parsers.education_parser data/raw_resumes/Maya.pdf`
+
