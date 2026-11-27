@@ -1,0 +1,297 @@
+{
+  "jd_data_analyst_intern": {
+    "status": "scored",
+    "score": 82.0,
+    "reasons": [
+      "Highest degree (bachelor) meets the required level (bachelor).",
+      "Field 'Operations Management' is different from the preferred fields.",
+      "Certifications add 10.0 points (best: Google Data Analytics Professional Certificate)."
+    ],
+    "details": {
+      "required_level": "bachelor",
+      "preferred_fields": [
+        "Statistics",
+        "Mathematics",
+        "Computer Science"
+      ],
+      "highest_level": "bachelor",
+      "level_credit": 1.0,
+      "field_credit": 0.3,
+      "level_met": true,
+      "fields_used": [
+        "Statistics",
+        "Mathematics",
+        "Computer Science"
+      ],
+      "fields_source": "job"
+    },
+    "education_score": 72.0,
+    "certification_score": 100.0,
+    "bonus": 10.0,
+    "formula": "82.0 = 72.0 (education) + 10.0 (certification bonus, max 10)",
+    "certifications": {
+      "status": "scored",
+      "score": 100.0,
+      "reasons": [
+        "1 high, 0 medium, 1 low relevance certification(s).",
+        "Best: Google Data Analytics Professional Certificate (high, 1.0 points)."
+      ],
+      "details": {},
+      "items": [
+        {
+          "name": "Google Data Analytics Professional Certificate",
+          "issuer": "Google",
+          "categories": [
+            "data_ai"
+          ],
+          "relevance": "high",
+          "points": 1.0,
+          "matched_must_have": [],
+          "matched_good_to_have": [],
+          "reasons": [
+            "belongs to this role's area (data_ai)"
+          ]
+        },
+        {
+          "name": "Certified ScrumMaster (CSM)",
+          "issuer": "Scrum Alliance",
+          "categories": [
+            "project_management"
+          ],
+          "relevance": "low",
+          "points": 0.15,
+          "matched_must_have": [],
+          "matched_good_to_have": [],
+          "reasons": [
+            "no link to the job's skills or role"
+          ]
+        }
+      ],
+      "counts": {
+        "high": 1,
+        "medium": 0,
+        "low": 1
+      }
+    }
+  },
+  "jd_hr_executive": {
+    "status": "scored",
+    "score": 89.9,
+    "reasons": [
+      "Highest degree (bachelor) meets the required level (bachelor).",
+      "Field 'Operations Management' is in the same area as 'Business Administration'.",
+      "Certifications add 1.9 points (best: Certified ScrumMaster (CSM))."
+    ],
+    "details": {
+      "required_level": "bachelor",
+      "preferred_fields": [
+        "Business Administration",
+        "Human Resources"
+      ],
+      "highest_level": "bachelor",
+      "level_credit": 1.0,
+      "field_credit": 0.7,
+      "level_met": true,
+      "fields_used": [
+        "Business Administration",
+        "Human Resources"
+      ],
+      "fields_source": "job"
+    },
+    "education_score": 88.0,
+    "certification_score": 18.8,
+    "bonus": 1.9,
+    "formula": "89.9 = 88.0 (education) + 1.9 (certification bonus, max 10)",
+    "certifications": {
+      "status": "scored",
+      "score": 18.8,
+      "reasons": [
+        "0 high, 0 medium, 2 low relevance certification(s).",
+        "Best: Certified ScrumMaster (CSM) (low, 0.15 points)."
+      ],
+      "details": {},
+      "items": [
+        {
+          "name": "Certified ScrumMaster (CSM)",
+          "issuer": "Scrum Alliance",
+          "categories": [
+            "project_management"
+          ],
+          "relevance": "low",
+          "points": 0.15,
+          "matched_must_have": [],
+          "matched_good_to_have": [],
+          "reasons": [
+            "no link to the job's skills or role"
+          ]
+        },
+        {
+          "name": "Google Data Analytics Professional Certificate",
+          "issuer": "Google",
+          "categories": [
+            "data_ai"
+          ],
+          "relevance": "low",
+          "points": 0.15,
+          "matched_must_have": [],
+          "matched_good_to_have": [],
+          "reasons": [
+            "no link to the job's skills or role"
+          ]
+        }
+      ],
+      "counts": {
+        "high": 0,
+        "medium": 0,
+        "low": 2
+      }
+    }
+  },
+  "jd_mern_developer": {
+    "status": "scored",
+    "score": 73.9,
+    "reasons": [
+      "Highest degree (bachelor) meets the required level (bachelor).",
+      "Field 'Operations Management' is different from the preferred fields.",
+      "Certifications add 1.9 points (best: Certified ScrumMaster (CSM))."
+    ],
+    "details": {
+      "required_level": "bachelor",
+      "preferred_fields": [
+        "Computer Science",
+        "Information Technology"
+      ],
+      "highest_level": "bachelor",
+      "level_credit": 1.0,
+      "field_credit": 0.3,
+      "level_met": true,
+      "fields_used": [
+        "Computer Science",
+        "Information Technology"
+      ],
+      "fields_source": "job"
+    },
+    "education_score": 72.0,
+    "certification_score": 18.8,
+    "bonus": 1.9,
+    "formula": "73.9 = 72.0 (education) + 1.9 (certification bonus, max 10)",
+    "certifications": {
+      "status": "scored",
+      "score": 18.8,
+      "reasons": [
+        "0 high, 0 medium, 2 low relevance certification(s).",
+        "Best: Certified ScrumMaster (CSM) (low, 0.15 points)."
+      ],
+      "details": {},
+      "items": [
+        {
+          "name": "Certified ScrumMaster (CSM)",
+          "issuer": "Scrum Alliance",
+          "categories": [
+            "project_management"
+          ],
+          "relevance": "low",
+          "points": 0.15,
+          "matched_must_have": [],
+          "matched_good_to_have": [],
+          "reasons": [
+            "no link to the job's skills or role"
+          ]
+        },
+        {
+          "name": "Google Data Analytics Professional Certificate",
+          "issuer": "Google",
+          "categories": [
+            "data_ai"
+          ],
+          "relevance": "low",
+          "points": 0.15,
+          "matched_must_have": [],
+          "matched_good_to_have": [],
+          "reasons": [
+            "no link to the job's skills or role"
+          ]
+        }
+      ],
+      "counts": {
+        "high": 0,
+        "medium": 0,
+        "low": 2
+      }
+    }
+  },
+  "jd_senior_python_messy": {
+    "status": "scored",
+    "score": 42.9,
+    "reasons": [
+      "Highest degree (bachelor) is below the required level (master).",
+      "Field 'Operations Management' is different from the preferred fields.",
+      "The required degree level is not met, so the certification bonus counts half.",
+      "Certifications add 0.9 points (best: Certified ScrumMaster (CSM))."
+    ],
+    "details": {
+      "required_level": "master",
+      "preferred_fields": [
+        "Computer Science",
+        "Software Engineering"
+      ],
+      "highest_level": "bachelor",
+      "level_credit": 0.5,
+      "field_credit": 0.3,
+      "level_met": false,
+      "fields_used": [
+        "Computer Science",
+        "Software Engineering"
+      ],
+      "fields_source": "job"
+    },
+    "education_score": 42.0,
+    "certification_score": 18.8,
+    "bonus": 0.9,
+    "formula": "42.9 = 42.0 (education) + 0.9 (certification bonus, max 10)",
+    "certifications": {
+      "status": "scored",
+      "score": 18.8,
+      "reasons": [
+        "0 high, 0 medium, 2 low relevance certification(s).",
+        "Best: Certified ScrumMaster (CSM) (low, 0.15 points)."
+      ],
+      "details": {},
+      "items": [
+        {
+          "name": "Certified ScrumMaster (CSM)",
+          "issuer": "Scrum Alliance",
+          "categories": [
+            "project_management"
+          ],
+          "relevance": "low",
+          "points": 0.15,
+          "matched_must_have": [],
+          "matched_good_to_have": [],
+          "reasons": [
+            "no link to the job's skills or role"
+          ]
+        },
+        {
+          "name": "Google Data Analytics Professional Certificate",
+          "issuer": "Google",
+          "categories": [
+            "data_ai"
+          ],
+          "relevance": "low",
+          "points": 0.15,
+          "matched_must_have": [],
+          "matched_good_to_have": [],
+          "reasons": [
+            "no link to the job's skills or role"
+          ]
+        }
+      ],
+      "counts": {
+        "high": 0,
+        "medium": 0,
+        "low": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "profile_version": "1.0.0",
+  "source_file": "sample_two_column.pdf",
+  "education": [
+    {
+      "degree": "B.Tech",
+      "degree_full": "Bachelor of Technology",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "field_category": "computer_it",
+      "institution": "Demo University",
+      "start_year": null,
+      "end_year": 2025,
+      "in_progress": false,
+      "grade": null,
+      "confidence": 1.0,
+      "raw_text": "B.Tech Computer Science | Demo University 2025"
+    }
+  ],
+  "highest_level": "bachelor",
+  "highest_completed_level": "bachelor",
+  "highest_degree": {
+    "degree": "B.Tech",
+    "degree_full": "Bachelor of Technology",
+    "level": "bachelor",
+    "field_of_study": "Computer Science",
+    "field_category": "computer_it",
+    "institution": "Demo University",
+    "start_year": null,
+    "end_year": 2025,
+    "in_progress": false,
+    "grade": null
+  },
+  "primary_field": "Computer Science",
+  "primary_field_category": "computer_it",
+  "latest_graduation_year": 2025,
+  "in_progress_degrees": [],
+  "certifications": [],
+  "certification_categories": [],
+  "certifications_by_category": {},
+  "counts": {
+    "education_entries": 1,
+    "degrees": 1,
+    "in_progress": 0,
+    "certifications": 0,
+    "courses": 0,
+    "expired_certifications": 0
+  },
+  "warnings": [],
+  "schema_education": [
+    {
+      "degree": "B.Tech",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Demo University",
+      "start_year": null,
+      "end_year": 2025
+    }
+  ],
+  "schema_certifications": []
+}

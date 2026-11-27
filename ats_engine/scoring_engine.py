@@ -25,7 +25,7 @@ Every number in the report comes with `reasons`, so a recruiter can see WHY the 
 from datetime import datetime, timezone
 
 from ats_engine.weights import COMPONENTS, load_config, rescale, resolve_weights
-from parsers.education_parser import LEVEL_ORDER, field_category, normalize_field
+from parsers.education_relevance import score_education
 from parsers.experience_relevance import score_experience
 from utils.logger import get_logger
 
@@ -128,58 +128,11 @@ class ATSScoringEngine:
 
     # ------------------------------------------------------------------ part 3: education
     def _education(self, resume, job):
-        cfg = self.config["education"]
-        required = job.get("education_min_level")
-        preferred = [f for f in (job.get("preferred_fields") or []) if f]
-        if not required and not preferred:
-            return _part("missing_job", reasons=["The job states no education requirement."])
-        entries = ((resume.get("education") or {}).get("education")) or []
-        if not entries:
-            return _part("missing_candidate", reasons=["No education found in the resume."])
-
-        done = [LEVEL_ORDER.index(e["level"]) for e in entries if e.get("level") in LEVEL_ORDER and not e.get("in_progress")]
-        ongoing = [LEVEL_ORDER.index(e["level"]) for e in entries if e.get("level") in LEVEL_ORDER and e.get("in_progress")]
-        best_done = max(done) if done else None
-        best_ongoing = max(ongoing) if ongoing else None
-        parts, reasons = [], []
-
-        if required in LEVEL_ORDER:
-            need, credit = LEVEL_ORDER.index(required), cfg["level_credit"]
-            have = LEVEL_ORDER[best_done] if best_done is not None else "no recognised degree"
-            if best_done is not None and best_done >= need:
-                value, why = credit["met"], f"Highest degree ({have}) meets the required level ({required})."
-            elif best_ongoing is not None and best_ongoing >= need:
-                value, why = credit["in_progress_met"], f"A {LEVEL_ORDER[best_ongoing]} degree is in progress (required: {required})."
-            else:
-                gap = need - (best_done if best_done is not None else -1)
-                value = credit["one_below"] if gap == 1 else credit["two_or_more_below"]
-                why = f"Highest degree ({have}) is below the required level ({required})."
-            parts.append((value, cfg["level_weight"])); reasons.append(why)
-
-        if preferred:
-            fields = [e["field_of_study"] for e in entries if e.get("field_of_study")]
-            if not fields:
-                reasons.append("Field of study not found: field match skipped (not penalised).")
-            else:
-                credit, best = cfg["field_credit"], (-1, "")
-                for cf in fields:
-                    for pf in preferred:
-                        if normalize_field(cf).casefold() == normalize_field(pf).casefold():
-                            value, why = credit["exact"], f"Field '{cf}' matches the preferred field '{pf}'."
-                        elif field_category(cf) == field_category(pf) and field_category(cf) not in (None, "other"):
-                            value, why = credit["same_category"], f"Field '{cf}' is in the same area as '{pf}'."
-                        else:
-                            value, why = credit["different"], f"Field '{cf}' is different from the preferred fields."
-                        if value > best[0]:
-                            best = (value, why)
-                parts.append((best[0], cfg["field_weight"])); reasons.append(best[1])
-
-        if not parts:
-            return _part("missing_job", reasons=["Education could not be compared."])
-        score = 100 * sum(v * w for v, w in parts) / sum(w for _v, w in parts)
-        return _part("scored", round(score, 1), reasons,
-                     {"required_level": required, "preferred_fields": preferred,
-                      "highest_level": LEVEL_ORDER[best_done] if best_done is not None else None})
+        """Day 11 owns this logic (parsers/education_relevance.py); the engine only wraps the answer."""
+        r = score_education(resume.get("education"), job, self.config["education"])
+        keep = ("required_level", "preferred_fields", "highest_level")
+        details = {k: r["details"][k] for k in keep} if r["status"] == "scored" else {}
+        return _part(r["status"], r["score"], r["reasons"], details)
 
     # ------------------------------------------------------------------ part 4: semantic
     def _semantic(self, resume, jv):

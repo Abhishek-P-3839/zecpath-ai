@@ -1,0 +1,63 @@
+{
+  "profile_version": "1.0.0",
+  "source_file": "sample_bullets_table.docx",
+  "education": [
+    {
+      "degree": "B.Sc",
+      "degree_full": "Bachelor of Science",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "field_category": "computer_it",
+      "institution": "Kerala University",
+      "start_year": null,
+      "end_year": null,
+      "in_progress": false,
+      "grade": null,
+      "confidence": 0.75,
+      "raw_text": "B.Sc Computer Science | Kerala University"
+    }
+  ],
+  "highest_level": "bachelor",
+  "highest_completed_level": "bachelor",
+  "highest_degree": {
+    "degree": "B.Sc",
+    "degree_full": "Bachelor of Science",
+    "level": "bachelor",
+    "field_of_study": "Computer Science",
+    "field_category": "computer_it",
+    "institution": "Kerala University",
+    "start_year": null,
+    "end_year": null,
+    "in_progress": false,
+    "grade": null
+  },
+  "primary_field": "Computer Science",
+  "primary_field_category": "computer_it",
+  "latest_graduation_year": null,
+  "in_progress_degrees": [],
+  "certifications": [],
+  "certification_categories": [],
+  "certifications_by_category": {},
+  "counts": {
+    "education_entries": 1,
+    "degrees": 1,
+    "in_progress": 0,
+    "certifications": 0,
+    "courses": 0,
+    "expired_certifications": 0
+  },
+  "warnings": [
+    "B.Sc: missing year."
+  ],
+  "schema_education": [
+    {
+      "degree": "B.Sc",
+      "level": "bachelor",
+      "field_of_study": "Computer Science",
+      "institution": "Kerala University",
+      "start_year": null,
+      "end_year": null
+    }
+  ],
+  "schema_certifications": []
+}

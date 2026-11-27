@@ -31,8 +31,9 @@
   "education": {
     "level_weight": 0.6,
     "field_weight": 0.4,
+    "in_progress_factor": 0.8,
     "level_credit": {"met": 1.0, "in_progress_met": 0.8, "one_below": 0.5, "two_or_more_below": 0.2},
-    "field_credit": {"exact": 1.0, "same_category": 0.7, "different": 0.3}
+    "field_credit": {"exact": 1.0, "same_category": 0.7, "related_category": 0.5, "different": 0.3}
   },
   "semantic": {"experience_weight": 0.6, "projects_weight": 0.4}
 }

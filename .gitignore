@@ -45,3 +45,9 @@ data/store/
 # private project notes (for me and Claude only, never pushed)
 *.private.md
 
+
+# Day 11: data/education/ (output of run_education_demo.py) is generated from the DUMMY sample resumes in
+# data/raw_resumes -> the sample outputs are a deliverable and are pushed. Real candidate resumes must
+# never be placed in data/raw_resumes.
+!data/education/
+!data/education/*

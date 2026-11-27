@@ -48,14 +48,16 @@ _DEGREE_DEFS = [
     (r"\b(?i:msc|master of science)\b|\bMS\b", "M.Sc", "Master of Science", "master", 0),
     (r"\b(?:mcom|master of commerce)\b", "M.Com", "Master of Commerce", "master", _I),
     (r"\b(?i:master of arts)\b|\bMA\b", "M.A", "Master of Arts", "master", 0),
-    (r"\b(?i:master of engineering)\b|\bME\b", "M.E", "Master of Engineering", "master", 0),
+    (r"\b(?i:master of engineering|meng)\b|\bME\b", "M.E", "Master of Engineering", "master", 0),
     (r"\bmaster'?s?(?:\s+degree)?\b", "Master's", "Master's Degree", "master", _I),
     (r"\b(?:btech|bachelor of technology)\b", "B.Tech", "Bachelor of Technology", "bachelor", _I),
-    (r"\b(?i:bachelor of engineering)\b|\bBE\b", "B.E", "Bachelor of Engineering", "bachelor", 0),
+    (r"\b(?i:bachelor of engineering|beng)\b|\bBE\b", "B.E", "Bachelor of Engineering", "bachelor", 0),
     (r"\b(?:bca|bachelor of computer applications?)\b", "BCA", "Bachelor of Computer Applications", "bachelor", _I),
     (r"\b(?:bba|bachelor of business administration)\b", "BBA", "Bachelor of Business Administration", "bachelor", _I),
     (r"\b(?i:bsc|bachelor of science)\b|\bBS\b", "B.Sc", "Bachelor of Science", "bachelor", 0),
     (r"\b(?:bcom|bachelor of commerce)\b", "B.Com", "Bachelor of Commerce", "bachelor", _I),
+    (r"\b(?:bfa|bachelor of fine arts)\b", "B.F.A", "Bachelor of Fine Arts", "bachelor", _I),
+    (r"\b(?:mfa|master of fine arts)\b", "M.F.A", "Master of Fine Arts", "master", _I),
     (r"\b(?i:bachelor of arts)\b|\bBA\b", "B.A", "Bachelor of Arts", "bachelor", 0),
     (r"\b(?:bachelor'?s?(?:\s+degree)?|undergraduate degree)\b", "Bachelor's", "Bachelor's Degree", "bachelor", _I),
     (r"\b(?:12th|xii|class 12|std 12|hsc|higher secondary|senior secondary|intermediate|high school|a levels?)\b",
@@ -69,7 +71,7 @@ DEGREES = [(re.compile(p, f), short, full, level) for p, short, full, level, f i
 LEVEL_ORDER = ["secondary", "higher_secondary", "diploma", "bachelor", "master", "doctorate"]
 
 INSTITUTION_RE = re.compile(
-    r"\b(?:university|college|institute|school|academy|polytechnic|vidyalaya|iit|iiit|nit|iim)\b", _I)
+    r"\b(?:university|college|institute|school|academy|polytechnic|vidyalaya|iit|iiit|nit|iim|(?-i:JNTU|VIT|BITS|SRM))\b", _I)
 IN_PROGRESS_RE = re.compile(
     r"\b(?:pursuing|persuing|ongoing|present|current(?:ly)?|expected|expecting|in progress|final year|appearing)\b", _I)
 YEAR_RANGE_RE = re.compile(
@@ -153,13 +155,16 @@ def extract_field(rest):
     """The text right after the degree -> field of study (or None)."""
     rest = rest.strip()
     m = re.match(r"\(([^)]{2,60})\)", rest)
+    if m and find_degree(_plain(m.group(1))):          # "(BBA) in Operations Management": brackets repeat the degree
+        rest, m = rest[m.end():].strip(), None
     if m:
         cand = m.group(1)
     else:
         rest = re.sub(r"^(?:[\s\-\u2013\u2014|:,/]|\b(?:in|of|with|major in|majoring in|specialization in)\b)+",
                       "", rest, flags=_I)
         cand = re.split(r"\s[-\u2013\u2014|]\s|[|,;(@\n]", rest)[0]
-    cand = re.split(r"\b(?:at|from)\b|\b" + _YEAR + r"\b|\b(?:cgpa|gpa|cpi|percentage|grade|expected|pursuing)\b",
+    cand = re.split(r"\b(?:at|from)\b|\b" + _YEAR + r"\b|\b(?:cgpa|gpa|cpi|percentage|grade|expected|pursuing"
+                    r"|graduated|graduation|completed)\b",
                     cand, flags=_I)[0].strip(" .:-\u2013\u2014")
     if (not cand or cand.lower() in _NOT_FIELDS or INSTITUTION_RE.search(cand)
             or re.search(r"\d", cand) or len(cand.split()) > 8 or find_degree(_plain(cand))):
@@ -362,7 +367,7 @@ CERT_CATALOG = [
      ["devops", "cloud"], "professional"),
     (r"terraform\s+associate", "HashiCorp Certified: Terraform Associate", "HashiCorp", ["devops"], "associate"),
     (r"tensorflow\s+developer", "TensorFlow Developer Certificate", "Google", ["data_ai"], "associate"),
-    (r"oracle.*java|\bocp\b.*java|\bocjp\b", "Oracle Certified Professional, Java SE", "Oracle",
+    (r"oracle.*professional.*java|oracle.*java.*professional|\bocp\b.*java|\bocjp\b", "Oracle Certified Professional, Java SE", "Oracle",
      ["software_development"], "professional"),
     (r"six\s+sigma.*green\s+belt", "Six Sigma Green Belt", None, ["business"], "associate"),
     (r"\bitil\b", "ITIL Foundation", "Axelos", ["it_service_management"], "foundational"),
@@ -397,7 +402,7 @@ CATEGORY_KEYWORDS = {
     "cloud": r"\baws\b|azure|\bgcp\b|google cloud|\bcloud\b",
     "data_ai": r"\bdata\b|machine learning|deep learning|\bai\b|artificial intelligence|analytics|tableau|power ?bi"
                r"|\bnlp\b|tensorflow|pytorch|statistics",
-    "software_development": r"python|java\b|javascript|react|node\.?js|full.?stack|web develop|programming|software"
+    "software_development": r"python|java\b|javascript|react|node\.?js|full.?stack|web develop|programming|software (?:develop|engineer)"
                             r"|c\+\+|golang|android|spring",
     "devops": r"devops|docker|kubernetes|terraform|jenkins|ci/cd|ansible|linux",
     "cybersecurity": r"security|cissp|ethical hack|penetration|cyber",
@@ -508,10 +513,27 @@ def parse_certification(line, today=None):
     }
 
 
+_CERT_LABEL_RE = re.compile(r"^(?:licenses?\s*(?:&|and)\s*)?certifications?\s*[:\-]\s*", _I)
+
+
+def _looks_like_cert(piece):
+    return bool(CERT_HINT_RE.search(piece) or any(c[0].search(piece) for c in CERT_CATALOG))
+
+
+def _cert_parts(line):
+    """One line -> one piece per certification. Splits on bullets, and on commas ONLY when every
+    comma-separated piece looks like a certification ("Terraform Associate, CKA", not "Coursera, 2024")."""
+    parts = []
+    for part in re.split(r"\s*[;\u2022\u25cf\u25aa]\s*", _CERT_LABEL_RE.sub("", line)):
+        pieces = [p.strip() for p in re.split(r",\s*(?![^()]*\))", part) if p.strip()]
+        parts.extend(pieces if len(pieces) > 1 and all(_looks_like_cert(p) for p in pieces) else [part])
+    return parts
+
+
 def parse_certifications(text, today=None):
     items = []
     for line in _lines(text):
-        for part in re.split(r"\s*[;\u2022\u25cf\u25aa]\s*", line):
+        for part in _cert_parts(line):
             part = part.strip()
             if not part or part.endswith(":") or part.lower().strip(" :") in ("certifications", "certificates"):
                 continue
@@ -540,6 +562,10 @@ def parse_education_and_certifications(education_text, certification_text="", to
             "highest_level": highest_level(education), "warnings": warnings}
 
 
+_LABELED_EDU_LINE = re.compile(r"^[ \t]*(?:education(?:al)?(?:\s+qualifications?)?)[ \t]*:[ \t]*(\S.*)$", _I | re.M)
+_LABELED_CERT_LINE = re.compile(r"^[ \t]*(?:licenses?\s*(?:&|and)\s*)?certifications?[ \t]*:[ \t]*\S.*$", _I | re.M)
+
+
 def _move_cert_lines(text):
     """No certifications section? Pull certification-looking lines out of an education/other section."""
     keep, moved = [], []
@@ -560,10 +586,14 @@ def parse_from_resume_text(resume_text, today=None):
     edu_text, cert_text = sections.get("education", ""), sections.get("certifications", "")
     if not cert_text:
         edu_text, cert_text = _move_cert_lines(edu_text)
-        _rest, extra = _move_cert_lines(sections.get("other", ""))
-        cert_text = (cert_text + "\n" + extra).strip()
+        extras = [_move_cert_lines(sections.get(name, ""))[1] for name in ("other", "skills")]
+        cert_text = "\n".join(x for x in [cert_text, *extras] if x).strip()
+    if not edu_text.strip():                    # "Education: B.E. IT, VIT, 2020" written inline, no heading line
+        edu_text = "\n".join(m.group(1) for m in _LABELED_EDU_LINE.finditer(resume_text or ""))
+    if not cert_text:                           # the segmenter can lose "Certifications: A, B" under mixed headings
+        cert_text = "\n".join(m.group(0) for m in _LABELED_CERT_LINE.finditer(resume_text or ""))
     result = parse_education_and_certifications(edu_text, cert_text, today)
-    if "education" not in sections:
+    if "education" not in sections and not result["education"]:
         result["warnings"].insert(0, "No 'education' section detected.")
     return result
 
