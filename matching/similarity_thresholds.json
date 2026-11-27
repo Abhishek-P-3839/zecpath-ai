@@ -1,0 +1,9 @@
+{
+  "version": "1.0-tuned",
+  "tuned_with": "hashing-offline, 24 labeled pairs (see the Day 12 report)",
+  "labels": {
+    "strong": 75,
+    "good": 42,
+    "partial": 16
+  }
+}

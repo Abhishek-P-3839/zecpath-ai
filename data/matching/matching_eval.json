@@ -1,0 +1,3168 @@
+{
+  "chosen_thresholds": {
+    "strong": 75,
+    "good": 42,
+    "partial": 16
+  },
+  "neural_skipped": null,
+  "runs": [
+    {
+      "embedder": "hashing-offline",
+      "pairs": [
+        {
+          "resume": "Maya.pdf",
+          "job": "jd_mern_developer",
+          "gold": "relevant",
+          "level": 2,
+          "doubtful": false,
+          "reason": "5 years full-stack; React, Node.js, JavaScript, TypeScript, AWS, Docker, Git. No MongoDB/Redux/Express named, still a clear fit.",
+          "score": 52,
+          "predicted_label": "good",
+          "parts": {
+            "skills": 70,
+            "experience": 27,
+            "projects": null
+          },
+          "missing_must_have": [
+            "rest api",
+            "express",
+            "redux",
+            "mongodb",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "Maya.pdf",
+          "job": "jd_senior_python_messy",
+          "gold": "relevant",
+          "level": 2,
+          "doubtful": true,
+          "reason": "Python/FastAPI/Django microservices, Docker, AWS, PostgreSQL, GitHub Actions, 5 years. Lacks Kubernetes, Jenkins, Redis. DOUBTFUL: could be 'partly' (senior role).",
+          "score": 55,
+          "predicted_label": "good",
+          "parts": {
+            "skills": 55,
+            "experience": 54,
+            "projects": null
+          },
+          "missing_must_have": [
+            "jenkins",
+            "kubernetes",
+            "flask",
+            "redis",
+            "rest api"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "Maya.pdf",
+          "job": "jd_hr_executive",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Software engineer; no recruitment or HR work at all.",
+          "score": 13,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 15,
+            "experience": 10,
+            "projects": null
+          },
+          "missing_must_have": [
+            "recruitment",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "Maya.pdf",
+          "job": "jd_data_analyst_intern",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "Python, SQL and PostgreSQL overlap, but no Excel, Tableau or Power BI and she is an engineer, not an analyst.",
+          "score": 23,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 31,
+            "experience": 14,
+            "projects": null
+          },
+          "missing_must_have": [
+            "excel",
+            "power bi",
+            "tableau",
+            "problem solving"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "alex.pdf",
+          "job": "jd_mern_developer",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Project/operations analyst; leads developers but writes no code and lists no MERN skills.",
+          "score": 2,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 5,
+            "projects": null
+          },
+          "missing_must_have": [
+            "rest api",
+            "node.js",
+            "express",
+            "react",
+            "redux",
+            "mongodb",
+            "javascript",
+            "git",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "alex.pdf",
+          "job": "jd_senior_python_messy",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "No Python or backend engineering; SQL and Power BI only.",
+          "score": 8,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 4,
+            "experience": 14,
+            "projects": null
+          },
+          "missing_must_have": [
+            "python",
+            "microservices",
+            "ci/cd",
+            "jenkins",
+            "docker",
+            "django",
+            "flask",
+            "postgresql",
+            "redis",
+            "rest api",
+            "aws"
+          ],
+          "related_skills": [
+            {
+              "job_skill": "kubernetes",
+              "resume_skill": "excel",
+              "similarity": 0.83
+            }
+          ]
+        },
+        {
+          "resume": "alex.pdf",
+          "job": "jd_hr_executive",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": true,
+          "reason": "Onboarded 20+ hires, trained staff, uses CRM software, strong communication, but no recruitment work. DOUBTFUL.",
+          "score": 21,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 32,
+            "experience": 7,
+            "projects": null
+          },
+          "missing_must_have": [
+            "recruitment",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "alex.pdf",
+          "job": "jd_data_analyst_intern",
+          "gold": "relevant",
+          "level": 2,
+          "doubtful": false,
+          "reason": "Excel, SQL, Tableau, Power BI, KPI reporting, Google Data Analytics certificate: matches nearly every must-have.",
+          "score": 50,
+          "predicted_label": "good",
+          "parts": {
+            "skills": 58,
+            "experience": 40,
+            "projects": null
+          },
+          "missing_must_have": [
+            "problem solving"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "marcus.pdf",
+          "job": "jd_mern_developer",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Marketing operations manager; no software development.",
+          "score": 1,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 1,
+            "projects": null
+          },
+          "missing_must_have": [
+            "rest api",
+            "node.js",
+            "express",
+            "react",
+            "redux",
+            "mongodb",
+            "javascript",
+            "git",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "marcus.pdf",
+          "job": "jd_senior_python_messy",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Marketing operations manager; no Python or backend work.",
+          "score": 1,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 2,
+            "projects": null
+          },
+          "missing_must_have": [
+            "python",
+            "microservices",
+            "ci/cd",
+            "jenkins",
+            "docker",
+            "kubernetes",
+            "django",
+            "flask",
+            "postgresql",
+            "redis",
+            "rest api",
+            "aws"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "marcus.pdf",
+          "job": "jd_hr_executive",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": true,
+          "reason": "Marketing, not recruitment. Shares the CRM must-have (Salesforce, HubSpot) only. DOUBTFUL: could be 'partly'.",
+          "score": 11,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 19,
+            "experience": 0,
+            "projects": null
+          },
+          "missing_must_have": [
+            "recruitment",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "marcus.pdf",
+          "job": "jd_data_analyst_intern",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": true,
+          "reason": "Tableau dashboards, campaign analytics, A/B testing; no SQL or Excel named. DOUBTFUL.",
+          "score": 22,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 14,
+            "experience": 31,
+            "projects": null
+          },
+          "missing_must_have": [
+            "excel",
+            "sql",
+            "power bi",
+            "problem solving"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_bullets_table.docx",
+          "job": "jd_mern_developer",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "Builds REST APIs, deploys on AWS, B.Sc CS; but Flask/Python, not React/Node/MongoDB, and very little detail.",
+          "score": 33,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 32,
+            "experience": 34,
+            "projects": null
+          },
+          "missing_must_have": [
+            "node.js",
+            "express",
+            "react",
+            "redux",
+            "mongodb",
+            "javascript",
+            "git",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_bullets_table.docx",
+          "job": "jd_senior_python_messy",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "Flask, REST APIs, AWS match, but only three short bullets and no sign of seniority.",
+          "score": 26,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 40,
+            "experience": 7,
+            "projects": null
+          },
+          "missing_must_have": [
+            "python",
+            "microservices",
+            "ci/cd",
+            "jenkins",
+            "docker",
+            "kubernetes",
+            "django",
+            "postgresql",
+            "redis"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_bullets_table.docx",
+          "job": "jd_hr_executive",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Backend developer; nothing about HR.",
+          "score": 0,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 0,
+            "projects": null
+          },
+          "missing_must_have": [
+            "recruitment",
+            "crm",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_bullets_table.docx",
+          "job": "jd_data_analyst_intern",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "No data, SQL, Excel or BI work mentioned.",
+          "score": 0,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 0,
+            "projects": null
+          },
+          "missing_must_have": [
+            "excel",
+            "sql",
+            "power bi",
+            "tableau",
+            "problem solving"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_simple.pdf",
+          "job": "jd_mern_developer",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": true,
+          "reason": "Fresher Python developer: only Git/SQL overlap, no React/Node/MongoDB, far below 3-5 years. DOUBTFUL: could be 'partly'.",
+          "score": 8,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 14,
+            "experience": 0,
+            "projects": null
+          },
+          "missing_must_have": [
+            "rest api",
+            "node.js",
+            "express",
+            "react",
+            "redux",
+            "mongodb",
+            "javascript",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_simple.pdf",
+          "job": "jd_senior_python_messy",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "Python, SQL, Git match, but fresher against a senior (5+ years) role.",
+          "score": 7,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 12,
+            "experience": 0,
+            "projects": null
+          },
+          "missing_must_have": [
+            "microservices",
+            "ci/cd",
+            "jenkins",
+            "docker",
+            "kubernetes",
+            "django",
+            "flask",
+            "postgresql",
+            "redis",
+            "rest api",
+            "aws"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_simple.pdf",
+          "job": "jd_hr_executive",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Developer; nothing about HR.",
+          "score": 0,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 0,
+            "projects": null
+          },
+          "missing_must_have": [
+            "recruitment",
+            "crm",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_simple.pdf",
+          "job": "jd_data_analyst_intern",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": true,
+          "reason": "Python and SQL (a must-have and a good-to-have), fresher/intern level, but no Excel or BI tools. DOUBTFUL.",
+          "score": 28,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 46,
+            "experience": 5,
+            "projects": null
+          },
+          "missing_must_have": [
+            "excel",
+            "power bi",
+            "tableau",
+            "problem solving"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_two_column.pdf",
+          "job": "jd_mern_developer",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "React basics, Django REST, Git, built REST APIs as an intern; no Node/MongoDB and junior.",
+          "score": 31,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 40,
+            "experience": 36,
+            "projects": 0
+          },
+          "missing_must_have": [
+            "node.js",
+            "express",
+            "redux",
+            "mongodb",
+            "javascript",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_two_column.pdf",
+          "job": "jd_senior_python_messy",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "Python, Django REST, SQL, Git, Linux; intern-level against a senior role.",
+          "score": 18,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 34,
+            "experience": 6,
+            "projects": 0
+          },
+          "missing_must_have": [
+            "microservices",
+            "ci/cd",
+            "jenkins",
+            "docker",
+            "kubernetes",
+            "flask",
+            "postgresql",
+            "redis",
+            "aws"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_two_column.pdf",
+          "job": "jd_hr_executive",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Developer; nothing about HR.",
+          "score": 0,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 0,
+            "projects": 0
+          },
+          "missing_must_have": [
+            "recruitment",
+            "crm",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_two_column.pdf",
+          "job": "jd_data_analyst_intern",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": true,
+          "reason": "Python and SQL, CS fresher with intern experience, but no Excel or BI tools. DOUBTFUL.",
+          "score": 18,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 36,
+            "experience": 4,
+            "projects": 0
+          },
+          "missing_must_have": [
+            "excel",
+            "power bi",
+            "tableau",
+            "problem solving"
+          ],
+          "related_skills": []
+        }
+      ],
+      "unscorable": {
+        "img.pdf": "Resume file has scanned image (needs OCR); it cannot be scored.",
+        "sample_scanned.pdf": "Resume file has scanned image (needs OCR); it cannot be scored."
+      },
+      "not_a_resume_scores": {
+        "m.pdf": {
+          "jd_data_analyst_intern": 7,
+          "jd_hr_executive": 10,
+          "jd_mern_developer": 23,
+          "jd_senior_python_messy": 14
+        }
+      },
+      "group_stats": {
+        "relevant": {
+          "count": 3,
+          "min": 50,
+          "max": 55,
+          "mean": 52.3
+        },
+        "not relevant": {
+          "count": 11,
+          "min": 0,
+          "max": 13,
+          "mean": 4.0
+        },
+        "partly relevant": {
+          "count": 10,
+          "min": 7,
+          "max": 33,
+          "mean": 22.7
+        }
+      },
+      "ranking": {
+        "jd_mern_developer": {
+          "candidates": 6,
+          "all_relevant_above_not": true,
+          "auc_at_least_partly": 1.0,
+          "precision_at_k": 1.0,
+          "k": 3,
+          "pairwise_order_accuracy": 1.0
+        },
+        "jd_senior_python_messy": {
+          "candidates": 6,
+          "all_relevant_above_not": true,
+          "auc_at_least_partly": 0.875,
+          "precision_at_k": 0.75,
+          "k": 4,
+          "pairwise_order_accuracy": 0.909
+        },
+        "jd_hr_executive": {
+          "candidates": 6,
+          "all_relevant_above_not": null,
+          "auc_at_least_partly": 1.0,
+          "precision_at_k": 1.0,
+          "k": 1,
+          "pairwise_order_accuracy": 1.0
+        },
+        "jd_data_analyst_intern": {
+          "candidates": 6,
+          "all_relevant_above_not": true,
+          "auc_at_least_partly": 1.0,
+          "precision_at_k": 1.0,
+          "k": 5,
+          "pairwise_order_accuracy": 1.0
+        }
+      },
+      "part_auc": {
+        "skills": {
+          "pairs_with_data": 24,
+          "auc": 0.962
+        },
+        "experience": {
+          "pairs_with_data": 24,
+          "auc": 0.86
+        },
+        "projects": {
+          "pairs_with_data": 4,
+          "auc": 0.5
+        }
+      },
+      "tasks": {
+        "relevant": {
+          "task": "relevant",
+          "positives": 3,
+          "pairs": 24,
+          "auc": 1.0,
+          "gap": {
+            "highest_not_match": 33,
+            "lowest_match": 50
+          },
+          "sweep": [
+            {
+              "threshold": 0,
+              "tp": 3,
+              "fp": 21,
+              "fn": 0,
+              "tn": 0,
+              "precision": 0.125,
+              "recall": 1.0,
+              "f1": 0.222,
+              "accuracy": 0.125
+            },
+            {
+              "threshold": 5,
+              "tp": 3,
+              "fp": 14,
+              "fn": 0,
+              "tn": 7,
+              "precision": 0.176,
+              "recall": 1.0,
+              "f1": 0.299,
+              "accuracy": 0.417
+            },
+            {
+              "threshold": 10,
+              "tp": 3,
+              "fp": 11,
+              "fn": 0,
+              "tn": 10,
+              "precision": 0.214,
+              "recall": 1.0,
+              "f1": 0.353,
+              "accuracy": 0.542
+            },
+            {
+              "threshold": 15,
+              "tp": 3,
+              "fp": 9,
+              "fn": 0,
+              "tn": 12,
+              "precision": 0.25,
+              "recall": 1.0,
+              "f1": 0.4,
+              "accuracy": 0.625
+            },
+            {
+              "threshold": 20,
+              "tp": 3,
+              "fp": 7,
+              "fn": 0,
+              "tn": 14,
+              "precision": 0.3,
+              "recall": 1.0,
+              "f1": 0.462,
+              "accuracy": 0.708
+            },
+            {
+              "threshold": 25,
+              "tp": 3,
+              "fp": 4,
+              "fn": 0,
+              "tn": 17,
+              "precision": 0.429,
+              "recall": 1.0,
+              "f1": 0.6,
+              "accuracy": 0.833
+            },
+            {
+              "threshold": 30,
+              "tp": 3,
+              "fp": 2,
+              "fn": 0,
+              "tn": 19,
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1": 0.75,
+              "accuracy": 0.917
+            },
+            {
+              "threshold": 35,
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            {
+              "threshold": 40,
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            {
+              "threshold": 45,
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            {
+              "threshold": 50,
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            {
+              "threshold": 55,
+              "tp": 1,
+              "fp": 0,
+              "fn": 2,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 0.333,
+              "f1": 0.5,
+              "accuracy": 0.917
+            },
+            {
+              "threshold": 60,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 65,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 70,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 75,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 80,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 85,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 90,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 95,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 100,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            }
+          ],
+          "chosen_threshold": 42,
+          "at_chosen": {
+            "threshold": 42,
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "tn": 21,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0
+          },
+          "at_old_cut": {
+            "threshold": 55,
+            "tp": 1,
+            "fp": 0,
+            "fn": 2,
+            "tn": 21,
+            "precision": 1.0,
+            "recall": 0.333,
+            "f1": 0.5,
+            "accuracy": 0.917
+          },
+          "per_job": {
+            "jd_mern_developer": {
+              "threshold": 42,
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "tn": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            "jd_senior_python_messy": {
+              "threshold": 42,
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "tn": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            "jd_hr_executive": {
+              "threshold": 42,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 6,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "accuracy": 1.0
+            },
+            "jd_data_analyst_intern": {
+              "threshold": 42,
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "tn": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            }
+          },
+          "leave_one_job_out": {
+            "folds": [
+              {
+                "held_out": "jd_mern_developer",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_hr_executive",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 39,
+                "tp": 1,
+                "fp": 0,
+                "fn": 0,
+                "tn": 5,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "accuracy": 1.0
+              },
+              {
+                "held_out": "jd_senior_python_messy",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_hr_executive",
+                  "jd_mern_developer"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 42,
+                "tp": 1,
+                "fp": 0,
+                "fn": 0,
+                "tn": 5,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "accuracy": 1.0
+              },
+              {
+                "held_out": "jd_hr_executive",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_mern_developer",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 42,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "tn": 6,
+                "precision": null,
+                "recall": null,
+                "f1": null,
+                "accuracy": 1.0
+              },
+              {
+                "held_out": "jd_data_analyst_intern",
+                "tuned_on": [
+                  "jd_hr_executive",
+                  "jd_mern_developer",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 43,
+                "tp": 1,
+                "fp": 0,
+                "fn": 0,
+                "tn": 5,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "accuracy": 1.0
+              }
+            ],
+            "pooled_test": {
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            "threshold_min": 39,
+            "threshold_max": 43,
+            "threshold_spread": 4
+          },
+          "errors": []
+        },
+        "at_least_partly": {
+          "task": "at_least_partly",
+          "positives": 13,
+          "pairs": 24,
+          "auc": 0.972,
+          "gap": {
+            "highest_not_match": 13,
+            "lowest_match": 7
+          },
+          "sweep": [
+            {
+              "threshold": 0,
+              "tp": 13,
+              "fp": 11,
+              "fn": 0,
+              "tn": 0,
+              "precision": 0.542,
+              "recall": 1.0,
+              "f1": 0.703,
+              "accuracy": 0.542
+            },
+            {
+              "threshold": 5,
+              "tp": 13,
+              "fp": 4,
+              "fn": 0,
+              "tn": 7,
+              "precision": 0.765,
+              "recall": 1.0,
+              "f1": 0.867,
+              "accuracy": 0.833
+            },
+            {
+              "threshold": 10,
+              "tp": 12,
+              "fp": 2,
+              "fn": 1,
+              "tn": 9,
+              "precision": 0.857,
+              "recall": 0.923,
+              "f1": 0.889,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 15,
+              "tp": 12,
+              "fp": 0,
+              "fn": 1,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.923,
+              "f1": 0.96,
+              "accuracy": 0.958
+            },
+            {
+              "threshold": 20,
+              "tp": 10,
+              "fp": 0,
+              "fn": 3,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.769,
+              "f1": 0.869,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 25,
+              "tp": 7,
+              "fp": 0,
+              "fn": 6,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.538,
+              "f1": 0.7,
+              "accuracy": 0.75
+            },
+            {
+              "threshold": 30,
+              "tp": 5,
+              "fp": 0,
+              "fn": 8,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.385,
+              "f1": 0.556,
+              "accuracy": 0.667
+            },
+            {
+              "threshold": 35,
+              "tp": 3,
+              "fp": 0,
+              "fn": 10,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.231,
+              "f1": 0.375,
+              "accuracy": 0.583
+            },
+            {
+              "threshold": 40,
+              "tp": 3,
+              "fp": 0,
+              "fn": 10,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.231,
+              "f1": 0.375,
+              "accuracy": 0.583
+            },
+            {
+              "threshold": 45,
+              "tp": 3,
+              "fp": 0,
+              "fn": 10,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.231,
+              "f1": 0.375,
+              "accuracy": 0.583
+            },
+            {
+              "threshold": 50,
+              "tp": 3,
+              "fp": 0,
+              "fn": 10,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.231,
+              "f1": 0.375,
+              "accuracy": 0.583
+            },
+            {
+              "threshold": 55,
+              "tp": 1,
+              "fp": 0,
+              "fn": 12,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.077,
+              "f1": 0.143,
+              "accuracy": 0.5
+            },
+            {
+              "threshold": 60,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 65,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 70,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 75,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 80,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 85,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 90,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 95,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 100,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            }
+          ],
+          "chosen_threshold": 16,
+          "at_chosen": {
+            "threshold": 16,
+            "tp": 12,
+            "fp": 0,
+            "fn": 1,
+            "tn": 11,
+            "precision": 1.0,
+            "recall": 0.923,
+            "f1": 0.96,
+            "accuracy": 0.958
+          },
+          "at_old_cut": {
+            "threshold": 35,
+            "tp": 3,
+            "fp": 0,
+            "fn": 10,
+            "tn": 11,
+            "precision": 1.0,
+            "recall": 0.231,
+            "f1": 0.375,
+            "accuracy": 0.583
+          },
+          "per_job": {
+            "jd_mern_developer": {
+              "threshold": 16,
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "tn": 3,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            "jd_senior_python_messy": {
+              "threshold": 16,
+              "tp": 3,
+              "fp": 0,
+              "fn": 1,
+              "tn": 2,
+              "precision": 1.0,
+              "recall": 0.75,
+              "f1": 0.857,
+              "accuracy": 0.833
+            },
+            "jd_hr_executive": {
+              "threshold": 16,
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "tn": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            "jd_data_analyst_intern": {
+              "threshold": 16,
+              "tp": 5,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            }
+          },
+          "leave_one_job_out": {
+            "folds": [
+              {
+                "held_out": "jd_mern_developer",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_hr_executive",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 16,
+                "tp": 3,
+                "fp": 0,
+                "fn": 0,
+                "tn": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "accuracy": 1.0
+              },
+              {
+                "held_out": "jd_senior_python_messy",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_hr_executive",
+                  "jd_mern_developer"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 16,
+                "tp": 3,
+                "fp": 0,
+                "fn": 1,
+                "tn": 2,
+                "precision": 1.0,
+                "recall": 0.75,
+                "f1": 0.857,
+                "accuracy": 0.833
+              },
+              {
+                "held_out": "jd_hr_executive",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_mern_developer",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 13,
+                "tp": 1,
+                "fp": 1,
+                "fn": 0,
+                "tn": 4,
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.667,
+                "accuracy": 0.833
+              },
+              {
+                "held_out": "jd_data_analyst_intern",
+                "tuned_on": [
+                  "jd_hr_executive",
+                  "jd_mern_developer",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 16,
+                "tp": 5,
+                "fp": 0,
+                "fn": 0,
+                "tn": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "accuracy": 1.0
+              }
+            ],
+            "pooled_test": {
+              "tp": 12,
+              "fp": 1,
+              "fn": 1,
+              "tn": 10,
+              "precision": 0.923,
+              "recall": 0.923,
+              "f1": 0.923,
+              "accuracy": 0.917
+            },
+            "threshold_min": 13,
+            "threshold_max": 16,
+            "threshold_spread": 3
+          },
+          "errors": [
+            {
+              "kind": "false negative",
+              "resume": "sample_simple.pdf",
+              "job": "jd_senior_python_messy",
+              "gold": "partly relevant",
+              "level": 1,
+              "doubtful": false,
+              "reason": "Python, SQL, Git match, but fresher against a senior (5+ years) role.",
+              "score": 7,
+              "predicted_label": "weak",
+              "parts": {
+                "skills": 12,
+                "experience": 0,
+                "projects": null
+              },
+              "missing_must_have": [
+                "microservices",
+                "ci/cd",
+                "jenkins",
+                "docker",
+                "kubernetes",
+                "django",
+                "flask",
+                "postgresql",
+                "redis",
+                "rest api",
+                "aws"
+              ],
+              "related_skills": []
+            }
+          ]
+        }
+      },
+      "skill_threshold_study": [
+        {
+          "value": 0.5,
+          "related_matches": 1,
+          "auc_relevant": 1.0,
+          "auc_at_least_partly": 0.972,
+          "order_accuracy": 0.977,
+          "best_f1_relevant": 1.0,
+          "best_f1_at_least_partly": 0.96
+        },
+        {
+          "value": 0.6,
+          "related_matches": 1,
+          "auc_relevant": 1.0,
+          "auc_at_least_partly": 0.972,
+          "order_accuracy": 0.977,
+          "best_f1_relevant": 1.0,
+          "best_f1_at_least_partly": 0.96
+        },
+        {
+          "value": 0.7,
+          "related_matches": 1,
+          "auc_relevant": 1.0,
+          "auc_at_least_partly": 0.972,
+          "order_accuracy": 0.977,
+          "best_f1_relevant": 1.0,
+          "best_f1_at_least_partly": 0.96
+        },
+        {
+          "value": 0.8,
+          "related_matches": 1,
+          "auc_relevant": 1.0,
+          "auc_at_least_partly": 0.972,
+          "order_accuracy": 0.977,
+          "best_f1_relevant": 1.0,
+          "best_f1_at_least_partly": 0.96
+        },
+        {
+          "value": 0.9,
+          "related_matches": 0,
+          "auc_relevant": 1.0,
+          "auc_at_least_partly": 0.976,
+          "order_accuracy": 0.98,
+          "best_f1_relevant": 1.0,
+          "best_f1_at_least_partly": 0.96
+        }
+      ],
+      "related_examples": [
+        {
+          "job_skill": "kubernetes",
+          "resume_skill": "excel",
+          "similarity": 0.83,
+          "first_seen_in": "alex.pdf vs jd_senior_python_messy"
+        }
+      ]
+    },
+    {
+      "embedder": "all-MiniLM-L6-v2",
+      "pairs": [
+        {
+          "resume": "Maya.pdf",
+          "job": "jd_mern_developer",
+          "gold": "relevant",
+          "level": 2,
+          "doubtful": false,
+          "reason": "5 years full-stack; React, Node.js, JavaScript, TypeScript, AWS, Docker, Git. No MongoDB/Redux/Express named, still a clear fit.",
+          "score": 65,
+          "predicted_label": "good",
+          "parts": {
+            "skills": 62,
+            "experience": 70,
+            "projects": null
+          },
+          "missing_must_have": [
+            "rest api",
+            "express",
+            "redux",
+            "mongodb",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "Maya.pdf",
+          "job": "jd_senior_python_messy",
+          "gold": "relevant",
+          "level": 2,
+          "doubtful": true,
+          "reason": "Python/FastAPI/Django microservices, Docker, AWS, PostgreSQL, GitHub Actions, 5 years. Lacks Kubernetes, Jenkins, Redis. DOUBTFUL: could be 'partly' (senior role).",
+          "score": 60,
+          "predicted_label": "good",
+          "parts": {
+            "skills": 53,
+            "experience": 68,
+            "projects": null
+          },
+          "missing_must_have": [
+            "jenkins",
+            "kubernetes",
+            "flask",
+            "redis",
+            "rest api"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "Maya.pdf",
+          "job": "jd_hr_executive",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Software engineer; no recruitment or HR work at all.",
+          "score": 12,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 12,
+            "experience": 12,
+            "projects": null
+          },
+          "missing_must_have": [
+            "recruitment",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "Maya.pdf",
+          "job": "jd_data_analyst_intern",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "Python, SQL and PostgreSQL overlap, but no Excel, Tableau or Power BI and she is an engineer, not an analyst.",
+          "score": 23,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 19,
+            "experience": 28,
+            "projects": null
+          },
+          "missing_must_have": [
+            "excel",
+            "power bi",
+            "tableau",
+            "problem solving"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "alex.pdf",
+          "job": "jd_mern_developer",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Project/operations analyst; leads developers but writes no code and lists no MERN skills.",
+          "score": 14,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 32,
+            "projects": null
+          },
+          "missing_must_have": [
+            "rest api",
+            "node.js",
+            "express",
+            "react",
+            "redux",
+            "mongodb",
+            "javascript",
+            "git",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "alex.pdf",
+          "job": "jd_senior_python_messy",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "No Python or backend engineering; SQL and Power BI only.",
+          "score": 15,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 34,
+            "projects": null
+          },
+          "missing_must_have": [
+            "python",
+            "microservices",
+            "ci/cd",
+            "jenkins",
+            "docker",
+            "kubernetes",
+            "django",
+            "flask",
+            "postgresql",
+            "redis",
+            "rest api",
+            "aws"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "alex.pdf",
+          "job": "jd_hr_executive",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": true,
+          "reason": "Onboarded 20+ hires, trained staff, uses CRM software, strong communication, but no recruitment work. DOUBTFUL.",
+          "score": 35,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 52,
+            "experience": 14,
+            "projects": null
+          },
+          "missing_must_have": [
+            "recruitment",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "alex.pdf",
+          "job": "jd_data_analyst_intern",
+          "gold": "relevant",
+          "level": 2,
+          "doubtful": false,
+          "reason": "Excel, SQL, Tableau, Power BI, KPI reporting, Google Data Analytics certificate: matches nearly every must-have.",
+          "score": 46,
+          "predicted_label": "good",
+          "parts": {
+            "skills": 48,
+            "experience": 43,
+            "projects": null
+          },
+          "missing_must_have": [
+            "problem solving"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "marcus.pdf",
+          "job": "jd_mern_developer",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Marketing operations manager; no software development.",
+          "score": 9,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 22,
+            "projects": null
+          },
+          "missing_must_have": [
+            "rest api",
+            "node.js",
+            "express",
+            "react",
+            "redux",
+            "mongodb",
+            "javascript",
+            "git",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "marcus.pdf",
+          "job": "jd_senior_python_messy",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Marketing operations manager; no Python or backend work.",
+          "score": 5,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 11,
+            "projects": null
+          },
+          "missing_must_have": [
+            "python",
+            "microservices",
+            "ci/cd",
+            "jenkins",
+            "docker",
+            "kubernetes",
+            "django",
+            "flask",
+            "postgresql",
+            "redis",
+            "rest api",
+            "aws"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "marcus.pdf",
+          "job": "jd_hr_executive",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": true,
+          "reason": "Marketing, not recruitment. Shares the CRM must-have (Salesforce, HubSpot) only. DOUBTFUL: could be 'partly'.",
+          "score": 34,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 32,
+            "experience": 37,
+            "projects": null
+          },
+          "missing_must_have": [
+            "recruitment",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "marcus.pdf",
+          "job": "jd_data_analyst_intern",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": true,
+          "reason": "Tableau dashboards, campaign analytics, A/B testing; no SQL or Excel named. DOUBTFUL.",
+          "score": 22,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 13,
+            "experience": 34,
+            "projects": null
+          },
+          "missing_must_have": [
+            "excel",
+            "sql",
+            "power bi",
+            "problem solving"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_bullets_table.docx",
+          "job": "jd_mern_developer",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "Builds REST APIs, deploys on AWS, B.Sc CS; but Flask/Python, not React/Node/MongoDB, and very little detail.",
+          "score": 22,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 18,
+            "experience": 27,
+            "projects": null
+          },
+          "missing_must_have": [
+            "node.js",
+            "express",
+            "react",
+            "redux",
+            "mongodb",
+            "javascript",
+            "git",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_bullets_table.docx",
+          "job": "jd_senior_python_messy",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "Flask, REST APIs, AWS match, but only three short bullets and no sign of seniority.",
+          "score": 27,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 29,
+            "experience": 23,
+            "projects": null
+          },
+          "missing_must_have": [
+            "python",
+            "microservices",
+            "ci/cd",
+            "jenkins",
+            "docker",
+            "kubernetes",
+            "django",
+            "postgresql",
+            "redis"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_bullets_table.docx",
+          "job": "jd_hr_executive",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Backend developer; nothing about HR.",
+          "score": 0,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 0,
+            "projects": null
+          },
+          "missing_must_have": [
+            "recruitment",
+            "crm",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_bullets_table.docx",
+          "job": "jd_data_analyst_intern",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "No data, SQL, Excel or BI work mentioned.",
+          "score": 0,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 0,
+            "projects": null
+          },
+          "missing_must_have": [
+            "excel",
+            "sql",
+            "power bi",
+            "tableau",
+            "problem solving"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_simple.pdf",
+          "job": "jd_mern_developer",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": true,
+          "reason": "Fresher Python developer: only Git/SQL overlap, no React/Node/MongoDB, far below 3-5 years. DOUBTFUL: could be 'partly'.",
+          "score": 11,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 12,
+            "experience": 11,
+            "projects": null
+          },
+          "missing_must_have": [
+            "rest api",
+            "node.js",
+            "express",
+            "react",
+            "redux",
+            "mongodb",
+            "javascript",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_simple.pdf",
+          "job": "jd_senior_python_messy",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "Python, SQL, Git match, but fresher against a senior (5+ years) role.",
+          "score": 18,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 16,
+            "experience": 22,
+            "projects": null
+          },
+          "missing_must_have": [
+            "microservices",
+            "ci/cd",
+            "jenkins",
+            "docker",
+            "kubernetes",
+            "django",
+            "flask",
+            "postgresql",
+            "redis",
+            "rest api",
+            "aws"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_simple.pdf",
+          "job": "jd_hr_executive",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Developer; nothing about HR.",
+          "score": 9,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 21,
+            "projects": null
+          },
+          "missing_must_have": [
+            "recruitment",
+            "crm",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_simple.pdf",
+          "job": "jd_data_analyst_intern",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": true,
+          "reason": "Python and SQL (a must-have and a good-to-have), fresher/intern level, but no Excel or BI tools. DOUBTFUL.",
+          "score": 25,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 32,
+            "experience": 15,
+            "projects": null
+          },
+          "missing_must_have": [
+            "excel",
+            "power bi",
+            "tableau",
+            "problem solving"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_two_column.pdf",
+          "job": "jd_mern_developer",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "React basics, Django REST, Git, built REST APIs as an intern; no Node/MongoDB and junior.",
+          "score": 37,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 35,
+            "experience": 46,
+            "projects": 28
+          },
+          "missing_must_have": [
+            "node.js",
+            "express",
+            "redux",
+            "mongodb",
+            "javascript",
+            "communication"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_two_column.pdf",
+          "job": "jd_senior_python_messy",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": false,
+          "reason": "Python, Django REST, SQL, Git, Linux; intern-level against a senior role.",
+          "score": 21,
+          "predicted_label": "partial",
+          "parts": {
+            "skills": 29,
+            "experience": 19,
+            "projects": 8
+          },
+          "missing_must_have": [
+            "microservices",
+            "ci/cd",
+            "jenkins",
+            "docker",
+            "kubernetes",
+            "flask",
+            "postgresql",
+            "redis",
+            "aws"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_two_column.pdf",
+          "job": "jd_hr_executive",
+          "gold": "not relevant",
+          "level": 0,
+          "doubtful": false,
+          "reason": "Developer; nothing about HR.",
+          "score": 7,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 0,
+            "experience": 0,
+            "projects": 35
+          },
+          "missing_must_have": [
+            "recruitment",
+            "crm",
+            "communication",
+            "teamwork"
+          ],
+          "related_skills": []
+        },
+        {
+          "resume": "sample_two_column.pdf",
+          "job": "jd_data_analyst_intern",
+          "gold": "partly relevant",
+          "level": 1,
+          "doubtful": true,
+          "reason": "Python and SQL, CS fresher with intern experience, but no Excel or BI tools. DOUBTFUL.",
+          "score": 11,
+          "predicted_label": "weak",
+          "parts": {
+            "skills": 25,
+            "experience": 0,
+            "projects": 0
+          },
+          "missing_must_have": [
+            "excel",
+            "power bi",
+            "tableau",
+            "problem solving"
+          ],
+          "related_skills": []
+        }
+      ],
+      "unscorable": {
+        "img.pdf": "Resume file has scanned image (needs OCR); it cannot be scored.",
+        "sample_scanned.pdf": "Resume file has scanned image (needs OCR); it cannot be scored."
+      },
+      "not_a_resume_scores": {
+        "m.pdf": {
+          "jd_data_analyst_intern": 17,
+          "jd_hr_executive": 22,
+          "jd_mern_developer": 25,
+          "jd_senior_python_messy": 22
+        }
+      },
+      "group_stats": {
+        "relevant": {
+          "count": 3,
+          "min": 46,
+          "max": 65,
+          "mean": 57.0
+        },
+        "not relevant": {
+          "count": 11,
+          "min": 0,
+          "max": 34,
+          "mean": 10.5
+        },
+        "partly relevant": {
+          "count": 10,
+          "min": 11,
+          "max": 37,
+          "mean": 24.1
+        }
+      },
+      "ranking": {
+        "jd_mern_developer": {
+          "candidates": 6,
+          "all_relevant_above_not": true,
+          "auc_at_least_partly": 1.0,
+          "precision_at_k": 1.0,
+          "k": 3,
+          "pairwise_order_accuracy": 1.0
+        },
+        "jd_senior_python_messy": {
+          "candidates": 6,
+          "all_relevant_above_not": true,
+          "auc_at_least_partly": 1.0,
+          "precision_at_k": 1.0,
+          "k": 4,
+          "pairwise_order_accuracy": 1.0
+        },
+        "jd_hr_executive": {
+          "candidates": 6,
+          "all_relevant_above_not": null,
+          "auc_at_least_partly": 1.0,
+          "precision_at_k": 1.0,
+          "k": 1,
+          "pairwise_order_accuracy": 1.0
+        },
+        "jd_data_analyst_intern": {
+          "candidates": 6,
+          "all_relevant_above_not": true,
+          "auc_at_least_partly": 1.0,
+          "precision_at_k": 1.0,
+          "k": 5,
+          "pairwise_order_accuracy": 1.0
+        }
+      },
+      "part_auc": {
+        "skills": {
+          "pairs_with_data": 24,
+          "auc": 0.948
+        },
+        "experience": {
+          "pairs_with_data": 24,
+          "auc": 0.731
+        },
+        "projects": {
+          "pairs_with_data": 4,
+          "auc": 0.0
+        }
+      },
+      "tasks": {
+        "relevant": {
+          "task": "relevant",
+          "positives": 3,
+          "pairs": 24,
+          "auc": 1.0,
+          "gap": {
+            "highest_not_match": 37,
+            "lowest_match": 46
+          },
+          "sweep": [
+            {
+              "threshold": 0,
+              "tp": 3,
+              "fp": 21,
+              "fn": 0,
+              "tn": 0,
+              "precision": 0.125,
+              "recall": 1.0,
+              "f1": 0.222,
+              "accuracy": 0.125
+            },
+            {
+              "threshold": 5,
+              "tp": 3,
+              "fp": 19,
+              "fn": 0,
+              "tn": 2,
+              "precision": 0.136,
+              "recall": 1.0,
+              "f1": 0.239,
+              "accuracy": 0.208
+            },
+            {
+              "threshold": 10,
+              "tp": 3,
+              "fp": 15,
+              "fn": 0,
+              "tn": 6,
+              "precision": 0.167,
+              "recall": 1.0,
+              "f1": 0.286,
+              "accuracy": 0.375
+            },
+            {
+              "threshold": 15,
+              "tp": 3,
+              "fp": 11,
+              "fn": 0,
+              "tn": 10,
+              "precision": 0.214,
+              "recall": 1.0,
+              "f1": 0.353,
+              "accuracy": 0.542
+            },
+            {
+              "threshold": 20,
+              "tp": 3,
+              "fp": 9,
+              "fn": 0,
+              "tn": 12,
+              "precision": 0.25,
+              "recall": 1.0,
+              "f1": 0.4,
+              "accuracy": 0.625
+            },
+            {
+              "threshold": 25,
+              "tp": 3,
+              "fp": 5,
+              "fn": 0,
+              "tn": 16,
+              "precision": 0.375,
+              "recall": 1.0,
+              "f1": 0.545,
+              "accuracy": 0.792
+            },
+            {
+              "threshold": 30,
+              "tp": 3,
+              "fp": 3,
+              "fn": 0,
+              "tn": 18,
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1": 0.667,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 35,
+              "tp": 3,
+              "fp": 2,
+              "fn": 0,
+              "tn": 19,
+              "precision": 0.6,
+              "recall": 1.0,
+              "f1": 0.75,
+              "accuracy": 0.917
+            },
+            {
+              "threshold": 40,
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            {
+              "threshold": 45,
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            {
+              "threshold": 50,
+              "tp": 2,
+              "fp": 0,
+              "fn": 1,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 0.667,
+              "f1": 0.8,
+              "accuracy": 0.958
+            },
+            {
+              "threshold": 55,
+              "tp": 2,
+              "fp": 0,
+              "fn": 1,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 0.667,
+              "f1": 0.8,
+              "accuracy": 0.958
+            },
+            {
+              "threshold": 60,
+              "tp": 2,
+              "fp": 0,
+              "fn": 1,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 0.667,
+              "f1": 0.8,
+              "accuracy": 0.958
+            },
+            {
+              "threshold": 65,
+              "tp": 1,
+              "fp": 0,
+              "fn": 2,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 0.333,
+              "f1": 0.5,
+              "accuracy": 0.917
+            },
+            {
+              "threshold": 70,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 75,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 80,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 85,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 90,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 95,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 100,
+              "tp": 0,
+              "fp": 0,
+              "fn": 3,
+              "tn": 21,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.875
+            }
+          ],
+          "chosen_threshold": 42,
+          "at_chosen": {
+            "threshold": 42,
+            "tp": 3,
+            "fp": 0,
+            "fn": 0,
+            "tn": 21,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "accuracy": 1.0
+          },
+          "at_old_cut": {
+            "threshold": 55,
+            "tp": 2,
+            "fp": 0,
+            "fn": 1,
+            "tn": 21,
+            "precision": 1.0,
+            "recall": 0.667,
+            "f1": 0.8,
+            "accuracy": 0.958
+          },
+          "per_job": {
+            "jd_mern_developer": {
+              "threshold": 42,
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "tn": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            "jd_senior_python_messy": {
+              "threshold": 42,
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "tn": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            "jd_hr_executive": {
+              "threshold": 42,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 6,
+              "precision": null,
+              "recall": null,
+              "f1": null,
+              "accuracy": 1.0
+            },
+            "jd_data_analyst_intern": {
+              "threshold": 42,
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "tn": 5,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            }
+          },
+          "leave_one_job_out": {
+            "folds": [
+              {
+                "held_out": "jd_mern_developer",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_hr_executive",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 41,
+                "tp": 1,
+                "fp": 0,
+                "fn": 0,
+                "tn": 5,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "accuracy": 1.0
+              },
+              {
+                "held_out": "jd_senior_python_messy",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_hr_executive",
+                  "jd_mern_developer"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 42,
+                "tp": 1,
+                "fp": 0,
+                "fn": 0,
+                "tn": 5,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "accuracy": 1.0
+              },
+              {
+                "held_out": "jd_hr_executive",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_mern_developer",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 42,
+                "tp": 0,
+                "fp": 0,
+                "fn": 0,
+                "tn": 6,
+                "precision": null,
+                "recall": null,
+                "f1": null,
+                "accuracy": 1.0
+              },
+              {
+                "held_out": "jd_data_analyst_intern",
+                "tuned_on": [
+                  "jd_hr_executive",
+                  "jd_mern_developer",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 49,
+                "tp": 0,
+                "fp": 0,
+                "fn": 1,
+                "tn": 5,
+                "precision": null,
+                "recall": 0.0,
+                "f1": null,
+                "accuracy": 0.833
+              }
+            ],
+            "pooled_test": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 1,
+              "tn": 21,
+              "precision": 1.0,
+              "recall": 0.667,
+              "f1": 0.8,
+              "accuracy": 0.958
+            },
+            "threshold_min": 41,
+            "threshold_max": 49,
+            "threshold_spread": 8
+          },
+          "errors": []
+        },
+        "at_least_partly": {
+          "task": "at_least_partly",
+          "positives": 13,
+          "pairs": 24,
+          "auc": 0.92,
+          "gap": {
+            "highest_not_match": 34,
+            "lowest_match": 11
+          },
+          "sweep": [
+            {
+              "threshold": 0,
+              "tp": 13,
+              "fp": 11,
+              "fn": 0,
+              "tn": 0,
+              "precision": 0.542,
+              "recall": 1.0,
+              "f1": 0.703,
+              "accuracy": 0.542
+            },
+            {
+              "threshold": 5,
+              "tp": 13,
+              "fp": 9,
+              "fn": 0,
+              "tn": 2,
+              "precision": 0.591,
+              "recall": 1.0,
+              "f1": 0.743,
+              "accuracy": 0.625
+            },
+            {
+              "threshold": 10,
+              "tp": 13,
+              "fp": 5,
+              "fn": 0,
+              "tn": 6,
+              "precision": 0.722,
+              "recall": 1.0,
+              "f1": 0.839,
+              "accuracy": 0.792
+            },
+            {
+              "threshold": 15,
+              "tp": 12,
+              "fp": 2,
+              "fn": 1,
+              "tn": 9,
+              "precision": 0.857,
+              "recall": 0.923,
+              "f1": 0.889,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 20,
+              "tp": 11,
+              "fp": 1,
+              "fn": 2,
+              "tn": 10,
+              "precision": 0.917,
+              "recall": 0.846,
+              "f1": 0.88,
+              "accuracy": 0.875
+            },
+            {
+              "threshold": 25,
+              "tp": 7,
+              "fp": 1,
+              "fn": 6,
+              "tn": 10,
+              "precision": 0.875,
+              "recall": 0.538,
+              "f1": 0.666,
+              "accuracy": 0.708
+            },
+            {
+              "threshold": 30,
+              "tp": 5,
+              "fp": 1,
+              "fn": 8,
+              "tn": 10,
+              "precision": 0.833,
+              "recall": 0.385,
+              "f1": 0.527,
+              "accuracy": 0.625
+            },
+            {
+              "threshold": 35,
+              "tp": 5,
+              "fp": 0,
+              "fn": 8,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.385,
+              "f1": 0.556,
+              "accuracy": 0.667
+            },
+            {
+              "threshold": 40,
+              "tp": 3,
+              "fp": 0,
+              "fn": 10,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.231,
+              "f1": 0.375,
+              "accuracy": 0.583
+            },
+            {
+              "threshold": 45,
+              "tp": 3,
+              "fp": 0,
+              "fn": 10,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.231,
+              "f1": 0.375,
+              "accuracy": 0.583
+            },
+            {
+              "threshold": 50,
+              "tp": 2,
+              "fp": 0,
+              "fn": 11,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.154,
+              "f1": 0.267,
+              "accuracy": 0.542
+            },
+            {
+              "threshold": 55,
+              "tp": 2,
+              "fp": 0,
+              "fn": 11,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.154,
+              "f1": 0.267,
+              "accuracy": 0.542
+            },
+            {
+              "threshold": 60,
+              "tp": 2,
+              "fp": 0,
+              "fn": 11,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.154,
+              "f1": 0.267,
+              "accuracy": 0.542
+            },
+            {
+              "threshold": 65,
+              "tp": 1,
+              "fp": 0,
+              "fn": 12,
+              "tn": 11,
+              "precision": 1.0,
+              "recall": 0.077,
+              "f1": 0.143,
+              "accuracy": 0.5
+            },
+            {
+              "threshold": 70,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 75,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 80,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 85,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 90,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 95,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            },
+            {
+              "threshold": 100,
+              "tp": 0,
+              "fp": 0,
+              "fn": 13,
+              "tn": 11,
+              "precision": null,
+              "recall": 0.0,
+              "f1": null,
+              "accuracy": 0.458
+            }
+          ],
+          "chosen_threshold": 17,
+          "at_chosen": {
+            "threshold": 17,
+            "tp": 12,
+            "fp": 1,
+            "fn": 1,
+            "tn": 10,
+            "precision": 0.923,
+            "recall": 0.923,
+            "f1": 0.923,
+            "accuracy": 0.917
+          },
+          "at_old_cut": {
+            "threshold": 35,
+            "tp": 5,
+            "fp": 0,
+            "fn": 8,
+            "tn": 11,
+            "precision": 1.0,
+            "recall": 0.385,
+            "f1": 0.556,
+            "accuracy": 0.667
+          },
+          "per_job": {
+            "jd_mern_developer": {
+              "threshold": 17,
+              "tp": 3,
+              "fp": 0,
+              "fn": 0,
+              "tn": 3,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            "jd_senior_python_messy": {
+              "threshold": 17,
+              "tp": 4,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2,
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1": 1.0,
+              "accuracy": 1.0
+            },
+            "jd_hr_executive": {
+              "threshold": 17,
+              "tp": 1,
+              "fp": 1,
+              "fn": 0,
+              "tn": 4,
+              "precision": 0.5,
+              "recall": 1.0,
+              "f1": 0.667,
+              "accuracy": 0.833
+            },
+            "jd_data_analyst_intern": {
+              "threshold": 17,
+              "tp": 4,
+              "fp": 0,
+              "fn": 1,
+              "tn": 1,
+              "precision": 1.0,
+              "recall": 0.8,
+              "f1": 0.889,
+              "accuracy": 0.833
+            }
+          },
+          "leave_one_job_out": {
+            "folds": [
+              {
+                "held_out": "jd_mern_developer",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_hr_executive",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 17,
+                "tp": 3,
+                "fp": 0,
+                "fn": 0,
+                "tn": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "accuracy": 1.0
+              },
+              {
+                "held_out": "jd_senior_python_messy",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_hr_executive",
+                  "jd_mern_developer"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 18,
+                "tp": 4,
+                "fp": 0,
+                "fn": 0,
+                "tn": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0,
+                "accuracy": 1.0
+              },
+              {
+                "held_out": "jd_hr_executive",
+                "tuned_on": [
+                  "jd_data_analyst_intern",
+                  "jd_mern_developer",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 17,
+                "tp": 1,
+                "fp": 1,
+                "fn": 0,
+                "tn": 4,
+                "precision": 0.5,
+                "recall": 1.0,
+                "f1": 0.667,
+                "accuracy": 0.833
+              },
+              {
+                "held_out": "jd_data_analyst_intern",
+                "tuned_on": [
+                  "jd_hr_executive",
+                  "jd_mern_developer",
+                  "jd_senior_python_messy"
+                ],
+                "train_pairs": 18,
+                "test_pairs": 6,
+                "threshold": 17,
+                "tp": 4,
+                "fp": 0,
+                "fn": 1,
+                "tn": 1,
+                "precision": 1.0,
+                "recall": 0.8,
+                "f1": 0.889,
+                "accuracy": 0.833
+              }
+            ],
+            "pooled_test": {
+              "tp": 12,
+              "fp": 1,
+              "fn": 1,
+              "tn": 10,
+              "precision": 0.923,
+              "recall": 0.923,
+              "f1": 0.923,
+              "accuracy": 0.917
+            },
+            "threshold_min": 17,
+            "threshold_max": 18,
+            "threshold_spread": 1
+          },
+          "errors": [
+            {
+              "kind": "false positive",
+              "resume": "marcus.pdf",
+              "job": "jd_hr_executive",
+              "gold": "not relevant",
+              "level": 0,
+              "doubtful": true,
+              "reason": "Marketing, not recruitment. Shares the CRM must-have (Salesforce, HubSpot) only. DOUBTFUL: could be 'partly'.",
+              "score": 34,
+              "predicted_label": "partial",
+              "parts": {
+                "skills": 32,
+                "experience": 37,
+                "projects": null
+              },
+              "missing_must_have": [
+                "recruitment",
+                "communication",
+                "teamwork"
+              ],
+              "related_skills": []
+            },
+            {
+              "kind": "false negative",
+              "resume": "sample_two_column.pdf",
+              "job": "jd_data_analyst_intern",
+              "gold": "partly relevant",
+              "level": 1,
+              "doubtful": true,
+              "reason": "Python and SQL, CS fresher with intern experience, but no Excel or BI tools. DOUBTFUL.",
+              "score": 11,
+              "predicted_label": "weak",
+              "parts": {
+                "skills": 25,
+                "experience": 0,
+                "projects": 0
+              },
+              "missing_must_have": [
+                "excel",
+                "power bi",
+                "tableau",
+                "problem solving"
+              ],
+              "related_skills": []
+            }
+          ]
+        }
+      },
+      "skill_threshold_study": [
+        {
+          "value": 0.5,
+          "related_matches": 6,
+          "auc_relevant": 1.0,
+          "auc_at_least_partly": 0.92,
+          "order_accuracy": 0.934,
+          "best_f1_relevant": 1.0,
+          "best_f1_at_least_partly": 0.923
+        },
+        {
+          "value": 0.6,
+          "related_matches": 0,
+          "auc_relevant": 1.0,
+          "auc_at_least_partly": 0.92,
+          "order_accuracy": 0.934,
+          "best_f1_relevant": 1.0,
+          "best_f1_at_least_partly": 0.923
+        },
+        {
+          "value": 0.7,
+          "related_matches": 0,
+          "auc_relevant": 1.0,
+          "auc_at_least_partly": 0.92,
+          "order_accuracy": 0.934,
+          "best_f1_relevant": 1.0,
+          "best_f1_at_least_partly": 0.923
+        },
+        {
+          "value": 0.8,
+          "related_matches": 0,
+          "auc_relevant": 1.0,
+          "auc_at_least_partly": 0.92,
+          "order_accuracy": 0.934,
+          "best_f1_relevant": 1.0,
+          "best_f1_at_least_partly": 0.923
+        },
+        {
+          "value": 0.9,
+          "related_matches": 0,
+          "auc_relevant": 1.0,
+          "auc_at_least_partly": 0.92,
+          "order_accuracy": 0.934,
+          "best_f1_relevant": 1.0,
+          "best_f1_at_least_partly": 0.923
+        }
+      ],
+      "related_examples": [
+        {
+          "job_skill": "aws",
+          "resume_skill": "salesforce",
+          "similarity": 0.55,
+          "first_seen_in": "marcus.pdf vs jd_mern_developer"
+        },
+        {
+          "job_skill": "teamwork",
+          "resume_skill": "leadership",
+          "similarity": 0.54,
+          "first_seen_in": "alex.pdf vs jd_hr_executive"
+        },
+        {
+          "job_skill": "postgresql",
+          "resume_skill": "sql",
+          "similarity": 0.51,
+          "first_seen_in": "alex.pdf vs jd_senior_python_messy"
+        }
+      ]
+    }
+  ]
+}
