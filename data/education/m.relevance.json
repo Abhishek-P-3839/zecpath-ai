@@ -1,0 +1,110 @@
+{
+  "jd_data_analyst_intern": {
+    "status": "missing_candidate",
+    "score": 0.0,
+    "reasons": [
+      "No education found in the resume.",
+      "Certifications cannot replace a missing degree: at most 10 points (0.0 earned)."
+    ],
+    "details": {},
+    "education_score": null,
+    "certification_score": null,
+    "bonus": 0.0,
+    "formula": "0 (no education) + 0.0 (certification bonus)",
+    "certifications": {
+      "status": "missing_candidate",
+      "score": null,
+      "reasons": [
+        "No certifications found in the resume."
+      ],
+      "details": {},
+      "items": [],
+      "counts": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    }
+  },
+  "jd_hr_executive": {
+    "status": "missing_candidate",
+    "score": 0.0,
+    "reasons": [
+      "No education found in the resume.",
+      "Certifications cannot replace a missing degree: at most 10 points (0.0 earned)."
+    ],
+    "details": {},
+    "education_score": null,
+    "certification_score": null,
+    "bonus": 0.0,
+    "formula": "0 (no education) + 0.0 (certification bonus)",
+    "certifications": {
+      "status": "missing_candidate",
+      "score": null,
+      "reasons": [
+        "No certifications found in the resume."
+      ],
+      "details": {},
+      "items": [],
+      "counts": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    }
+  },
+  "jd_mern_developer": {
+    "status": "missing_candidate",
+    "score": 0.0,
+    "reasons": [
+      "No education found in the resume.",
+      "Certifications cannot replace a missing degree: at most 10 points (0.0 earned)."
+    ],
+    "details": {},
+    "education_score": null,
+    "certification_score": null,
+    "bonus": 0.0,
+    "formula": "0 (no education) + 0.0 (certification bonus)",
+    "certifications": {
+      "status": "missing_candidate",
+      "score": null,
+      "reasons": [
+        "No certifications found in the resume."
+      ],
+      "details": {},
+      "items": [],
+      "counts": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    }
+  },
+  "jd_senior_python_messy": {
+    "status": "missing_candidate",
+    "score": 0.0,
+    "reasons": [
+      "No education found in the resume.",
+      "Certifications cannot replace a missing degree: at most 10 points (0.0 earned)."
+    ],
+    "details": {},
+    "education_score": null,
+    "certification_score": null,
+    "bonus": 0.0,
+    "formula": "0 (no education) + 0.0 (certification bonus)",
+    "certifications": {
+      "status": "missing_candidate",
+      "score": null,
+      "reasons": [
+        "No certifications found in the resume."
+      ],
+      "details": {},
+      "items": [],
+      "counts": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      }
+    }
+  }
+}

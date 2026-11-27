@@ -1,0 +1,119 @@
+{
+  "profile_version": "1.0.0",
+  "source_file": "marcus.pdf",
+  "education": [
+    {
+      "degree": "B.A",
+      "degree_full": "Bachelor of Arts",
+      "level": "bachelor",
+      "field_of_study": "Communications & Marketing",
+      "field_category": "business",
+      "institution": "DePaul University",
+      "start_year": null,
+      "end_year": 2018,
+      "in_progress": false,
+      "grade": null,
+      "confidence": 1.0,
+      "raw_text": "B.A. in Communications & Marketing - DePaul University 2018"
+    }
+  ],
+  "highest_level": "bachelor",
+  "highest_completed_level": "bachelor",
+  "highest_degree": {
+    "degree": "B.A",
+    "degree_full": "Bachelor of Arts",
+    "level": "bachelor",
+    "field_of_study": "Communications & Marketing",
+    "field_category": "business",
+    "institution": "DePaul University",
+    "start_year": null,
+    "end_year": 2018,
+    "in_progress": false,
+    "grade": null
+  },
+  "primary_field": "Communications & Marketing",
+  "primary_field_category": "business",
+  "latest_graduation_year": 2018,
+  "in_progress_degrees": [],
+  "certifications": [
+    {
+      "name": "HubSpot Marketing Software Certified",
+      "issuer": null,
+      "issuer_type": "unknown",
+      "issue_date": null,
+      "expiry_date": null,
+      "expired": false,
+      "credential_id": null,
+      "url": null,
+      "kind": "certification",
+      "level": "unspecified",
+      "categories": [
+        "business"
+      ],
+      "primary_category": "business",
+      "raw_text": "HubSpot Marketing Software Certified"
+    },
+    {
+      "name": "Google Analytics 4 Certified",
+      "issuer": "Google",
+      "issuer_type": "vendor",
+      "issue_date": null,
+      "expiry_date": null,
+      "expired": false,
+      "credential_id": null,
+      "url": null,
+      "kind": "certification",
+      "level": "unspecified",
+      "categories": [
+        "data_ai"
+      ],
+      "primary_category": "data_ai",
+      "raw_text": "Google Analytics 4 Certified"
+    }
+  ],
+  "certification_categories": [
+    "business",
+    "data_ai"
+  ],
+  "certifications_by_category": {
+    "business": 1,
+    "data_ai": 1
+  },
+  "counts": {
+    "education_entries": 1,
+    "degrees": 1,
+    "in_progress": 0,
+    "certifications": 2,
+    "courses": 0,
+    "expired_certifications": 0
+  },
+  "warnings": [],
+  "schema_education": [
+    {
+      "degree": "B.A",
+      "level": "bachelor",
+      "field_of_study": "Communications & Marketing",
+      "institution": "DePaul University",
+      "start_year": null,
+      "end_year": 2018
+    }
+  ],
+  "schema_certifications": [
+    {
+      "name": "HubSpot Marketing Software Certified",
+      "issuer": null,
+      "issue_date": null,
+      "expiry_date": null,
+      "credential_id": null,
+      "url": null
+    },
+    {
+      "name": "Google Analytics 4 Certified",
+      "issuer": "Google",
+      "issue_date": null,
+      "expiry_date": null,
+      "credential_id": null,
+      "url": null
+    }
+  ]
+}

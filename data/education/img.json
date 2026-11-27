@@ -1,0 +1,29 @@
+{
+  "profile_version": "1.0.0",
+  "source_file": "img.pdf",
+  "education": [],
+  "highest_level": null,
+  "highest_completed_level": null,
+  "highest_degree": null,
+  "primary_field": null,
+  "primary_field_category": null,
+  "latest_graduation_year": null,
+  "in_progress_degrees": [],
+  "certifications": [],
+  "certification_categories": [],
+  "certifications_by_category": {},
+  "counts": {
+    "education_entries": 0,
+    "degrees": 0,
+    "in_progress": 0,
+    "certifications": 0,
+    "courses": 0,
+    "expired_certifications": 0
+  },
+  "warnings": [
+    "No 'education' section detected.",
+    "No education entries found."
+  ],
+  "schema_education": [],
+  "schema_certifications": []
+}

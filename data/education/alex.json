@@ -1,0 +1,119 @@
+{
+  "profile_version": "1.0.0",
+  "source_file": "alex.pdf",
+  "education": [
+    {
+      "degree": "BBA",
+      "degree_full": "Bachelor of Business Administration",
+      "level": "bachelor",
+      "field_of_study": "Operations Management",
+      "field_category": "business",
+      "institution": "University of Mumbai",
+      "start_year": null,
+      "end_year": 2020,
+      "in_progress": false,
+      "grade": null,
+      "confidence": 1.0,
+      "raw_text": "Bachelor of Business Administration (BBA) in Operations Management Graduated May 2020 | University of Mumbai"
+    }
+  ],
+  "highest_level": "bachelor",
+  "highest_completed_level": "bachelor",
+  "highest_degree": {
+    "degree": "BBA",
+    "degree_full": "Bachelor of Business Administration",
+    "level": "bachelor",
+    "field_of_study": "Operations Management",
+    "field_category": "business",
+    "institution": "University of Mumbai",
+    "start_year": null,
+    "end_year": 2020,
+    "in_progress": false,
+    "grade": null
+  },
+  "primary_field": "Operations Management",
+  "primary_field_category": "business",
+  "latest_graduation_year": 2020,
+  "in_progress_degrees": [],
+  "certifications": [
+    {
+      "name": "Certified ScrumMaster (CSM)",
+      "issuer": "Scrum Alliance",
+      "issuer_type": "professional_body",
+      "issue_date": null,
+      "expiry_date": null,
+      "expired": false,
+      "credential_id": null,
+      "url": null,
+      "kind": "certification",
+      "level": "associate",
+      "categories": [
+        "project_management"
+      ],
+      "primary_category": "project_management",
+      "raw_text": "Certified ScrumMaster (CSM) - Scrum Alliance"
+    },
+    {
+      "name": "Google Data Analytics Professional Certificate",
+      "issuer": "Google",
+      "issuer_type": "vendor",
+      "issue_date": null,
+      "expiry_date": null,
+      "expired": false,
+      "credential_id": null,
+      "url": null,
+      "kind": "certification",
+      "level": "professional",
+      "categories": [
+        "data_ai"
+      ],
+      "primary_category": "data_ai",
+      "raw_text": "Google Data Analytics Professional Certificate"
+    }
+  ],
+  "certification_categories": [
+    "data_ai",
+    "project_management"
+  ],
+  "certifications_by_category": {
+    "data_ai": 1,
+    "project_management": 1
+  },
+  "counts": {
+    "education_entries": 1,
+    "degrees": 1,
+    "in_progress": 0,
+    "certifications": 2,
+    "courses": 0,
+    "expired_certifications": 0
+  },
+  "warnings": [],
+  "schema_education": [
+    {
+      "degree": "BBA",
+      "level": "bachelor",
+      "field_of_study": "Operations Management",
+      "institution": "University of Mumbai",
+      "start_year": null,
+      "end_year": 2020
+    }
+  ],
+  "schema_certifications": [
+    {
+      "name": "Certified ScrumMaster (CSM)",
+      "issuer": "Scrum Alliance",
+      "issue_date": null,
+      "expiry_date": null,
+      "credential_id": null,
+      "url": null
+    },
+    {
+      "name": "Google Data Analytics Professional Certificate",
+      "issuer": "Google",
+      "issue_date": null,
+      "expiry_date": null,
+      "credential_id": null,
+      "url": null
+    }
+  ]
+}
